@@ -1,0 +1,4 @@
+JSON struktura
+- data/categories.json - subor obsahujuci kategorie (iphone, samsung, xiaomi)
+    - data/models/CATEGORY_ID-models.json - subor obsahujuci jednotlive modely pre kategoriu (iphone 11, iphone X...)
+        - data/list-items/CATEGORY_ID/MODEL_ID.json - subor obsahujuci polozky pre konkretny model (vymena displeja, vymena baterky...)

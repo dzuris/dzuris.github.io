@@ -1,0 +1,17 @@
+[
+    {
+        "id": "iphone",
+        "title": "Apple",
+        "photoUrl": ""
+    },
+    {
+        "id": "samsung",
+        "title": "Samsung",
+        "photoUrl": ""
+    },
+    {
+        "id": "xiaomi",
+        "title": "Xiaomi",
+        "photoUrl": ""
+    }
+]
