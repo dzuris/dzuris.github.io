@@ -1,0 +1,26 @@
+/*
+ * File: style.css
+ * Authors: Adam Dzurilla
+ */
+
+ :root {
+    --background-color: #EBFEFF;
+    --primary-color: #3691FF;
+    --secondary-color: #C3EDFF;
+    --footer-background: #000352;
+
+    --text-placeholder: #5E5E5E;
+    --menu-item-background: #8BDBEC;
+    --header-subtext-color: #313131;
+    --required-color: #DF1C1C;
+    --valid-color: #469452;
+
+    background-color: var(--background-color);
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+ }
+
+ html {
+    scroll-behavior: smooth;
+ }

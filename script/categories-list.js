@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             data.forEach(function(item) {
                 // Create a div element
                 var div = document.createElement("div");
+                div.classList.add("category-item")
 
                 // Create an image element
                 var img = document.createElement("img");
