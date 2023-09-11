@@ -3,7 +3,7 @@
  * Authors: Adam Dzurilla
  */
 
- :root {
+:root {
     --background-color: #EBFEFF;
     --primary-color: #3691FF;
     --secondary-color: #C3EDFF;
@@ -19,8 +19,8 @@
     height: 100%;
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
- }
+}
 
- html {
+html {
     scroll-behavior: smooth;
- }
+}
