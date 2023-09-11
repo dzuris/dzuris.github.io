@@ -2,16 +2,16 @@
     {
         "id": "iphone",
         "title": "Apple",
-        "photoUrl": ""
+        "photoUrl": "img/categories/iphone.png"
     },
     {
         "id": "samsung",
         "title": "Samsung",
-        "photoUrl": ""
+        "photoUrl": "img/categories/samsung.png"
     },
     {
         "id": "xiaomi",
         "title": "Xiaomi",
-        "photoUrl": ""
+        "photoUrl": "img/categories/xiaomi.png"
     }
 ]
