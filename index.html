@@ -1,20 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
+    <title>Oprava a servis mobilov | mobilflex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header id="header">
         <!-- Navigacny element, side navigation element, uvodny text a obrazok -->
+        <div id="header-menu">
+            <div class="contract">
+                <span class="phone"><i class="fas fa-phone-square-alt"></i>0911 528 064</span>
+                <span class="mail"><i class="fas fa-envelope-square"></i><a href="mailto:mobilflex@mobilflex.sk">mobilflex@mobilflex.sk</a></span>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="mobilflex logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#services">Servis</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            <div id="search-bar">
+                <input type="text" placeholder="Telefóny, doplnky, služby...">
+                <button type="submit">Hľadať</button>
+            </div>
+        </div>
+        <div id="header-title">
+            <img src="img/iPhone-14-Pro-Mockup.jpg" alt="phone placeholder" width="600" height="450">
+            <h1>Potrpíme si aj na tie najmenšie detaily.</h1>
+        </div>
+        <div id="side-menu">
+            <ul>
+                <li id="service-buttons">
+                    <a href="#">Servis</a>
+                    <ul>
+                        <!-- Kategorie z json suboru -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
-        <section id="service"></section>
-        <section id="contact"></section>
+        <section id="services">
+            <div class="heading">
+                <span>Servis</span>
+                <h2>Všetko pre vaše zariadenie</h2>
+            </div>
+            <!-- Kategorie z json suboru -->
+        </section>
+        <section id="contact">
+            <div class="heading">
+                <span>Kontakt</span>
+                <h2>Prvý krok za vaším lepším zariadením</h2>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10423.669361032058!2d18.7520112!3d49.2210947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47145fc3e5f1f767%3A0xeae5ab38d5b7ea2c!2smobilflex!5e0!3m2!1sen!2ssk!4v1694423715682!5m2!1sen!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="contact-info">
+                <h3>Ako sa spojíme?</h3>
+                <table>
+                    <tr>
+                        <td>Adresa:</td>
+                        <td>Na Závaží 858/9, 010 01 Žilina</td>
+                    </tr>
+                    <tr>
+                        <td>Telefón:</td>
+                        <td>+421 911 528 064</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><a href="mailto:mobilflex@mobilflex.sk">mobilflex@mobilflex.sk</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
