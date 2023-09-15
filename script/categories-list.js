@@ -3,6 +3,29 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch("data/categories.json")
         .then(response => response.json())
         .then(data => {
+            // Container for side menu
+            var container_side_menu = document.getElementById("categories-side-menu");
+
+            data.forEach(function(item) {
+                var div = document.createElement("div");
+                div.classList.add("side-menu-item");
+
+                // Icon
+                var icon = document.createElement("img");
+                icon.src = "img/icons/smartphone.svg"
+                icon.alt = "smartphone icon"
+
+                // Text
+                var a = document.createElement("a");
+                a.textContent = item.title;
+                a.setAttribute("href", "models.html?model=" + item.id)
+
+                div.appendChild(icon);
+                div.appendChild(a);    
+
+                container_side_menu.appendChild(div);
+            });
+
             // Container where the json data will be added
             var container = document.getElementById("categories");
 
@@ -10,6 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Create a div element
                 var div = document.createElement("div");
                 div.classList.add("category-item")
+                div.addEventListener("click", function() {
+                    window.location.href = "models.html?model=" + item.id;
+                });
 
                 // Create an image element
                 var img = document.createElement("img");

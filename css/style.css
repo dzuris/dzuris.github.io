@@ -7,7 +7,7 @@
     --background-color: #EBFEFF;
     --primary-color: #3691FF;
     --secondary-color: #C3EDFF;
-    --footer-background: #000352;
+    --footer-background: #C3EDFF;
     --list-item-background: white;
     --list-item-hover-background: rgb(242, 242, 242);
 
@@ -182,6 +182,36 @@ button {
 
 #side-menu {
     grid-area: side_menu;
+    height: 80%;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#service-title-side-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+#service-title-side-menu p {
+    margin: 0;
+}
+
+#categories-side-menu {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#categories-side-menu .side-menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-left: 15px;
 }
 
 /* #endregion */
@@ -267,15 +297,19 @@ button {
 footer {
     background-color: var(--footer-background);
     padding: 50px 50px 10px 50px;
-    color: white;
 }
 
 footer a {
-    color: white;
+    color: black;
 }
 
 footer .logo {
+    justify-self: center;
     margin-bottom: 25px;
+}
+
+footer .logo img {
+    width: 300px;
 }
 
 footer .footer-content {
@@ -307,6 +341,10 @@ footer .contacts {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+hr {
+    border-color: black;
 }
 
 #license {
