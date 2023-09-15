@@ -1,7 +1,14 @@
-[
-    {
-        "id": "iphone-11-pro-max",
+{
+    "iphone-11-pro-max": {
         "title": "iPhone 11 Pro Max",
-        "photoUrl": ""
+        "photoUrl": "img/models/iphone-11-pro-max.png"
+    },
+    "iphone-11-pro": {
+        "title": "iPhone 11 Pro",
+        "photoUrl": "img/models/iphone-11-pro.png"
+    },
+    "iphone-11": {
+        "title": "iPhone 11",
+        "photoUrl": "img/models/iphone-11.png"
     }
-]
+}

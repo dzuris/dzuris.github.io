@@ -1,17 +1,14 @@
-[
-    {
-        "id": "iphone",
+{
+    "iphone": {
         "title": "Apple",
         "photoUrl": "img/categories/iphone.png"
     },
-    {
-        "id": "samsung",
+    "samsung": {
         "title": "Samsung",
         "photoUrl": "img/categories/samsung.png"
     },
-    {
-        "id": "xiaomi",
+    "xiaomi": {
         "title": "Xiaomi",
         "photoUrl": "img/categories/xiaomi.png"
     }
-]
+}

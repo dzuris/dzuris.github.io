@@ -1,0 +1,18 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    letter-spacing: 5px;
+}
+
+#header {
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
