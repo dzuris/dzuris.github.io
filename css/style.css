@@ -7,7 +7,7 @@
     --background-color: #EBFEFF;
     --primary-color: #3691FF;
     --secondary-color: #C3EDFF;
-    --footer-background: #C3EDFF;
+    --footer-background: var(--secondary-color);
     --list-item-background: white;
     --list-item-hover-background: rgb(242, 242, 242);
 
