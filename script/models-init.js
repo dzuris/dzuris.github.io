@@ -5,16 +5,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Get value
     const model_id = urlParams.get('model');
 
-    // Fetch the JSON data to get H1 title
+    // Fetch the JSON data to get model-name content
     fetch("data/categories.json")
         .then(response => response.json())
         .then(data => {
             const item = data[model_id];
 
             if (item) {
-                // Set H1 title
-                var h1 = document.getElementById("model-name");
-                h1.textContent = item.title;
+                // Set model-name content
+                var span = document.getElementById("model-name");
+                span.textContent = item.title;
             } else {
                 console.log("Item " + model_id + " not found.")
             }
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     // Create a div element
                     var div = document.createElement("div");
-                    div.classList.add("category-item")
+                    div.classList.add("category-item");
                     div.addEventListener("click", function () {
                         window.location.href = "services.html?category=" + model_id + "&model=" + key;
                     });

@@ -1,12 +1,9 @@
-h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    letter-spacing: 5px;
-}
-
 #header {
     height: 100%;
+}
+
+main {
+    min-height: 85vh;
 }
 
 #container {
@@ -15,5 +12,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    margin-bottom: 350px;
+    margin-top: 50px;
+    /* margin-bottom: 350px; */
+    /* min-height: 80vh; */
 }
