@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     var div = document.createElement("div");
                     div.classList.add("service-item");
                     div.addEventListener("click", function () {
-                        window.location.href = "detail.html?category=" + category_id + "&model=" + model_id;
+                        window.location.href = "detail.html?category=" + category_id + "&model=" + model_id + "&service=" + key;
                     });
 
                     // Img element
@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     // Title element
                     var title = document.createElement("h3");
+                    title.classList.add("title");
                     title.textContent = item.title;
 
                     // Price element
@@ -58,12 +59,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
                     // Availability element
                     var availability = document.createElement("span");
-                    availability.classList.add("availabilty");
+                    availability.classList.add("availability");
                     if (item.available) {
                         availability.textContent = "Kontaktujte nás";
                     } else {
                         availability.textContent = "Momentálne nedostupné";
-                        // availability.classList.add("non-available");
+                        availability.classList.add("non-available");
                     }
 
                     // Note element

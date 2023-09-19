@@ -5,3 +5,75 @@
 main {
     min-height: 85vh;
 }
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.service-item {
+    width: 30%;
+    padding: 15px 25px;
+    background-color: var(--list-item-background);
+    border: 1px black solid;
+    border-radius: 15px;
+    display: grid;
+    grid-template-areas: 
+        "img img"
+        "title title"
+        "price availability"
+        "note note";
+}
+
+.service-item:hover {
+    background-color: var(--list-item-hover-background);
+    transition: transform var(--animation-delay) ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.service-item img {
+    grid-area: img;
+    justify-self: center;
+    width: 193px;
+    height: 323px;
+}
+
+.service-item > .title {
+    grid-area: title;
+    justify-self: center;
+}
+
+.service-item > .price {
+    grid-area: price;
+    align-self: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.service-item > .price::after {
+    margin-left: 5px;
+    content: '€';
+}
+
+.service-item > .availability {
+    grid-area: availability;
+    text-align: end;
+    color: var(--valid-color);
+    align-self: center;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.service-item > .non-available {
+    color: var(--required-color);
+}
+
+.service-item > .note {
+    grid-area: note;
+    text-align: justify;
+}

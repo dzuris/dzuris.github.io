@@ -24,6 +24,7 @@
     background-color: var(--background-color);
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    font-size: x-large;
     /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -52,10 +53,12 @@ a:hover {
 
 input {
     font-family: 'Poppins', sans-serif;
+    font-size: large;
 }
 
 button {
     font-family: 'Poppins', sans-serif;
+    font-size: large;
 }
 
 .heading {
@@ -75,12 +78,25 @@ button {
     margin-right: 5px;
 }
 
+#header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+footer > * {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* #region Header */
 
 #header {
     height: 100vh;
-    max-width: 1200px;
-    margin: 0 auto;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto 1fr;
@@ -131,7 +147,7 @@ button {
 }
 
 #menu .logo img {
-    width: 200px;
+    width: 400px;
 }
 
 #menu ul {
@@ -179,6 +195,10 @@ button {
     font-size: 2.5rem;
     width: 20%;
     text-align: end;
+}
+
+#header-title img {
+    height: 60%;
 }
 
 #side-menu {
@@ -252,6 +272,11 @@ button {
     transition: transform var(--animation-delay) ease-in-out;
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.category-item img {
+    width: 140px;
+    height: 100px;
 }
 
 /* #endregion */
