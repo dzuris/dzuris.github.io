@@ -11,10 +11,11 @@
     --list-item-background: white;
     --list-item-hover-background: rgb(242, 242, 242);
 
+    --text-not-important: #5E5E5E;
     --text-placeholder: #5E5E5E;
     --menu-item-background: #8BDBEC;
     --header-subtext-color: #313131;
-    --required-color: #DF1C1C;
+    --invalid-color: #DF1C1C;
     --valid-color: #469452;
     --contact-info-background: #212121;
     --button-hover: #3170bd;
@@ -323,6 +324,7 @@ footer > * {
 footer {
     background-color: var(--footer-background);
     padding: 50px 50px 10px 50px;
+    border-radius: 50px 50px 0 0;
 }
 
 footer a {

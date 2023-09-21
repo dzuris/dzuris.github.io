@@ -1,0 +1,75 @@
+#header {
+    height: 100%;
+}
+
+main {
+    min-height: 85vh;
+}
+
+.header-title-with-model {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#model-name::before {
+    content: '-';
+    margin-right: 15px;
+}
+
+.detail-body {
+    margin: 50px 0;
+    display: grid;
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-columns: auto 1fr;
+    grid-template-areas: 
+        "img price"
+        "img price-without-tax"
+        "img availability"
+        "img note";
+}
+
+.detail-body img {
+    grid-area: img;
+    height: 50vh;
+}
+
+#detail-price {
+    grid-area: price;
+}
+
+#detail-price::after {
+    content: '€';
+    margin-left: 5px;
+}
+
+.detail-price-no-tax {
+    grid-area: price-without-tax;
+    font-size: medium;
+    color: var(--text-not-important);
+}
+
+#detail-price-no-tax-num::after {
+    content: '€';
+    margin-left: 2px;
+}
+
+#detail-availability {
+    grid-area: availability;
+    color: var(--valid-color);
+}
+
+#detail-availability.non-available {
+    color: var(--invalid-color);
+}
+
+#detail-note {
+    grid-area: note;
+}
+
+.detailed-description > p:empty::before {
+    content: 'Tento produkt nemá podrobný popis.';
+    color: var(--text-not-important);
+    font-style: italic;
+    font-size: large;
+}

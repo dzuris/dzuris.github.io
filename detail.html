@@ -3,13 +3,93 @@
     Authors: Adam Dzurilla
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oprava a servis mobilov | mobilflex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/detail.css">
 </head>
 <body>
-    
+    <script src="script/detail-init.js"></script>
+    <header id="header">
+        <div id="header-menu">
+            <div id="menu-top-info">
+                <div class="contacts">
+                    <span class="phone">0911 528 064</span>
+                    <span class="mail"><a href="mailto:mobilflex@mobilflex.sk">mobilflex@mobilflex.sk</a></span>
+                </div>
+                <div class="networks">
+                    <span class="facebook"><a href="https://www.facebook.com/mobilflex.sk" target="_blank"><i class="fab fa-facebook"></i></a></span>
+                    <span class="instagram"><a href="https://www.instagram.com/mobilflex/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="logo">
+                    <a href="/">
+                        <img src="img/logo.png" alt="mobilflex logo">
+                    </a>
+                </div>
+                <div id="search-bar">
+                    <input type="text" placeholder="Telefóny, služby...">
+                    <button type="submit">Hľadať</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="header-title-with-model">
+            <h2 id="service-name"></h2>
+            <h2 id="model-name"></h2>
+        </div>
+        <div class="detail-body">
+            <img id="detail-img" src="" alt="Service detail image">
+            <h2 id="detail-price"></h2>
+            <div class="detail-price-no-tax">
+                <span id="detail-price-no-tax-num"></span>
+                <span>bez DPH</span>
+            </div>
+            <p id="detail-availability"></p>
+            <p id="detail-note"></p>
+        </div>
+        <div class="detailed-description">
+            <h3>Podrobný popis</h3>
+            <p id="detailed-description-text"></p>
+        </div>
+    </main>
+    <footer>
+        <div class="logo">
+            <a href="/">
+                <img src="img/logo.png" alt="mobilflex logo">
+            </a>
+        </div>
+        <div class="footer-content">
+            <div class="about">
+                <h2>O nás</h2>
+                <p>Sme malá firma založená dvoma študentami ktorá chce pre Vás vykonávať iba tie najlepšie služby aby ste sa na svoje zariadenie mohli spoľahnúť.</p>
+            </div>
+            <div class="contacts">
+                <h2>Kontakt</h2>
+                <span class="mail"><i class="fas fa-envelope-square"></i><a href="mailto:mobilflex@mobilflex.sk">mobilflex@mobilflex.sk</a></span>
+                <span class="phone"><i class="fas fa-phone-square-alt"></i>+421 911 528 064</span>
+                <span class="facebook"><a href="https://www.facebook.com/mobilflex.sk" target="_blank"><i class="fab fa-facebook"></i>mobilflex</a></span>
+                <span class="instagram"><a href="https://www.instagram.com/mobilflex/" target="_blank"><i class="fab fa-instagram"></i>@mobilflex</a></span>
+            </div>
+        </div>
+        <hr>
+        <div id="license">
+            <span>© 2023 Adam Dzurilla. Všetky práva vyhradené.</span>
+            <div>
+                <span>Spätná väzba & odporúčanie?</span>
+                <span class="instagram"><a href="https://www.instagram.com/mobilflex/" target="_blank"><i class="fab fa-instagram"></i>@mobilflex</a></span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

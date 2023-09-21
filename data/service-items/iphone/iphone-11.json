@@ -4,21 +4,40 @@
         "photoUrl": "/img/icons/X-12/displej.png",
         "price": 220,
         "note": "Toto je poznamka ktora sa vypise pri danom prvku.",
-        "available": true
+        "available": true,
+        "detail_desc": [
+            {
+                "cat": 1,
+                "src": "img/icons/X-12/reprak.png"
+            },
+            {
+                "cat": 3,
+                "note":"Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore."
+            },
+            {
+                "cat": 2,
+                "title": "Nadpis zoznamu",
+                "points": [
+                    "Toto je poznamka 1.",
+                    "Toto je poznamka 2"
+                ]
+            }
+        ]
     },
     "displej": {
         "title": "Item 2",
         "photoUrl": "/img/icons/X-12/reprak.png",
         "price": 100,
         "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore.",
-        "available": false
+        "available": false,
+        "detail_desc": "Toto je podrobny popis produktu"
     },
     "home-button": {
         "title": "Item 3",
         "photoUrl": "/img/icons/X-12/reprak.png",
         "price": 100,
         "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore.",
-        "available": false
+        "available": true
     },
     "reproduktor": {
         "title": "Item 3",
