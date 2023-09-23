@@ -1,21 +1,41 @@
 {
     "baterka": {
-        "title": "Item 1",
+        "title": "Oprava rozbitého displeja",
         "photoUrl": "/img/icons/X-12/displej.png",
-        "price": 220,
-        "note": "Toto je poznamka ktora sa vypise pri danom prvku.",
+        "price": 230,
+        "note": "Vhodné pri rozbitom alebo poškrabanom displeji.",
         "available": true,
         "detail_desc": [
             {
-                "cat": 1,
-                "src": "img/icons/X-12/reprak.png"
+                "cat": 3,
+                "src": "img/photos/IMG_3439.JPG"
             },
             {
-                "cat": 3,
-                "note":"Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore."
+                "cat": 1,
+                "note":"Toto je podrobna poznamka 1."
+            },
+            {
+                "cat": 1,
+                "note":"Toto je podrobna poznamka 2."
             },
             {
                 "cat": 2,
+                "title": "Nadpis zoznamu",
+                "points": [
+                    "Toto je poznamka 1.",
+                    "Toto je poznamka 2",
+                    "Toto je nejaka dalsia poznamka."
+                ]
+            },
+            {
+                "cat": 5,
+                "title": "Nadpis zoznamu",
+                "points": [
+                    "Toto je poznamka 1.",
+                    "Toto je poznamka 2"
+                ]
+            },
+            {
                 "title": "Nadpis zoznamu",
                 "points": [
                     "Toto je poznamka 1.",

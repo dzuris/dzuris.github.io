@@ -59,17 +59,44 @@ document.addEventListener("DOMContentLoaded", function () {
                 setTextContentById("detail-note", item.note);
 
                 // Detailed description
-                data.forEach((item) => {
-                    const detailDesc = item.detail_desc;
+                const detailDesc = item.detail_desc;
 
-                    if (Array.isArray(detailDesc) && detailDesc.length > 0) {
-                        console.log(`${item.name}: Detail description is a list.`);
-                    } else if (typeof detailDesc === "string" && detailDesc.trim() !== "") {
-                        console.log(`${item.name}: Detail description is a string.`);
-                    } else {
-                        console.log(`${item.name}: Detail description is empty or not provided.`);
-                    }
-                });
+                if (Array.isArray(detailDesc) && detailDesc.length > 0) {
+                    // detail description is a list
+                    var detail_desc_container = document.getElementById("detailed-description-text");
+                    detailDesc.forEach((item) => {
+                        switch (item.cat) {
+                            case 1:
+                                var p = document.createElement("p");
+                                p.textContent = item.note;
+                                detail_desc_container.appendChild(p);
+                                break;
+                            case 2:
+                                var figure = document.createElement("figure");
+                                var caption = document.createElement("figcaption");
+                                caption.textContent = item.title;
+                                figure.appendChild(caption);
+                                var list = document.createElement("ul");
+                                item.points.forEach((point) => {
+                                    var li = document.createElement("li");
+                                    li.textContent = point;
+                                    list.appendChild(li);
+                                });
+                                figure.appendChild(list);
+                                detail_desc_container.appendChild(figure);
+                                break;
+                            case 3:
+                                var img = document.createElement("img");
+                                img.src = item.src;
+                                img.alt = "detail description image";
+                                detail_desc_container.appendChild(img);
+                                break;
+                        }
+                    })
+                } else if (typeof detailDesc === "string" && detailDesc.trim() !== "") {
+                    // detail description is a string
+                    setTextContentById("detailed-description-text", detailDesc);
+                }
             } else {
                 console.log("Item " + service_id + " not found.");
             }
@@ -81,11 +108,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function setTextContentById(elementId, textContent) {
     var e = document.getElementById(elementId);
-    e.textContent = textContent;
-}
-
-function setTextContentByClass(elementClass, textContent) {
-    var e = document.getElementsByClassName(elementClass);
     e.textContent = textContent;
 }
 

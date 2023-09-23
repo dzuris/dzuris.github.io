@@ -67,9 +67,50 @@ main {
     grid-area: note;
 }
 
-.detailed-description > p:empty::before {
+/* .detailed-description > p:empty::before {
     content: 'Tento produkt nemá podrobný popis.';
     color: var(--text-not-important);
     font-style: italic;
     font-size: large;
+} */
+
+#detailed-description-text {
+    padding-left: 15px;
+}
+
+#detailed-description-text:empty::before {
+    content: 'Tento produkt nemá podrobný popis.';
+    color: var(--text-not-important);
+    font-style: italic;
+    font-size: large;
+}
+
+#detailed-description-text figure {
+    margin: 0;
+}
+
+#detailed-description-text figcaption {
+    font-weight: bold;
+    font-size: larger;
+    color: var(--text-list-title-color);
+}
+
+#detailed-description-text ul {
+    list-style: none;
+}
+
+#detailed-description-text ul li::before {
+    content: '>';
+    color: var(--primary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#detailed-description-text img {
+    height: 40vh;
+    border: 1px solid black;
+    /* padding: 25px; */
+    border-radius: 15px;
 }

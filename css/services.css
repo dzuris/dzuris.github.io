@@ -16,7 +16,7 @@ main {
 }
 
 .service-item {
-    width: 30%;
+    width: 300px;
     padding: 15px 25px;
     background-color: var(--list-item-background);
     border: 1px black solid;
@@ -39,8 +39,7 @@ main {
 .service-item img {
     grid-area: img;
     justify-self: center;
-    width: 193px;
-    height: 323px;
+    height: 10rem;
 }
 
 .service-item > .title {
@@ -75,5 +74,5 @@ main {
 
 .service-item > .note {
     grid-area: note;
-    text-align: justify;
+    text-align: center;
 }
