@@ -67,13 +67,6 @@ main {
     grid-area: note;
 }
 
-/* .detailed-description > p:empty::before {
-    content: 'Tento produkt nemá podrobný popis.';
-    color: var(--text-not-important);
-    font-style: italic;
-    font-size: large;
-} */
-
 #detailed-description-text {
     padding-left: 15px;
 }
@@ -111,6 +104,5 @@ main {
 #detailed-description-text img {
     height: 40vh;
     border: 1px solid black;
-    /* padding: 25px; */
     border-radius: 15px;
 }

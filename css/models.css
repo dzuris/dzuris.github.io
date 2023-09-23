@@ -13,6 +13,5 @@ main {
     justify-content: center;
     gap: 25px;
     margin-top: 50px;
-    /* margin-bottom: 350px; */
-    /* min-height: 80vh; */
+    margin-bottom: 25px;
 }

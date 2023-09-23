@@ -78,6 +78,10 @@ button {
     font-weight: bolder;
 }
 
+.heading h2 {
+    text-align: center;
+}
+
 .contacts i {
     margin-right: 5px;
 }
@@ -255,6 +259,7 @@ footer > * {
 #categories {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
 }
@@ -313,7 +318,6 @@ footer > * {
 }
 
 #contact-info a:hover {
-    /* color: #a8a8a8; */
     color: var(--primary-color);
 }
 
@@ -383,6 +387,7 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: small;
 }
 
 #license i {
@@ -391,6 +396,90 @@ hr {
 
 /* #endregion */
 
-@media screen and (max-width: 1050px) {
-    
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #header-menu nav {
+        display: none;
+    }
+
+    #header-menu .logo img {
+        width: 300px;
+    }
+
+    #header-title h1 {
+        font-size: x-large;
+    }
+}
+
+/* Smartphones */
+@media only screen and (max-width: 767px) {
+
+    /* #region Header section */
+    #header-menu .networks {
+        display: none;
+    }
+
+    #header-menu .logo img {
+        width: 200px;
+    }
+
+    #header-menu nav {
+        display: none;
+    }
+
+    #search-bar {
+        display: none;
+    }
+
+    #header-title img {
+        height: 40%;
+    }
+
+    #header-title h1 {
+        width: 100%;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    #side-menu {
+        display: none;
+    }
+
+    /* #endregion */
+
+    /* #region Contact */
+
+    #contact iframe {
+        width: fit-content;
+    }
+
+    /* #endregion */
+
+    /* #region Footer */
+
+    footer .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    footer .about {
+        width: 100%;
+    }
+
+    #license {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    /* #endregion */
+
+}
+
+/* Small phones */
+@media only screen and (max-width: 400px) {
+    footer .logo img {
+        width: 100%;
+    }
 }
