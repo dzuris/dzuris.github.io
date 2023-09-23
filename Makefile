@@ -13,7 +13,7 @@ ARCHIVE_NAME = mobilflex_web
 .PHONY: pack clean
 
 pack: clean
-	zip -r $(ARCHIVE_NAME).zip . -x "*.git*"
+	zip -r $(ARCHIVE_NAME).zip . -x "*.git*" Makefile README.md
 
 clean:
 	rm -rf $(ARCHIVE_NAME).zip
