@@ -4,11 +4,10 @@ function search() {
 
     if (searchQuery.trim() === "") {
         alert("Skúste zadať niečo na prehľadávanie.");
-        return false;
+        return;
     }
     
-    console.log(searchQuery);
-    return true;
+    window.location.href = "search.html?searchQuery=" + searchQuery;
 }
 
 function enableSubmit() {

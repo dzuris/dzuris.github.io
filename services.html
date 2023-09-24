@@ -37,7 +37,7 @@
                         <img src="img/logo.png" alt="mobilflex logo">
                     </a>
                 </div>
-                <form class="search-form" onsubmit="return search();">
+                <form class="search-form" onsubmit="search(); return false;">
                     <input type="text" id="searchQueryText" placeholder="Telefóny, služby..." oninput="enableSubmit()">
                     <input type="submit" id="searchSubmitButton" value="Hľadať" disabled>
                 </form>

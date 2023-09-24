@@ -8,8 +8,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oprava a servis mobilov | mobilflex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+    <script src="script/search.js"></script>
+    <script src="script/search-init.js"></script>
 </head>
 <body>
-    
+    <header id="header">
+        <div id="header-menu">
+            <div id="menu-top-info">
+                <div class="contacts">
+                    <span class="phone">0911 528 064</span>
+                    <span class="mail"><a href="mailto:mobilflex@mobilflex.sk">mobilflex@mobilflex.sk</a></span>
+                </div>
+                <div class="networks">
+                    <span class="facebook"><a href="https://www.facebook.com/mobilflex.sk" target="_blank"><i class="fab fa-facebook"></i></a></span>
+                    <span class="instagram"><a href="https://www.instagram.com/mobilflex/" target="_blank"><i class="fab fa-instagram"></i></a></span>
+                </div>
+            </div>
+            <div id="menu">
+                <div class="logo">
+                    <a href="/">
+                        <img src="img/logo.png" alt="mobilflex logo">
+                    </a>
+                </div>
+                <form class="search-form" onsubmit="search(); return false;">
+                    <input type="text" id="searchQueryText" placeholder="Telefóny, služby..." oninput="enableSubmit()">
+                    <input type="submit" id="searchSubmitButton" value="Hľadať" disabled>
+                </form>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
