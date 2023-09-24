@@ -19,7 +19,7 @@
     --invalid-color: #DF1C1C;
     --valid-color: #469452;
     --contact-info-background: #212121;
-    --button-hover: #3170bd;
+    --primary-color-dark: #3170bd;
 
     --max-page-width: 1280px;
 
@@ -166,30 +166,32 @@ footer > * {
     list-style: none;
 }
 
-#search-bar {
+.search-form {
     display: flex;
-    gap: 15px;
+    flex-direction: row;
+    gap: 10px;
 }
 
-#search-bar input {
-    width: 200px;
+.search-form input {
     padding: 10px;
     border: 0;
     border-radius: 3px;
 }
 
-#search-bar button {
-    padding: 10px;
+.search-form input[type="submit"] {
     background-color: var(--primary-color);
     color: white;
-    border: 0;
-    border-radius: 3px;
 }
 
-#search-bar button:hover {
-    background-color: var(--button-hover);
+.search-form input[type="submit"]:hover {
+    background-color: var(--primary-color-dark);
     cursor: pointer;
     transition-duration: var(--animation-delay);
+}
+
+.search-form input[type="submit"]:disabled {
+    background-color: gray;
+    cursor: not-allowed;
 }
 
 #header-title {

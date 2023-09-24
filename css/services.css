@@ -60,19 +60,6 @@ main {
     content: '€';
 }
 
-.service-item > .availability {
-    grid-area: availability;
-    text-align: end;
-    color: var(--valid-color);
-    align-self: center;
-    font-size: medium;
-    font-weight: lighter;
-}
-
-.service-item > .non-available {
-    color: var(--invalid-color);
-}
-
 .service-item > .note {
     grid-area: note;
     text-align: center;

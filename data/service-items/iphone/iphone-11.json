@@ -4,7 +4,6 @@
         "photoUrl": "/img/icons/X-12/displej.png",
         "price": 230,
         "note": "Vhodné pri rozbitom alebo poškrabanom displeji.",
-        "available": true,
         "detail_desc": [
             {
                 "cat": 3,
@@ -12,11 +11,11 @@
             },
             {
                 "cat": 1,
-                "note":"Toto je podrobna poznamka 1."
+                "note": "Toto je podrobna poznamka 1."
             },
             {
                 "cat": 1,
-                "note":"Toto je podrobna poznamka 2."
+                "note": "Toto je podrobna poznamka 2."
             },
             {
                 "cat": 2,
@@ -26,21 +25,6 @@
                     "Toto je poznamka 2",
                     "Toto je nejaka dalsia poznamka."
                 ]
-            },
-            {
-                "cat": 5,
-                "title": "Nadpis zoznamu",
-                "points": [
-                    "Toto je poznamka 1.",
-                    "Toto je poznamka 2"
-                ]
-            },
-            {
-                "title": "Nadpis zoznamu",
-                "points": [
-                    "Toto je poznamka 1.",
-                    "Toto je poznamka 2"
-                ]
             }
         ]
     },
@@ -49,21 +33,18 @@
         "photoUrl": "/img/icons/X-12/reprak.png",
         "price": 100,
         "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore.",
-        "available": false,
         "detail_desc": "Toto je podrobny popis produktu"
     },
     "home-button": {
         "title": "Item 3",
         "photoUrl": "/img/icons/X-12/reprak.png",
         "price": 100,
-        "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore.",
-        "available": true
+        "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore."
     },
     "reproduktor": {
         "title": "Item 3",
         "photoUrl": "/img/icons/X-12/reprak.png",
         "price": 100,
-        "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore.",
-        "available": false
+        "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore."
     }
 }

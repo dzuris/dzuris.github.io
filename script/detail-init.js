@@ -46,15 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 var price_without_tax = item.price * 5 / 6;
                 setTextContentById("detail-price-no-tax-num", price_without_tax.toFixed(2));
 
-                // Availability
-                var availability_element = document.getElementById("detail-availability");
-                if (item.available) {
-                    availability_element.textContent = "Kontaktujte nás";
-                } else {
-                    availability_element.textContent = "Momentálne nedostupné";
-                    availability_element.classList.add("non-available");
-                }
-
                 // Brief note
                 setTextContentById("detail-note", item.note);
 

@@ -57,16 +57,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     price.classList.add("price");
                     price.textContent = item.price;
 
-                    // Availability element
-                    var availability = document.createElement("span");
-                    availability.classList.add("availability");
-                    if (item.available) {
-                        availability.textContent = "Kontaktujte nás";
-                    } else {
-                        availability.textContent = "Momentálne nedostupné";
-                        availability.classList.add("non-available");
-                    }
-
                     // Note element
                     var note = document.createElement("p");
                     note.classList.add("note");
@@ -76,7 +66,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     div.append(img);
                     div.append(title);
                     div.append(price);
-                    div.append(availability);
                     div.append(note);
 
                     // Append div to the container
