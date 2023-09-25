@@ -20,11 +20,12 @@ main {
 .detail-body {
     margin-top: 30px;
     display: grid;
-    grid-template-rows: auto auto 1fr;
+    grid-template-rows: auto auto auto 1fr;
     grid-template-columns: auto 1fr;
     grid-template-areas: 
         "img price"
         "img price-without-tax"
+        "img waiting"
         "img note";
 }
 
@@ -51,6 +52,12 @@ main {
 #detail-price-no-tax-num::after {
     content: '€';
     margin-left: 2px;
+}
+
+#detail-waiting {
+    grid-area: waiting;
+    color: var(--valid-color);
+    font-size: larger;
 }
 
 #detail-note {
@@ -82,11 +89,14 @@ main {
     color: var(--text-list-title-color);
 }
 
-#detailed-description-text ul {
+.list-detail {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-#detailed-description-text ul li::before {
+.list-detail li::before {
     content: '>';
     color: var(--primary-color);
     font-weight: bold;

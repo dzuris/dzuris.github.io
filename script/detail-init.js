@@ -46,17 +46,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 var price_without_tax = item.price * 5 / 6;
                 setTextContentById("detail-price-no-tax-num", price_without_tax.toFixed(2));
 
+                // Waiting
+                if (item.waiting) {
+                    setTextContentById("detail-waiting", "Na počkanie")
+                }
+
                 // Brief note
                 if (Array.isArray(item.note) && item.note.length > 0) {
                     // note is a list
                     var detail_note_element = document.getElementById("detail-note");
+                    var ul = document.createElement("ul");
+                    ul.classList.add("list-detail")
                     item.note.forEach((note_item) => {
-                        var p = document.createElement("p");
-                        p.textContent = note_item;
+                        var li = document.createElement("li");
+                        li.textContent = note_item;
 
-                        detail_note_element.appendChild(p);
-                        detail_note_element.appendChild(document.createElement("br"));
+                        ul.appendChild(li);
                     });
+                    detail_note_element.appendChild(ul);
                 } else if (typeof item.note === "string" && item.note.trim() !== "") {
                     // note is a string
                     setTextContentById("detail-note", item.note);
@@ -81,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 caption.textContent = item.title;
                                 figure.appendChild(caption);
                                 var list = document.createElement("ul");
+                                list.classList.add("list-detail");
                                 item.points.forEach((point) => {
                                     var li = document.createElement("li");
                                     li.textContent = point;
