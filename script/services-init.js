@@ -57,16 +57,10 @@ document.addEventListener("DOMContentLoaded", function () {
                     price.classList.add("price");
                     price.textContent = item.price;
 
-                    // Note element
-                    var note = document.createElement("p");
-                    note.classList.add("note");
-                    note.textContent = item.note;
-
                     // Append elements to the div
                     div.append(img);
                     div.append(title);
                     div.append(price);
-                    div.append(note);
 
                     // Append div to the container
                     container.appendChild(div);
