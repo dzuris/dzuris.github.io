@@ -5,5 +5,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Get the value
     const searchQuery = urlParams.get('searchQuery');
 
-    console.log(searchQuery);
+    searchInData(searchQuery);
 });
+
+function searchInData(searchQuery) {
+    console.log(searchQuery);
+}

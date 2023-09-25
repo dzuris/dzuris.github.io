@@ -57,6 +57,10 @@ main {
     grid-area: note;
 }
 
+#detail-note p {
+    margin: 0;
+}
+
 #detailed-description-text {
     padding-left: 15px;
 }

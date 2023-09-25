@@ -1,49 +1,50 @@
 {
-    "baterka": {
-        "title": "Oprava rozbitého displeja",
+    "displej": {
+        "title": "Výmena displeja",
         "photoUrl": "/img/icons/X-12/displej.png",
-        "price": 230,
-        "note": "Vhodné pri rozbitom alebo poškrabanom displeji.",
+        "price": 99,
+        "note": [
+            "Vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
+            "Cena zahŕňa náhradný diel a prácu servisného technika.",
+            "Dĺžka opravy je približne 60 minút."
+        ],
         "detail_desc": [
             {
-                "cat": 3,
-                "src": "img/photos/IMG_3439.JPG"
+                "cat": 1,
+                "note": "Pri výmene displeja sa zachovajú všetky pôvodné funkcie zariadenia ako napríklad Face ID alebo TrueTone."
             },
             {
                 "cat": 1,
-                "note": "Toto je podrobna poznamka 1."
+                "note": "Premium OEM diel (displej+dotykové sklo+rám displeja): Premium OEM (Original Equipment Manufacturer) náhradný diel je vyrobený s použitím originálnych materiálov treťou stranou, schválenou výrobcom. Výsledok je nižšia cena, no stále atraktívna kvalita. Po výmene  displeja sa zobrazuje v nastaveniach Vášho Apple iPhone infomácia, že nebol použitý originálny náhradný diel."
             },
             {
                 "cat": 1,
-                "note": "Toto je podrobna poznamka 2."
-            },
-            {
-                "cat": 2,
-                "title": "Nadpis zoznamu",
-                "points": [
-                    "Toto je poznamka 1.",
-                    "Toto je poznamka 2",
-                    "Toto je nejaka dalsia poznamka."
-                ]
+                "note": "Originál diel(displej+dotykové sklo+rám displeja): Originál diel je vyrobený priamo výrobcom zariadenia. Je to najvyššia dostupná kvalita na trhu. Po výmene poškodeného, resp. rozbitého displeja sa zobrazuje v nastaveniach Vášho Apple iPhone infomácia, že nebol použitý originálny náhradný diel. Oprava neumožňuje verifikáciu originality vymeneného náhradného dielu. Neznamená to, že nový diel nie je originálny."
             }
         ]
     },
-    "displej": {
-        "title": "Item 2",
-        "photoUrl": "/img/icons/X-12/reprak.png",
+    "bateria": {
+        "title": "Výmena batérie",
+        "photoUrl": "/img/icons/X-12/bateria.png",
         "price": 100,
-        "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore.",
+        "note": [
+            "Vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť.",
+            "Dĺžka opravy je približne 60 minút."
+        ],
         "detail_desc": "Toto je podrobny popis produktu"
     },
-    "home-button": {
-        "title": "Item 3",
-        "photoUrl": "/img/icons/X-12/reprak.png",
+    "nabijanie": {
+        "title": "Nefunkčné nabíjanie",
+        "photoUrl": "/img/icons/X-12/charging.png",
         "price": 100,
-        "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore."
+        "note": [
+            "Oprava je vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné.",
+            "Dĺžka opravy je približne 60 minút."
+        ]
     },
-    "reproduktor": {
-        "title": "Item 3",
-        "photoUrl": "/img/icons/X-12/reprak.png",
+    "backglass": {
+        "title": "Výmena zadného skla",
+        "photoUrl": "/img/icons/X-12/backglass.png",
         "price": 100,
         "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore."
     }

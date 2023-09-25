@@ -8,6 +8,14 @@ Webová stránka založená na HTML, CSS a JavaScript technológiach.
     - data/models/CATEGORY_ID-models.json - subor obsahujuci jednotlive modely pre kategoriu (iphone 11, iphone X...)
         - data/list-items/CATEGORY_ID/MODEL_ID.json - subor obsahujuci polozky pre konkretny model (vymena displeja, vymena baterky...)
 
+- detail_desc:
+  - Category 1:
+    - { "cat": 1, "note": "Note text" }
+  - Category 2:
+    - { "cat": 2, "title": "Title text", "points": [ "This is point 1", "This is point 2" ]}
+  - Category 3:
+    - { "cat": 3, "src": "image/path/src.png" }
+
 ## Spustenie vo Visual Studio
 
 1. Je nutné mať nainštalovanú Extension "Live Server" od Ritwick Dey

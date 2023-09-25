@@ -47,7 +47,20 @@ document.addEventListener("DOMContentLoaded", function () {
                 setTextContentById("detail-price-no-tax-num", price_without_tax.toFixed(2));
 
                 // Brief note
-                setTextContentById("detail-note", item.note);
+                if (Array.isArray(item.note) && item.note.length > 0) {
+                    // note is a list
+                    var detail_note_element = document.getElementById("detail-note");
+                    item.note.forEach((note_item) => {
+                        var p = document.createElement("p");
+                        p.textContent = note_item;
+
+                        detail_note_element.appendChild(p);
+                        detail_note_element.appendChild(document.createElement("br"));
+                    });
+                } else if (typeof item.note === "string" && item.note.trim() !== "") {
+                    // note is a string
+                    setTextContentById("detail-note", item.note);
+                }
 
                 // Detailed description
                 const detailDesc = item.detail_desc;
