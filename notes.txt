@@ -2,5 +2,4 @@ TODO:
     services
         - ked sa ukaze na item, obrazok sa da na cele a skryje sa title a price
     detail
-        - iste casti textu bold
         - hover ukaze text

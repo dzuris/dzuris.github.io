@@ -4,6 +4,7 @@
 
 main {
     min-height: 85vh;
+    padding: 0 15px;
 }
 
 .header-title-with-model {
@@ -25,6 +26,7 @@ main {
     grid-template-areas: 
         "img price"
         "img price-without-tax"
+        "img servis-info"
         "img waiting"
         "img note";
 }
@@ -52,6 +54,11 @@ main {
 #detail-price-no-tax-num::after {
     content: '€';
     margin-left: 2px;
+}
+
+#detail-servis-info {
+    grid-area: servis-info;
+    color: var(--text-not-important);
 }
 
 #detail-waiting {
@@ -109,4 +116,34 @@ main {
     height: 40vh;
     border: 1px solid black;
     border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .detail-body {
+        grid-template-areas: 
+        "img price"
+        "img price-without-tax"
+        "img servis-info"
+        "img waiting"
+        "note note";
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .header-title-with-model {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #model-name::before {
+        content: '';
+        margin-right: 0;
+    }
+
+    #model-name {
+        color: var(--text-not-important);
+        font-size: large;
+    }
 }

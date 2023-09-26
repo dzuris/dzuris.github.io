@@ -28,8 +28,6 @@
     background-color: var(--background-color);
     height: 100%;
     font-family: 'Poppins', sans-serif;
-    /* font-size: x-large; */
-    /* font-family: 'Roboto', sans-serif; */
 }
 
 html {
@@ -57,12 +55,10 @@ a:hover {
 
 input {
     font-family: 'Poppins', sans-serif;
-    /* font-size: large; */
 }
 
 button {
     font-family: 'Poppins', sans-serif;
-    /* font-size: large; */
 }
 
 .heading {
@@ -107,7 +103,7 @@ footer > * {
 #header {
     height: 100vh;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto 1fr;
     grid-gap: 25px 0;
     grid-template-areas: 
@@ -417,9 +413,6 @@ hr {
 @media only screen and (max-width: 767px) {
 
     /* #region Header section */
-    #header-menu .networks {
-        display: none;
-    }
 
     #header-menu .logo img {
         width: 200px;
@@ -443,8 +436,15 @@ hr {
         font-size: x-large;
     }
 
+    #header {
+        grid-template-areas: 
+            "menu menu"
+            "header_title header_title";
+    }
+
     #side-menu {
         display: none;
+        visibility: hidden;
     }
 
     /* #endregion */
@@ -452,7 +452,11 @@ hr {
     /* #region Contact */
 
     #contact iframe {
-        width: fit-content;
+        width: 80%;
+    }
+
+    #contact-info {
+        width: 80%;
     }
 
     /* #endregion */
@@ -477,6 +481,35 @@ hr {
 
     /* #endregion */
 
+}
+
+@media only screen and (max-width: 550px) {
+
+    #header-menu .networks {
+        display: none;
+    }
+
+    #menu-top-info .contacts {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #menu form {
+        display: none;
+        visibility: hidden;
+    }
+
+    #header-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-title h1 {
+        width: fit-content;
+    }
 }
 
 /* Small phones */
