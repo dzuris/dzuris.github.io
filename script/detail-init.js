@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 setTextContentById("detail-price-no-tax-num", price_without_tax.toFixed(2));
 
                 // Waiting
-                if (item.waiting) {
+                if (item.for_waiting) {
                     setTextContentById("detail-waiting", "Na počkanie")
                 }
 
