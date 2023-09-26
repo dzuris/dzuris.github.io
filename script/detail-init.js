@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     ul.classList.add("list-detail")
                     item.note.forEach((note_item) => {
                         var li = document.createElement("li");
-                        li.textContent = note_item;
+                        li.innerHTML = note_item;
 
                         ul.appendChild(li);
                     });
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         switch (item.cat) {
                             case 1:
                                 var p = document.createElement("p");
-                                p.textContent = item.note;
+                                p.innerHTML = item.note;
                                 detail_desc_container.appendChild(p);
                                 break;
                             case 2:
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 list.classList.add("list-detail");
                                 item.points.forEach((point) => {
                                     var li = document.createElement("li");
-                                    li.textContent = point;
+                                    li.innerHTML = point;
                                     list.appendChild(li);
                                 });
                                 figure.appendChild(list);
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function setTextContentById(elementId, textContent) {
     var e = document.getElementById(elementId);
-    e.textContent = textContent;
+    e.innerHTML = textContent;
 }
 
 function setImageSrc(imgId, imgUrl) {
