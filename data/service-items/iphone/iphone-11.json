@@ -3,7 +3,7 @@
         "title": "Výmena displeja",
         "photoUrl": "/img/icons/X-12/displej.png",
         "price": 99,
-        "waiting": true,
+        "for_waiting": true,
         "note": [
             "Vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
             "Cena zahŕňa náhradný diel a prácu servisného technika.",
@@ -36,7 +36,7 @@
         "title": "Výmena batérie",
         "photoUrl": "/img/icons/X-12/bateria.png",
         "price": 100,
-        "waiting": false,
+        "for_waiting": false,
         "note": [
             "Vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť.",
             "Dĺžka opravy je približne 60 minút."
