@@ -96,6 +96,11 @@ main {
     color: var(--text-list-title-color);
 }
 
+ul.list-detail {
+    margin: 0;
+    padding-left: 0;
+}
+
 .list-detail {
     list-style: none;
     display: flex;
@@ -109,7 +114,7 @@ main {
     font-weight: bold;
     display: inline-block;
     width: 1em;
-    margin-left: -1em;
+    /* margin-left: -1em; */
 }
 
 #detailed-description-text img {
