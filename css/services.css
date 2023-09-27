@@ -15,6 +15,14 @@ main {
     margin: 50px 15px;
 }
 
+#container:empty::before {
+    content: 'Tento model nemá zatiaľ vypísanú žiadnu službu.';
+    color: var(--text-not-important);
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+}
+
 .service-item {
     width: 200px;
     padding: 15px 45px;

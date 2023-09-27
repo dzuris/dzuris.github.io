@@ -21,7 +21,7 @@ main {
 .detail-body {
     margin-top: 30px;
     display: grid;
-    grid-template-rows: auto auto auto 1fr;
+    grid-template-rows: auto auto auto auto 1fr;
     grid-template-columns: auto 1fr;
     grid-template-areas: 
         "img price"
