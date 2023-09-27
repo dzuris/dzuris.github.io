@@ -1,7 +1,7 @@
 {
     "displej": {
         "title": "Výmena displeja",
-        "photoUrl": "/img/icons/X-12/displej.png",
+        "photoUrl": "img/icons/X-12/displej.png",
         "price": 99,
         "for_waiting": true,
         "note": [
@@ -34,7 +34,7 @@
     },
     "bateria": {
         "title": "Výmena batérie",
-        "photoUrl": "/img/icons/X-12/bateria.png",
+        "photoUrl": "img/icons/X-12/bateria.png",
         "price": 100,
         "for_waiting": false,
         "note": [
@@ -45,7 +45,7 @@
     },
     "nabijanie": {
         "title": "Nefunkčné nabíjanie",
-        "photoUrl": "/img/icons/X-12/charging.png",
+        "photoUrl": "img/icons/X-12/charging.png",
         "price": 100,
         "note": [
             "Oprava je vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné.",
@@ -54,7 +54,7 @@
     },
     "backglass": {
         "title": "Výmena zadného skla",
-        "photoUrl": "/img/icons/X-12/backglass.png",
+        "photoUrl": "img/icons/X-12/backglass.png",
         "price": 100,
         "note": "Toto je poznamka ktora sa vypise pri danom prvku, konkretne pri pokazenom reproduktore."
     }
