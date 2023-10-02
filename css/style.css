@@ -36,6 +36,7 @@ html {
 
 body {
     margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -82,7 +83,7 @@ button {
     margin-right: 5px;
 }
 
-#header {
+header {
     max-width: var(--max-page-width);
     margin: 0 auto;
     padding: 0 15px;
@@ -509,6 +510,13 @@ hr {
 
     #header-title h1 {
         width: fit-content;
+    }
+
+    .category-item {
+        width: 250px;
+        margin: 0 15px;
+        display: flex;
+        flex-direction: row;
     }
 }
 

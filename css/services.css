@@ -58,3 +58,10 @@ main {
     margin-left: 5px;
     content: '€';
 }
+
+@media only screen and (max-width: 550px) {
+
+    .service-item {
+        width: 100%;
+    }
+}

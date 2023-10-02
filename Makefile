@@ -9,6 +9,9 @@
 #####################################################################
 
 ARCHIVE_NAME = mobilflex_web
+SERVER_USERNAME = xdzuri00
+SERVER_NAME = merlin.fit.vutbr.cz
+SERVER_PATH = /homes/eva/xd/xdzuri00/WWW
 
 .PHONY: pack clean
 
@@ -17,3 +20,6 @@ pack: clean
 
 clean:
 	rm -rf $(ARCHIVE_NAME).zip
+
+send_to_server: pack
+	scp ./$(ARCHIVE_NAME).zip $(SERVER_USERNAME)@$(SERVER_USERNAME):$(SERVER_PATH)
