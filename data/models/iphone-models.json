@@ -1,4 +1,28 @@
 {
+    "iphone-SE2022": {
+        "title": "iPhone SE2022",
+        "photoUrl": "img/models/iphone-SE2022.png"
+    },
+    "iphone-12-pro-max": {
+        "title": "iPhone 12 pro max",
+        "photoUrl": "img/models/iphone-12-pro-max.png"
+    },
+    "iphone-12-pro": {
+        "title": "iPhone 12 pro",
+        "photoUrl": "img/models/iphone-12-pro.png"
+    },
+    "iphone-12-mini": {
+        "title": "iPhone 12 mini",
+        "photoUrl": "img/models/iphone-12-mini.png"
+    },
+    "iphone-12": {
+        "title": "iPhone 12",
+        "photoUrl": "img/models/iphone-12.png"
+    },
+    "iphone-SE2020": {
+        "title": "iPhone SE2020",
+        "photoUrl": "img/models/iphone-SE2020.png"
+    },
     "iphone-11-pro-max": {
         "title": "iPhone 11 Pro Max",
         "photoUrl": "img/models/iphone-11-pro-max.png"
@@ -10,5 +34,45 @@
     "iphone-11": {
         "title": "iPhone 11",
         "photoUrl": "img/models/iphone-11.png"
+    },
+    "iphone-XR": {
+        "title": "iPhone XR",
+        "photoUrl": "img/models/iphone-XR.png"
+    },
+    "iphone-XS-Max": {
+        "title": "iPhone XS Max",
+        "photoUrl": "img/models/iphone-XS-Max.png"
+    },
+    "iphone-XS": {
+        "title": "iPhone XS",
+        "photoUrl": "img/models/iphone-XS.png"
+    },
+    "iphone-X": {
+        "title": "iPhone X",
+        "photoUrl": "img/models/iphone-X.png"
+    },
+    "iphone-8-plus": {
+        "title": "iPhone 8 Plus",
+        "photoUrl": "img/models/iphone-8-plus.png"
+    },
+    "iphone-8": {
+        "title": "iPhone 8",
+        "photoUrl": "img/models/iphone-8.png"
+    },
+    "iphone-7-plus": {
+        "title": "iPhone 7 plus",
+        "photoUrl": "img/models/iphone-7-plus.png"
+    },
+    "iphone-7": {
+        "title": "iPhone 7",
+        "photoUrl": "img/models/iphone-7.png"
+    },
+    "iphone-6/6S-plus": {
+        "title": "iPhone 6/6S Plus",
+        "photoUrl": "img/models/iphone-6S-Plus.png"
+    },
+    "iphone-6/6S": {
+        "title": "iPhone 6/6S",
+        "photoUrl": "img/models/iphone-6.png"
     }
 }

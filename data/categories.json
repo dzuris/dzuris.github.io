@@ -1,14 +1,26 @@
 {
     "iphone": {
         "title": "Apple",
-        "photoUrl": "img/categories/iphone.png"
+        "photoUrl": "img/categories/iphone-logo.png"
     },
     "samsung": {
         "title": "Samsung",
-        "photoUrl": "img/categories/samsung.png"
+        "photoUrl": "img/categories/samsung-logo-1.png"
     },
     "xiaomi": {
         "title": "Xiaomi",
-        "photoUrl": "img/categories/xiaomi.png"
+        "photoUrl": "img/categories/xiaomi-logo-1.png"
+    },
+    "huawei": {
+        "title": "Huawei",
+        "photoUrl": "img/categories/huawei-logo-1.png"
+    },
+    "honor": {
+        "title": "Honor",
+        "photoUrl": "img/categories/honor-logo-1.png"
+    },
+    "motorola": {
+        "title": "Motorola",
+        "photoUrl": "img/categories/motorola-logo-1.png"
     }
 }
