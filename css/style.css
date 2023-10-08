@@ -102,17 +102,8 @@ footer > * {
 /* #region Header */
 
 #header {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto 1fr;
-    grid-gap: 25px 0;
-    grid-template-areas: 
-        "menu menu"
-        "side_menu header_title";
-}
-
-#header-menu {
-    grid-area: menu;
+    display: flex;
+    flex-direction: column;
 }
 
 #menu-top-info {
@@ -191,11 +182,11 @@ footer > * {
 }
 
 #header-title {
-    grid-area: header_title;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
 }
 
 #header-title h1 {
@@ -206,40 +197,6 @@ footer > * {
 
 #header-title img {
     height: 60%;
-}
-
-#side-menu {
-    grid-area: side_menu;
-    height: 80%;
-    background-color: var(--secondary-color);
-    border-radius: 15px;
-    padding: 15px;
-}
-
-#service-title-side-menu {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5px;
-}
-
-#service-title-side-menu p {
-    margin: 0;
-}
-
-#categories-side-menu {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-#categories-side-menu .side-menu-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5px;
-    margin-left: 15px;
 }
 
 /* #endregion */
