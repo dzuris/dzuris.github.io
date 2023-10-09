@@ -3,10 +3,12 @@
 }
 
 main {
+    margin-top: 25px;
     min-height: 85vh;
 }
 
 #container {
+    max-width: var(--max-width-containers-with-items);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,4 +16,12 @@ main {
     gap: 25px;
     margin-top: 50px;
     margin-bottom: 25px;
+}
+
+#container:empty::before {
+    content: 'Tento servis nemá zatiaľ žiaden vypísaný model.';
+    color: var(--text-not-important);
+    font-style: italic;
+    font-size: large;
+    text-align: center;
 }
