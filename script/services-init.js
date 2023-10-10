@@ -32,39 +32,72 @@ document.addEventListener("DOMContentLoaded", function () {
             var container = document.getElementById("container");
 
             for (const key in data) {
-                if (data.hasOwnProperty(key)) {
-                    const item = data[key];
-
-                    // Create a div element
-                    var div = document.createElement("div");
-                    div.classList.add("service-item");
-                    div.addEventListener("click", function () {
-                        window.location.href = "detail.html?category=" + category_id + "&model=" + model_id + "&service=" + key;
-                    });
-
-                    // Img element
-                    var img = document.createElement("img");
-                    img.src = item.photoUrl;
-                    img.alt = item.title;
-
-                    // Title element
-                    var title = document.createElement("h3");
-                    title.classList.add("title");
-                    title.textContent = item.title;
-
-                    // Price element
-                    var price = document.createElement("span");
-                    price.classList.add("price");
-                    price.textContent = item.price;
-
-                    // Append elements to the div
-                    div.append(img);
-                    div.append(title);
-                    div.append(price);
-
-                    // Append div to the container
-                    container.appendChild(div);
+                if (!data.hasOwnProperty(key)) {
+                    continue;
                 }
+
+                const item = data[key];
+
+                // Create a div element
+                var div = document.createElement("div");
+                div.classList.add("service-item");
+                div.addEventListener("click", function () {
+                    window.location.href = "detail.html?category=" + category_id + "&model=" + model_id + "&service=" + key;
+                });
+
+                // Img element
+                var img = document.createElement("img");
+                img.src = item.photoUrl;
+                img.alt = item.title;
+
+                // Title element
+                var title = document.createElement("h3");
+                title.classList.add("title");
+                title.textContent = item.title;
+
+                // Price element
+                var price = document.createElement("span");
+                price.classList.add("price");
+                price.textContent = item.price;
+
+                // Append elements to the div
+                div.append(img);
+                div.append(title);
+                div.append(price);
+
+                // Append div to the container
+                container.appendChild(div);
+            }
+
+            // List container
+            var listContainer = document.getElementById("list-container");
+
+            for (const key in data) {
+                if (!data.hasOwnProperty(key)) {
+                    continue;
+                }
+
+                const item = data[key];
+
+                //Create tr element
+                var tr = document.createElement("tr");
+                tr.addEventListener("click", function () {
+                    window.location.href = "detail.html?category=" + category_id + "&model=" + model_id + "&service=" + key;
+                });
+
+                // Create tds elements
+                var tdServiceName = document.createElement("td");
+                tdServiceName.textContent = item.title;
+
+                var tdPrice = document.createElement("td");
+                tdPrice.textContent = item.price;
+
+                // Append elements to tr
+                tr.append(tdServiceName);
+                tr.append(tdPrice);
+
+                // Append tr to the list container
+                listContainer.appendChild(tr);
             }
         })
         .catch(error => {

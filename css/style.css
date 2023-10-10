@@ -20,6 +20,8 @@
     --valid-color: #469452;
     --contact-info-background: #212121;
     --primary-color-dark: #3170bd;
+    --secondary-color-dark: rgb(151, 226, 255);
+    --secondary-color-light: #daf4ff;
 
     --max-page-width: 1280px;
     --max-width-containers-with-items: 1200px;

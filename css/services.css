@@ -5,6 +5,9 @@
 main {
     margin-top: 25px;
     min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #container {
@@ -61,9 +64,73 @@ main {
     content: '€';
 }
 
-@media only screen and (max-width: 550px) {
+#list-container {
+    display: none;
+    margin: 50px 0;
+    padding: 5px;
+    border-radius: 15px;
+}
 
-    .service-item {
-        width: 100%;
+th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+}
+
+th:nth-child(1) {
+    border-radius: 5px 0 0 0;
+}
+
+th:nth-child(2) {
+    border-radius: 0 5px 0 0;
+}
+
+tr a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--secondary-color-light);
+}
+
+tr:last-child td:nth-child(1) {
+    border-radius: 0 0 0 5px;
+}
+
+tr:last-child td:nth-child(2) {
+    border-radius: 0 0 5px 0;
+}
+
+td {
+    padding: 10px;
+}
+
+td:nth-child(even) {
+    text-align: center;
+}
+
+td:nth-child(even)::after {
+    padding-left: 5px;
+    content: '€';
+}
+
+tr:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #container {
+        display: none;
+    }
+
+    #list-container {
+        display: block;
     }
 }
