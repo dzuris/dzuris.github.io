@@ -121,15 +121,19 @@
         "detail_desc": [
             {
                 "cat": 1,
-                "note": "Po vytopení zariadenia resp. po akomkoľvek poškodení tekutinou, vlhkosťou poskytujeme komplexné prečistenie zariadenia. Čistenie obsahuje niekoľko krokov:"
+                "note": "Po vytopení zariadenia resp. po akomkoľvek poškodení tekutinou, vlhkosťou poskytujeme komplexné prečistenie zariadenia."
             },
             {
-                "note": "Kompletné rozobratie zariadenia",
-                "note": "Mechanické čistenie zaoxidovaných častí izopropyl-alkoholom",
-                "note": "Čistenie ultrazvukom",
-                "note": "Testovanie funkčnosti",
-                "note": "Cenový návrh a schválenie zákazníkom",
-                "note": "Oprava a konečná montáž zariadenia"
+                "cat": 2,
+                "title": "Čistenie obsahuje niekoľko krokov:",
+                "points": [
+                    "Kompletné rozobratie zariadenia",
+                    "Mechanické čistenie zaoxidovaných častí izopropyl-alkoholom",
+                    "Čistenie ultrazvukom",
+                    "Testovanie funkčnosti",
+                    "Cenový návrh a schválenie zákazníkom",
+                    "Oprava a konečná montáž zariadenia"
+                ]
             },
             {
                 "cat": 1,
@@ -138,7 +142,7 @@
         ]
     },
     "softver": {
-        "title": "Preratie softvéru",
+        "title": "Prehriatie softvéru",
         "photoUrl": "img/icons/X-12/wifi.png",
         "price": 100,
         "note": [
