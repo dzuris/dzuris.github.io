@@ -221,8 +221,8 @@ footer > * {
 }
 
 .category-item {
+    width: 140px;
     background-color: var(--list-item-background);
-    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -241,8 +241,12 @@ footer > * {
 }
 
 .category-item img {
-    width: 140px;
+    max-width: min-content;
     height: 140px;
+}
+
+.category-item span {
+    text-align: center;
 }
 
 /* #endregion */
