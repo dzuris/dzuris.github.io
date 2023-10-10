@@ -1,4 +1,6 @@
 TODO:
+    celkovo
+        - dizajn na iphone 8 plus je nakkt
     services
         - ked sa ukaze na item, obrazok sa da na cele a skryje sa title a price
         - na mobile ukazat sluzby vo forme tabulky
