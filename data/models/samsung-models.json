@@ -1,6 +1,10 @@
 {
-    "samsung-galaxy-A50": {
-        "title": "Samsung galaxy A50",
-        "photoUrl": "img/models/iphone-SE2022.png"
+    "galaxy-a": {
+        "title": "Galaxy A",
+        "photoUrl": "cesta k obrazku"
+    },
+    "galaxy-m": {
+        "title": "Galaxy M",
+        "photoUrl": "cesta k obrazku"
     }
 }
