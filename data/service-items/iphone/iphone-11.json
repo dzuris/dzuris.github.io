@@ -23,7 +23,6 @@
             }
         ]
     },
-    
     "bateria": {
         "title": "Výmena batérie",
         "photoUrl": "img/icons/X-12/bateria.png",
@@ -126,8 +125,6 @@
             "Dĺžka opravy je približne <bold>60 minút</bold>"
         ]
     },
-   
-   
     "sluchadlo": {
         "title": "Výmena slúchadla - nepočujem volajúceho",
         "photoUrl": "img/icons/X-12/sluchadlo.png",
@@ -235,8 +232,8 @@
         ]
     },
     "softver": {
-        "title": "Preratie softvéru",
-        "photoUrl": "img/icons/X-12/prehraie-softveru.png",
+        "title": "Prehriatie softvéru",
+        "photoUrl": "img/icons/X-12/prehratie-softveru.png",
         "price": 100,
         "for_waiting": true,
         "note": [
