@@ -135,6 +135,10 @@ ul.list-detail {
 
 @media only screen and (max-width: 550px) {
 
+    h2 {
+        text-align: center;
+    }
+
     .header-title-with-model {
         display: flex;
         flex-direction: column;
