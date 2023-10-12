@@ -1,7 +1,7 @@
 {
     "displej": {
         "title": "Výmena displeja",
-        "photoUrl": "img/icons/X-12/displej.png",
+        "photoUrl": "img/icons/5-8/displej.png",
         "price": 99,
         "for_waiting": true,
         "note": [
@@ -11,7 +11,7 @@
         "detail_desc": [
             {
                 "cat": 1,
-                "note": "Pri výmene displeja sa zachovajú všetky pôvodné funkcie zariadenia ako napríklad Face ID alebo TrueTone."
+                "note": "Pri výmene displeja sa zachovajú všetky pôvodné funkcie zariadenia ako napríklad Touch ID alebo TrueTone."
             },
             {
                 "cat": 1,
@@ -26,7 +26,7 @@
     
     "bateria": {
         "title": "Výmena batérie",
-        "photoUrl": "img/icons/X-12/bateria.png",
+        "photoUrl": "img/icons/5-8/bateria.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -52,7 +52,7 @@
     },
     "nabijanie": {
         "title": "Nefunkčné nabíjanie",
-        "photoUrl": "img/icons/X-12/charging.png",
+        "photoUrl": "img/icons/5-8/charging.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -77,7 +77,7 @@
     },
     "backglass": {
         "title": "Výmena zadného skla",
-        "photoUrl": "img/icons/X-12/backglass.png",
+        "photoUrl": "img/icons/5-8/backglass.png",
         "price": 100,
         "note": [
             "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom iPhone.",
@@ -92,23 +92,17 @@
     },
     "fotakpredny": {
         "title": "Výmena prednej kamery",
-        "photoUrl": "img/icons/X-12/frontcam.png",
+        "photoUrl": "img/icons/5-8/frontcam.png",
         "price": 100,
         "for_waiting": true,
         "note": [
             "Výmena je vhodná ak sa na zariadení nedá zapnúť predná kamera alebo je poškodená šošovka fotoaparátu, prípadne sa po spustení kamery zariadenie reštartuje alebo sa vráti na domovskú obrazovku.",
             "Dĺžka opravy je približne <bold>60 minút</bold>"
-        ],
-        "detail_desc": [
-            {
-                "cat": 1,
-                "note": "<bold>Upozornenie:</bold> Po výmene prednej kamery nebude ďalej dostupná funkcia rozpoznávania tváre Face ID"
-            }
         ]
     },
     "fotakzadny": {
         "title": "Výmena zadnej kamery",
-        "photoUrl": "img/icons/X-12/fotakzadny.png",
+        "photoUrl": "img/icons/5-8/fotakzadny.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -118,7 +112,7 @@
     },
     "sklofotaku": {
         "title": "Výmena sklíčka zadnej kamery",
-        "photoUrl": "img/icons/X-12/sklofotaku.png",
+        "photoUrl": "img/icons/5-8/sklofotaku.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -130,7 +124,7 @@
    
     "sluchadlo": {
         "title": "Výmena slúchadla - nepočujem volajúceho",
-        "photoUrl": "img/icons/X-12/sluchadlo.png",
+        "photoUrl": "img/icons/5-8/sluchadlo.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -140,17 +134,13 @@
         "detail_desc": [
             {
                 "cat": 1,
-                "note": "<bold>Upozornenie:</bold> Po výmene proximity senzora nebude ďalej dostupná funkcia rozpoznávania tváre Face ID"
-            },
-            {
-                "cat": 1,
                 "note": "Výmena slúchadla nie je vždy nutná. V niektorých prípadoch je z dôvodu zachytávania nečistôt potrebné prečistiť slúchadlo a jeho otvory. Zanesenie nečistotami nastáva najmä ak je zariadenie často vystavované prašnému prostrediu. V ojedinelých prípadoch sa môže jednať aj o softvérový problém."
             }
         ]
     },
     "mikrofon": {
         "title": "Výmena mikrofónu - nepočuť ma pri hovore",
-        "photoUrl": "img/icons/X-12/mic.png",
+        "photoUrl": "img/icons/5-8/mic.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -170,7 +160,7 @@
     },
     "reproduktor": {
         "title": "Výmena reproduktoru - nejde zvuk",
-        "photoUrl": "img/icons/X-12/reprak.png",
+        "photoUrl": "img/icons/5-8/reprak.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -180,7 +170,7 @@
     },
     "hlasitost": {
         "title": "Výmena tlačidiel hlasitosti",
-        "photoUrl": "img/icons/X-12/volume.png",
+        "photoUrl": "img/icons/5-8/volume.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -190,7 +180,7 @@
     },
     "zapinanie": {
         "title": "Výmena tlačidla zapínania",
-        "photoUrl": "img/icons/X-12/powerbutt.png",
+        "photoUrl": "img/icons/5-8/powerbutt.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -200,7 +190,7 @@
     },
     "vibrovanie": {
         "title": "Oprava vibrovania",
-        "photoUrl": "img/icons/X-12/vibrating.png",
+        "photoUrl": "img/icons/5-8/vibrating.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -210,7 +200,7 @@
     },
     "wifi": {
         "title": "Oprava wifi antény",
-        "photoUrl": "img/icons/X-12/wifi.png",
+        "photoUrl": "img/icons/5-8/wifi.png",
         "price": 100,
         "for_waiting": true,
         "note": [
@@ -226,12 +216,6 @@
         "note": [
             "Výmena je vhodná ak vaše zariadenie počas hovoru a následného priloženia k uchu nazhasne (ostane svietiť) alebo ak na zariadení nefunguje funkcia automatického jasu.",
             "Dĺžka opravy je približne <bold>60 minút</bold>"
-        ],
-        "detail_desc": [
-            {
-                "cat": 1,
-                "note": "<bold>Upozornenie:</bold> Po výmene proximity senzora nebude ďalej dostupná funkcia rozpoznávania tváre Face ID"
-            }
         ]
     },
     "softver": {

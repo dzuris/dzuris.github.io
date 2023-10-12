@@ -1,7 +1,6 @@
-[
-    {
-        "id": "galaxy-note",
-        "title": "Galaxy Note",
-        "photoUrl": ""
+{
+    "samsung-galaxy-A50": {
+        "title": "Samsung galaxy A50",
+        "photoUrl": "img/models/iphone-SE2022.png"
     }
-]
+}
