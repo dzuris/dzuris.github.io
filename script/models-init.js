@@ -1,30 +1,76 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
     // Get the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
 
     // Get value
     const model_id = urlParams.get('model');
+    const submodel_id = urlParams.get('submodel');
 
-    // Fetch the JSON data to get model-name content
-    fetch("data/categories.json")
-        .then(response => response.json())
-        .then(data => {
-            const item = data[model_id];
+    var span = document.getElementById("model-name");
+    var title = await get_title(model_id);
 
-            if (item) {
-                // Set model-name content
-                var span = document.getElementById("model-name");
-                span.textContent = item.title;
-            } else {
-                console.log("Item " + model_id + " not found.")
-            }
-        })
-        .catch(error => {
-            console.error("Error fetching JSON data: ", error);
-        });
+    var modelsFilePath = "";
+    if (submodel_id) {
+        var subTitle = await get_subtitle(model_id, submodel_id);        
+        span.textContent = title + " " + subTitle;
+        modelsFilePath = "data/models/" + model_id + "/" + submodel_id + "-models.json";
+    } else {
+        span.textContent = title;
+        modelsFilePath = "data/models/" + model_id + "-models.json";
+    }
+
+    fetch_models(modelsFilePath, model_id);
+});
+
+/**
+ * This function is used to obtain item title from categories json according to id
+ * 
+ * @param {str} model_id - category id for obtaining specific item
+ * @returns {str} Category item title
+ */
+async function get_title(model_id) {
+    try {
+        const response = await fetch("data/categories.json");
+        const data = await response.json();
+        const item = data[model_id];
+        if (item) {
+            return item.title;
+        } else {
+            console.log("Item " + model_id + " not found.");
+            return null;
+        }
+    } catch (error) {
+        console.error("Error fetching JSON data: ", error);
+    }
+}
+
+/**
+ * This function is used to obtain model title from models json according to category id and pick item according to model id
+ * 
+ * @param {str} category_id 
+ * @param {str} model_id 
+ * @returns {str} Submodel title
+ */
+async function get_subtitle(category_id, model_id) {
+    try {
+        const response = await fetch("data/models/" + category_id + "-models.json");
+        const data = await response.json();
+        const item = data[model_id];
+        if (item) {
+            return item.title;
+        } else {
+            console.log("Item " + model_id + " not found.");
+            return null;
+        }
+    } catch (error) {
+        console.error("Error fetching JSON data: ", error);
+    }
+}
+
+function fetch_models(filePath, model_id) {
 
     // Fetch the JSON data to get list of models
-    fetch("data/models/" + model_id + "-models.json")
+    fetch(filePath)
         .then(response => response.json())
         .then(data => {
             // Container
@@ -37,9 +83,17 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Create a div element
                     var div = document.createElement("div");
                     div.classList.add("category-item");
-                    div.addEventListener("click", function () {
-                        window.location.href = "services.html?category=" + model_id + "&model=" + key;
-                    });
+
+                    // On click href to another location according to if item has Submodel
+                    if (item.hasSubmodels) {
+                        div.addEventListener("click", function () {
+                            window.location.href = "models.html?model=" + model_id + "&submodel=" + key;
+                        });
+                    } else {
+                        div.addEventListener("click", function () {
+                            window.location.href = "services.html?category=" + model_id + "&model=" + key;
+                        });
+                    }
 
                     // Create an image element
                     var img = document.createElement("img");
@@ -58,5 +112,5 @@ document.addEventListener("DOMContentLoaded", function () {
                     container.appendChild(div);
                 }
             }
-        })
-})
+        });
+}
