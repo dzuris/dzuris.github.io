@@ -1,10 +1,12 @@
 {
     "galaxy-a": {
         "title": "Galaxy A",
-        "photoUrl": "cesta k obrazku"
+        "photoUrl": "cesta k obrazku",
+        "hasSubmodels": true
     },
     "galaxy-m": {
         "title": "Galaxy M",
-        "photoUrl": "cesta k obrazku"
+        "photoUrl": "cesta k obrazku",
+        "hasSubmodels": true
     }
 }
