@@ -1,31 +1,59 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
     // Get the URL parameters
     const urlParams = new URLSearchParams(window.location.search);
 
     // Get values
     const category_id = urlParams.get('category');
     const model_id = urlParams.get('model');
+    const submodel_id = urlParams.get('submodel');
     const service_id = urlParams.get('service');
 
-    // Fetch the JSON data to get model name
-    fetch("data/models/" + category_id + "-models.json")
-        .then(response => response.json())
-        .then(data => {
-            const item = data[model_id];
-
-            if (item) {
-                // Set model-name content
-                setTextContentById("model-name", item.title);
-            } else {
-                console.log("Item " + model_id + " not found.");
-            }
-        })
-        .catch(error => {
-            console.error("Error fetching JSON data: ", error);
-        });
+    // Fetch the JSON data to get model name - page title
+    setTextContentById("model-name", await get_title(category_id, model_id, submodel_id));
 
     // Fetch the JSON data to get service info
-    fetch("data/service-items/" + category_id + "/" + model_id + ".json")
+    fetch_detail(category_id, model_id, submodel_id, service_id);
+})
+
+/**
+ * This function obtains title for service page according to given parameters
+ * 
+ * @param {str} category_id - category (eg. samsung, iphone)
+ * @param {str} model_id - model (eg. Galaxy A, Galaxy M)
+ * @param {str} submodel_id - submodel (eg. Galaxy A15. Galaxy A20)
+ * @returns Title for service page
+ */
+async function get_title(category_id, model_id, submodel_id) {
+    var filePath = "";
+    if (submodel_id) {
+        filePath = "data/models/" + category_id + "/" + model_id + "-models.json";
+    } else {
+        filePath = "data/models/" + category_id + "-models.json";
+    }
+
+    try {
+        const response = await fetch(filePath);
+        const data = await response.json();
+        const item = data[submodel_id];
+        if (item) {
+            return item.title;
+        } else {
+            console.log("Item " + submodel_id + " not found.");
+            return null;
+        }
+    } catch (error) {
+        console.error("Error fetching JSON data: ", error);
+    }
+}
+
+function fetch_detail(category_id, model_id, submodel_id, service_id) {
+    var filePath = "data/service-items/" + category_id + "/" + model_id;
+    if (submodel_id) {
+        filePath += "/" + submodel_id;
+    }
+    filePath += ".json";
+
+    fetch(filePath)
         .then(response => response.json())
         .then(data => {
             const item = data[service_id];
@@ -116,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => {
             console.error("Error fetching JSON data: ", error);
         })
-})
+}
 
 function setTextContentById(elementId, textContent) {
     var e = document.getElementById(elementId);
