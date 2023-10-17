@@ -1,7 +1,6 @@
 {
     "Galaxy-S20": {
         "title": "Galaxy S20",
-        "photoUrl": "img/models/iphone-SE2022.png",
-        "hasSubmodels": true
+        "photoUrl": "img/models/iphone-SE2022.png"
     }
 }
