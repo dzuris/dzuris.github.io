@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const submodel_id = urlParams.get('submodel');
     const service_id = urlParams.get('service');
 
-    // Fetch the JSON data to get model name - page title
+    // Set model name - page title
     setTextContentById("model-name", await get_title(category_id, model_id, submodel_id));
 
     // Fetch the JSON data to get service info
