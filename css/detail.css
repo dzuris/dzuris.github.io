@@ -7,6 +7,10 @@ main {
     padding: 15px;
 }
 
+bold {
+    font-weight: bolder;
+}
+
 .header-title-with-model {
     display: flex;
     flex-direction: row;
