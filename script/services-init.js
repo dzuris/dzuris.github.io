@@ -26,19 +26,21 @@ document.addEventListener("DOMContentLoaded", async function () {
 async function get_title(category_id, model_id, submodel_id) {
     var filePath = "";
     if (submodel_id) {
+        model = submodel_id;
         filePath = "data/models/" + category_id + "/" + model_id + "-models.json";
     } else {
+        model = model_id;
         filePath = "data/models/" + category_id + "-models.json";
     }
 
     try {
         const response = await fetch(filePath);
         const data = await response.json();
-        const item = data[submodel_id];
+        const item = data[model];
         if (item) {
             return item.title;
         } else {
-            console.log("Item " + submodel_id + " not found.");
+            console.log("Item " + model + " not found.");
             return null;
         }
     } catch (error) {
@@ -54,7 +56,6 @@ function fetch_services(category_id, model_id, submodel_id) {
         filePath += category_id + "/" + model_id + ".json";
     }
 
-    console.log(filePath);
     fetch(filePath)
         .then(response => response.json())
         .then(data => {
