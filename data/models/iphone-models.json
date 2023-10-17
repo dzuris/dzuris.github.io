@@ -67,11 +67,11 @@
         "title": "iPhone 7",
         "photoUrl": "img/models/iphone-7.png"
     },
-    "iphone-6/6S-plus": {
+    "iphone-6-6S-plus": {
         "title": "iPhone 6/6S Plus",
         "photoUrl": "img/models/iphone-6S-Plus.png"
     },
-    "iphone-6/6S": {
+    "iphone-6-6S": {
         "title": "iPhone 6/6S",
         "photoUrl": "img/models/iphone-6.png"
     }

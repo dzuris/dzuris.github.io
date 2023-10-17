@@ -1,0 +1,120 @@
+{
+    "displej": {
+        "title": "Výmena displeja",
+        "photoUrl": "img/icons/android/displej.png",
+        "price": 99,
+        "for_waiting": true,
+        "note": [
+            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
+            "Dĺžka opravy je približne <bold>2 hodiny</bold>."
+        ],
+        "detail_desc": [
+            {
+                "cat": 1,
+                "note": "Pri výmene displeja sa zachovajú všetky pôvodné funkcie zariadenia. Pre viac informácií nás kontaktujte."
+            }
+        ]
+    },
+    
+    "bateria": {
+        "title": "Výmena batérie",
+        "photoUrl": "img/icons/android/bateria.png",
+        "price": 100,
+        "for_waiting": true,
+        "note": [
+            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť.",
+            "Dĺžka opravy je približne <bold>60 minút</bold>."
+        ],
+        "detail_desc": [
+            {
+                "cat": 1,
+                "note": "Vačšina dnešných telefónov ponúka možnosť overiť si zdravie batérie. Informáciu o percentuálnom zdraví batérie sa dozviete v nastaveniach telefónu, kde zvolíte položku Batéria a následne kliknete na > Zdravie batérie "
+            },
+            {
+                "cat": 2,
+                "title": "Kedy je potrebné betériu vymeniť?:",
+                "points": [
+                    "Výdrž batérie je menšia ako keď bol telefón nový",
+                    "Telefón sa veľmi rýchlo vybíja, vydrží menej ako deň aktívneho používania",
+                    "Zdravie batérie je menej ako 80% (Nastavenia > Batéria > Zdravie batérie)",
+                    "Batéria je nafúknutá - takáto batéria je obzvlášť nebezpečná a okrem toho že môže poškodiť aj iné komponenty ako napríklad displej, hrozí aj jej výbuch"
+                ]
+            }
+        ]
+    },
+    "nabijanie": {
+        "title": "Nefunkčné nabíjanie",
+        "photoUrl": "img/icons/android/nabijanie.png",
+        "price": 100,
+        "for_waiting": true,
+        "note": [
+            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné.",
+            "Dĺžka opravy je približne <bold>90 minút</bold>."
+        ]
+    },
+    "backglass": {
+        "title": "Výmena zadného krytu",
+        "photoUrl": "img/icons/android/backglass.png",
+        "price": 100,
+        "note": [
+            "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom zariadení.",
+            "Dĺžka opravy je približne <bold>90 minút</bold>"
+        ],
+        "detail_desc": [
+            {
+                "cat": 1,
+                "note": "Pri výmene zadného krytu je možné si vybrať ktorúkoľvek farebnú kombináciu patriacu ku konkrétnemu modelu zariadenia."
+            }
+        ]
+    },
+    "tekutina": {
+        "title": "Poškodenie tekutinou",
+        "photoUrl": "img/icons/android/tekutina.png",
+        "price": 100,
+        "note": [
+            "Oprava vhodná po priamom kontakte (zväčša pri celkovom ponorení) zariadenia s tekutinou",
+            "Po vytopení je nutné telefón čo najskôr vysušiť a vyčistiť od oxidácie. Sušenie v domácich podmienkach (vloženie telefónu do vrecka s ryžou a pod.) je neúčinné, telefón je potrebné čo najskôr odborne vyčistiť. ",
+            "Dĺžka opravy závisí od rozsahu poškodenia"
+        ],
+        "detail_desc": [
+            {
+                "cat": 1,
+                "note": "Po vytopení zariadenia resp. po akomkoľvek poškodení tekutinou, vlhkosťou poskytujeme komplexné prečistenie zariadenia. Čistenie obsahuje niekoľko krokov:"
+            },
+            {
+                "cat": 2,
+                "title": "Čistenie obsahuje niekoľko krokov:",
+                "points": [
+                    "Kompletné rozobratie zariadenia",
+                    "Mechanické čistenie zaoxidovaných častí izopropyl-alkoholom",
+                    "Čistenie ultrazvukom",
+                    "Testovanie funkčnosti",
+                    "Cenový návrh a schválenie zákazníkom",
+                    "Oprava a konečná montáž zariadenia"
+                ]
+            },
+            {
+                "cat": 1,
+                "note": "Na opravu po oxidácii zariadenia neposkytujeme ďalšiu záruku, vzhľadom na charakter poškodenia po zásahu s tekutinou. Základná doska môže byť natoľko zoxidovaná, že nepomôže ani čistenie v ultrazvukovej vani a zariadenie ostane nefunkčné. V takomto prípade je oprava účtovaná nižším poplatkom podľa aktuálneho cenníka."
+            }
+        ]
+    },
+    "diagnostika": {
+        "title": "Diagnostika",
+        "photoUrl": "img/icons/android/nic.png",
+        "price": 0,
+        "note": [
+            "Diagnostika zariadenia prebieha ak máte so zariadením problém, ktorý nie ste schopný jednoznačne identifikovať. Po obdržaní zariadenia problém diagnostikujeme a zašleme Vám cenovú ponuku na opravu.",
+            "V prípade, že sa po diagnostike rozhodnete riešiť opravu Vášho zariadenia u nás, diagostika je <bold>ZADARMO</bold>",
+            "V prípade diagnostiky bez následnej opravy, za diagnostiku účtujeme 15€ s DPH"
+        ]
+    },
+    "inyproblem": {
+        "title": "Iný problém",
+        "photoUrl": "img/icons/android/iny-problem.png",
+        "price": 100,
+        "note": [
+            "V prípade že máte so zariadením problém, ktorý nie ste schopný identifikovať alebo ste ho nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
+        ]
+    }
+}

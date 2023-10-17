@@ -235,8 +235,8 @@
         ]
     },
     "softver": {
-        "title": "Preratie softvéru",
-        "photoUrl": "img/icons/X-12/prehraie-softveru.png",
+        "title": "Prehratie softvéru",
+        "photoUrl": "img/icons/X-12/prehratie-softveru.png",
         "price": 100,
         "for_waiting": true,
         "note": [
