@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         modelsFilePath = "data/models/" + model_id + "-models.json";
     }
 
-    fetch_models(modelsFilePath, model_id);
+    fetch_models(modelsFilePath, model_id, submodel_id);
 });
 
 /**
@@ -67,7 +67,7 @@ async function get_subtitle(category_id, model_id) {
     }
 }
 
-function fetch_models(filePath, model_id) {
+function fetch_models(filePath, model_id, submodel_id) {
 
     // Fetch the JSON data to get list of models
     fetch(filePath)
@@ -90,9 +90,15 @@ function fetch_models(filePath, model_id) {
                             window.location.href = "models.html?model=" + model_id + "&submodel=" + key;
                         });
                     } else {
-                        div.addEventListener("click", function () {
-                            window.location.href = "services.html?category=" + model_id + "&model=" + key;
-                        });
+                        if (submodel_id) {
+                            div.addEventListener("click", function () {
+                                window.location.href = "services.html?category=" + model_id + "&model=" + submodel_id + "&submodel=" + key;
+                            });
+                        } else {
+                            div.addEventListener("click", function () {
+                                window.location.href = "services.html?category=" + model_id + "&model=" + key;
+                            });
+                        }
                     }
 
                     // Create an image element
