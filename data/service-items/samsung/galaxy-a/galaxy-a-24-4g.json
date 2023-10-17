@@ -15,7 +15,6 @@
             }
         ]
     },
-    
     "bateria": {
         "title": "Výmena batérie",
         "photoUrl": "img/icons/android/bateria.png",
@@ -79,7 +78,7 @@
         "detail_desc": [
             {
                 "cat": 1,
-                "note": "Po vytopení zariadenia resp. po akomkoľvek poškodení tekutinou, vlhkosťou poskytujeme komplexné prečistenie zariadenia. Čistenie obsahuje niekoľko krokov:"
+                "note": "Po vytopení zariadenia resp. po akomkoľvek poškodení tekutinou, vlhkosťou poskytujeme komplexné prečistenie zariadenia."
             },
             {
                 "cat": 2,
