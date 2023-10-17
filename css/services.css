@@ -67,8 +67,12 @@ main {
 #list-container {
     display: none;
     margin: 50px 0;
-    padding: 5px;
+    padding: 35px;
     border-radius: 15px;
+}
+
+table, th {
+    width: 100%;
 }
 
 th {
