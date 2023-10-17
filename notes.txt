@@ -6,3 +6,6 @@ TODO:
         - na mobile ukazat sluzby vo forme tabulky
     detail
         - hover ukaze text
+
+    obrazky
+        - remove bg: img/models/samsung/galaxy-a/A24.jpg
