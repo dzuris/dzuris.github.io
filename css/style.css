@@ -76,6 +76,7 @@ button {
     color: var(--header-subtext-color);
     text-transform: uppercase;
     font-weight: bolder;
+    text-align: center;
 }
 
 .heading h2 {
