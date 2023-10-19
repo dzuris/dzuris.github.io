@@ -102,6 +102,9 @@ function fetch_services(category_id, model_id, submodel_id) {
                 // Price element
                 var price = document.createElement("span");
                 price.classList.add("price");
+                if (!isNaN(item.price)) {
+                    price.classList.add("priceNum")
+                }
                 price.textContent = item.price;
 
                 // Append elements to the div
@@ -125,6 +128,9 @@ function fetch_services(category_id, model_id, submodel_id) {
                 tdServiceName.textContent = item.title;
 
                 var tdPrice = document.createElement("td");
+                if (!isNaN(item.price)) {
+                    tdPrice.classList.add("priceNum")
+                }
                 tdPrice.textContent = item.price;
 
                 // Append elements to tr

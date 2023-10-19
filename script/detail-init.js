@@ -70,11 +70,21 @@ function fetch_detail(category_id, model_id, submodel_id, service_id) {
                 setImageSrc("detail-img", item.photoUrl);
 
                 // Price
-                setTextContentById("detail-price", item.price);
+                var priceElement = document.getElementById("detail-price");
+                if (!isNaN(item.price)) {
+                    priceElement.classList.add("priceNum");
+                }
+                priceElement.textContent = item.price;
 
                 // Price without tax
-                var price_without_tax = item.price * 5 / 6;
-                setTextContentById("detail-price-no-tax-num", price_without_tax.toFixed(2));
+                if (isNaN(item.price)) {
+                    var priceWithoutTaxElement = document.getElementById("detail-price-no-tax");
+                    priceWithoutTaxElement.classList.add("priceIsNotNum");
+                } else {
+                    var price_without_tax = item.price * 5 / 6;
+                    setTextContentById("detail-price-no-tax-num", price_without_tax.toFixed(2));
+                }
+
 
                 // Waiting
                 if (item.for_waiting) {

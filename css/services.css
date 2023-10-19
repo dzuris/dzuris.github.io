@@ -59,7 +59,7 @@ main {
     font-weight: bolder;
 }
 
-.service-item .price::after {
+.priceNum::after {
     margin-left: 5px;
     content: '€';
 }
@@ -118,10 +118,10 @@ td:nth-child(even) {
     text-align: center;
 }
 
-td:nth-child(even)::after {
+/* td:nth-child(even)::after {
     padding-left: 5px;
     content: '€';
-}
+} */
 
 tr:hover {
     cursor: pointer;
