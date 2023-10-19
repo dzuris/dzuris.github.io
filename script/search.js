@@ -1,3 +1,5 @@
+const SEARCH_PAGE_HREF_PREFIX = "search.html?searchQuery=";
+
 function search() {
     // Get the search query value
     var searchQuery = document.getElementById("searchQueryText").value;
@@ -7,7 +9,7 @@ function search() {
         return;
     }
     
-    window.location.href = "search.html?searchQuery=" + searchQuery;
+    window.location.href = SEARCH_PAGE_HREF_PREFIX + searchQuery;
 }
 
 function enableSubmit() {
