@@ -1,4 +1,5 @@
 const CATEGORIES_FILE_PATH = "data/categories.json"
+const HREF_PREFIX = "models.html?model=";
 
 class Category {
     constructor(title, photoUrl, hrefContent) {
@@ -8,6 +9,7 @@ class Category {
     }
 }
 
+// On page loaded
 document.addEventListener("DOMContentLoaded", async function () {
     var container = document.getElementById("categories");
     let categories = await getCategories();
@@ -38,6 +40,11 @@ document.addEventListener("DOMContentLoaded", async function () {
     })
 })
 
+/**
+ * The function fetches the JSON file with categories and gets them as classes
+ * 
+ * @returns List of categories
+ */
 async function getCategories() {
     let result = [];
     try {
@@ -50,7 +57,7 @@ async function getCategories() {
 
             const item = data[key];
 
-            let hrefContent = "models.html?model=" + key;
+            let hrefContent = HREF_PREFIX + key;
             let category = new Category(item.title, item.photoUrl, hrefContent);
 
             result.push(category);
