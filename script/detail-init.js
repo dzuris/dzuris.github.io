@@ -71,18 +71,23 @@ function fetch_detail(category_id, model_id, submodel_id, service_id) {
 
                 // Price
                 var priceElement = document.getElementById("detail-price");
-                if (!isNaN(item.price)) {
+                if (!isNaN(item.price) && item.price !== '') {
                     priceElement.classList.add("priceNum");
                 }
                 priceElement.textContent = item.price;
 
                 // Price without tax
-                if (isNaN(item.price)) {
+                if (isNaN(item.price) || item.price === '') {
                     var priceWithoutTaxElement = document.getElementById("detail-price-no-tax");
-                    priceWithoutTaxElement.classList.add("priceIsNotNum");
+                    priceWithoutTaxElement.classList.add("no-price");
                 } else {
                     var price_without_tax = item.price * 5 / 6;
                     setTextContentById("detail-price-no-tax-num", price_without_tax.toFixed(2));
+                }
+
+                // Info banner price
+                if (isNaN(item.price) || item.price === '') {
+                    document.getElementById("detail-servis-info").classList.add('no-price')
                 }
 
 

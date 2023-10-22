@@ -55,13 +55,13 @@ bold {
     color: var(--text-not-important);
 }
 
-#detail-price-no-tax.priceIsNotNum {
-    display: none;
-}
-
 #detail-price-no-tax-num.priceNum::after {
     content: '€';
     margin-left: 2px;
+}
+
+.no-price {
+    display: none;
 }
 
 #detail-servis-info {
