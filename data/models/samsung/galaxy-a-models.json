@@ -1,7 +1,7 @@
 {
     "galaxy-a-02": {
         "title": "Galaxy A02",
-        "photoUrl": "img/models/samsung/galaxy-a02/a02.png"
+        "photoUrl": "img/models/samsung/galaxy-a/a02.png"
     },
     "galaxy-a-02s-": {
         "title": "Galaxy A02s",
@@ -41,7 +41,7 @@
     },
     "galaxy-a-22-5g": {
         "title": "Galaxy A22 5g",
-        "photoUrl": "img/models/samsung/galaxy-a/a22-5g.png"
+        "photoUrl": "img/models/samsung/galaxy-a/a22.png"
     },
     "galaxy-a-23-5g": {
         "title": "Galaxy A23 5g",
@@ -53,7 +53,7 @@
     },
     "galaxy-a-24-4g": {
         "title": "Galaxy A24 4g",
-        "photoUrl": "img/models/samsung/galaxy-a/a24-4g.png"
+        "photoUrl": "img/models/samsung/galaxy-a/a24.png"
     },
     "galaxy-a-30s": {
         "title": "Galaxy A30s",
@@ -64,8 +64,8 @@
         "photoUrl": "img/models/samsung/galaxy-a/a31.png"
     },
     "galaxy-a-32-4g": {
-        "title": "Galaxy A32-4g",
-        "photoUrl": "img/models/samsung/galaxy-a/a32-4g.png"
+        "title": "Galaxy A32 4g",
+        "photoUrl": "img/models/samsung/galaxy-a/a32.png"
     },
     "galaxy-a-32-5g": {
         "title": "Galaxy A32 5g",
@@ -101,7 +101,7 @@
     },
     "galaxy-a-53-5g": {
         "title": "Galaxy A53 5g",
-        "photoUrl": "img/models/samsung/galaxy-a/a53-5g.png"
+        "photoUrl": "img/models/samsung/galaxy-a/a53.png"
     },
     "galaxy-a-54": {
         "title": "Galaxy A54",
@@ -117,7 +117,7 @@
     },
     "galaxy-a-73-5g": {
         "title": "Galaxy A73 5g",
-        "photoUrl": "img/models/samsung/galaxy-a/a73-5g.png"
+        "photoUrl": "img/models/samsung/galaxy-a/a73.png"
     },
     "galaxy-a-90": {
         "title": "Galaxy A90",
