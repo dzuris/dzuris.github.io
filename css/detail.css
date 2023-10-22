@@ -44,7 +44,7 @@ bold {
     grid-area: price;
 }
 
-#detail-price.priceNum::after {
+#detail-price::after {
     content: '€';
     margin-left: 5px;
 }
@@ -55,7 +55,7 @@ bold {
     color: var(--text-not-important);
 }
 
-#detail-price-no-tax-num.priceNum::after {
+#detail-price-no-tax-num::after {
     content: '€';
     margin-left: 2px;
 }

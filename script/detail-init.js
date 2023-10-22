@@ -71,8 +71,8 @@ function fetch_detail(category_id, model_id, submodel_id, service_id) {
 
                 // Price
                 var priceElement = document.getElementById("detail-price");
-                if (!isNaN(item.price) && item.price !== '') {
-                    priceElement.classList.add("priceNum");
+                if (isNaN(item.price) || item.price === '') {
+                    priceElement.classList.add('no-price')
                 }
                 priceElement.textContent = item.price;
 
