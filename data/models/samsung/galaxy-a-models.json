@@ -1,6 +1,130 @@
 {
+    "galaxy-a-02": {
+        "title": "Galaxy A02",
+        "photoUrl": "img/models/samsung/galaxy-a02/a02.png"
+    },
+    "galaxy-a-02s-": {
+        "title": "Galaxy A02s",
+        "photoUrl": "img/models/samsung/galaxy-a/a02s.png"
+    },
+    "galaxy-a-03s": {
+        "title": "Galaxy A03s",
+        "photoUrl": "img/models/samsung/galaxy-a/a03s.png"
+    },
+    "galaxy-a-04": {
+        "title": "Galaxy A04",
+        "photoUrl": "img/models/samsung/galaxy-a/a04.png"
+    },
+    "galaxy-a-04s": {
+        "title": "Galaxy A04s",
+        "photoUrl": "img/models/samsung/galaxy-a/a04s.png"
+    },
+    "galaxy-a-10s": {
+        "title": "Galaxy A10s",
+        "photoUrl": "img/models/samsung/galaxy-a/a10s.png"
+    },
+    "galaxy-a-12": {
+        "title": "Galaxy A12",
+        "photoUrl": "img/models/samsung/galaxy-a/a12.png"
+    },
+    "galaxy-a-13": {
+        "title": "Galaxy A13",
+        "photoUrl": "img/models/samsung/galaxy-a/a13.png"
+    },
+    "galaxy-a-14-5g": {
+        "title": "Galaxy A14 5g",
+        "photoUrl": "img/models/samsung/galaxy-a/a14-5g.png"
+    },
+    "galaxy-a-21s": {
+        "title": "Galaxy A21s",
+        "photoUrl": "img/models/samsung/galaxy-a/a21s.png"
+    },
+    "galaxy-a-22-5g": {
+        "title": "Galaxy A22 5g",
+        "photoUrl": "img/models/samsung/galaxy-a/a22-5g.png"
+    },
+    "galaxy-a-23-5g": {
+        "title": "Galaxy A23 5g",
+        "photoUrl": "img/models/samsung/galaxy-a/a23-5g.png"
+    },
+    "galaxy-a-23": {
+        "title": "Galaxy A23",
+        "photoUrl": "img/models/samsung/galaxy-a/a23.png"
+    },
     "galaxy-a-24-4g": {
-        "title": "Galaxy A24 4g (SM-A245)",
-        "photoUrl": "img/models/samsung/galaxy-a/A24.jpg"
+        "title": "Galaxy A24 4g",
+        "photoUrl": "img/models/samsung/galaxy-a/a24-4g.png"
+    },
+    "galaxy-a-30s": {
+        "title": "Galaxy A30s",
+        "photoUrl": "img/models/samsung/galaxy-a/a30s.png"
+    },
+    "galaxy-a-31": {
+        "title": "Galaxy A31",
+        "photoUrl": "img/models/samsung/galaxy-a/a31.png"
+    },
+    "galaxy-a-32-4g": {
+        "title": "Galaxy A32-4g",
+        "photoUrl": "img/models/samsung/galaxy-a/a32-4g.png"
+    },
+    "galaxy-a-32-5g": {
+        "title": "Galaxy A32 5g",
+        "photoUrl": "img/models/samsung/galaxy-a/a32-5g.png"
+    },
+    "galaxy-a-33-5g": {
+        "title": "Galaxy A33 5g",
+        "photoUrl": "img/models/samsung/galaxy-a/a33-5g.png"
+    },
+    "galaxy-a-41": {
+        "title": "Galaxy A41",
+        "photoUrl": "img/models/samsung/galaxy-a/a41.png"
+    },
+    "galaxy-a-42": {
+        "title": "Galaxy A42",
+        "photoUrl": "img/models/samsung/galaxy-a/a42.png"
+    },
+    "galaxy-a-51-5g": {
+        "title": "Galaxy A51 5g",
+        "photoUrl": "img/models/samsung/galaxy-a/a51-5g.png"
+    },
+    "galaxy-a-51": {
+        "title": "Galaxy A51",
+        "photoUrl": "img/models/samsung/galaxy-a/a51.png"
+    },
+    "galaxy-a-52": {
+        "title": "Galaxy A52",
+        "photoUrl": "img/models/samsung/galaxy-a/a52.png"
+    },
+    "galaxy-a-52s": {
+        "title": "Galaxy A52s",
+        "photoUrl": "img/models/samsung/galaxy-a/a52s.png"
+    },
+    "galaxy-a-53-5g": {
+        "title": "Galaxy A53 5g",
+        "photoUrl": "img/models/samsung/galaxy-a/a53-5g.png"
+    },
+    "galaxy-a-54": {
+        "title": "Galaxy A54",
+        "photoUrl": "img/models/samsung/galaxy-a/a54.png"
+    },
+    "galaxy-a-71": {
+        "title": "Galaxy A71",
+        "photoUrl": "img/models/samsung/galaxy-a/a71.png"
+    },
+    "galaxy-a-72": {
+        "title": "Galaxy A72",
+        "photoUrl": "img/models/samsung/galaxy-a/a72.png"
+    },
+    "galaxy-a-73-5g": {
+        "title": "Galaxy A73 5g",
+        "photoUrl": "img/models/samsung/galaxy-a/a73-5g.png"
+    },
+    "galaxy-a-90": {
+        "title": "Galaxy A90",
+        "photoUrl": "img/models/samsung/galaxy-a/a90.png"
+    },
+    "iny-model": {
+        "title": "Iný model",
+        "photoUrl": "img/icons/android/iny-problem.png"
     }
 }
