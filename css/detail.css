@@ -44,7 +44,7 @@ bold {
     grid-area: price;
 }
 
-#detail-price::after {
+#detail-price.price-num::after {
     content: '€';
     margin-left: 5px;
 }
