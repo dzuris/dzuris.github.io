@@ -8,5 +8,10 @@
         "title": "Galaxy S",
         "photoUrl": "img/categories/galaxy-s.png",
         "hasSubmodels": true
+    },
+    "galaxy-note": {
+        "title": "Galaxy Note",
+        "photoUrl": "img/categories/galaxy-s.png",
+        "hasSubmodels": true
     }
 }
