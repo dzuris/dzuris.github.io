@@ -1,7 +1,27 @@
-[
-    {
-        "id": "mi-modely",
-        "title": "Mi modely",
-        "photoUrl": ""
+{
+    "mi": {
+        "title": "Mi",
+        "photoUrl": "img/categories/xiaomi-mi.png",
+        "hasSubmodels": true
+    },
+    "redmi": {
+        "title": "Redmi",
+        "photoUrl": "img/categories/xiaomi-redmi.png",
+        "hasSubmodels": true
+    },
+    "redmi-note": {
+        "title": "Redmi Note",
+        "photoUrl": "img/categories/xiaomi-redmi-note.png",
+        "hasSubmodels": true
+    },
+    "poco": {
+        "title": "Poco",
+        "photoUrl": "img/categories/xiaomi-poco.png",
+        "hasSubmodels": true
+    },
+    "ostatne": {
+        "title": "Ostatné",
+        "photoUrl": "img/categories/xiaomi-ostatne.png",
+        "hasSubmodels": true
     }
-]
+}
