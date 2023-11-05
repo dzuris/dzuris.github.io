@@ -1,0 +1,42 @@
+{
+    "mi-10-5g": {
+        "title": "Mi 10 5g",
+        "photoUrl": "img/models/xiaomi/mi/mi-10.png"
+    },
+    "mi-10-pro-5g": {
+        "title": "Mi 10 Pro 5g",
+        "photoUrl": "img/models/xiaomi/mi/mi-10-pro.png"
+    },
+    "mi-10T-lite": {
+        "title": "Mi 10T Lite",
+        "photoUrl": "img/models/xiaomi/mi/mi-10t-lite.png"
+    },
+    "mi-10T-pro": {
+        "title": "Mi 10T Pro",
+        "photoUrl": "img/models/xiaomi/mi/mi-10t-pro.png"
+    },
+    "mi-10T": {
+        "title": "Mi 10T",
+        "photoUrl": "img/models/xiaomi/mi/mi-10t.png"
+    },
+    "mi-11-lite": {
+        "title": "Mi 11 Lite",
+        "photoUrl": "img/models/xiaomi/mi/mi-11-lite.png"
+    },
+    "mi-11-ultra": {
+        "title": "Mi 11 Ultra",
+        "photoUrl": "img/models/xiaomi/mi/mi-11-ultra.png"
+    },
+    "mi-11": {
+        "title": "Mi 11",
+        "photoUrl": "img/models/xiaomi/mi/mi-11.png"
+    },
+    "mi-11i": {
+        "title": "Mi 11i",
+        "photoUrl": "img/models/xiaomi/mi/mi-11i.png"
+    },
+    "iny-model": {
+        "title": "Iný model",
+        "photoUrl": "img/icons/android/iny-problem.png"
+    }
+}

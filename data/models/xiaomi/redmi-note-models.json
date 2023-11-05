@@ -1,0 +1,70 @@
+{
+    "note-12-pro-plus": {
+        "title": "Redmi Note 12 Pro Plus",
+        "photoUrl": "img/models/xiaomi/mi/note-12-pro-plus.png"
+    },
+    "note-12-pro": {
+        "title": "Redmi Note 12 Pro",
+        "photoUrl": "img/models/xiaomi/mi/note-12-pro.png"
+    },
+    "note-12-explorer": {
+        "title": "Redmi Note 12 Explorer",
+        "photoUrl": "img/models/xiaomi/mi/note-12-explorer.png"
+    },
+    "note-12": {
+        "title": "Redmi Note 12",
+        "photoUrl": "img/models/xiaomi/mi/note-12.png"
+    },
+    "note-11t-pro-plus": {
+        "title": "Redmi Note 11T Pro Plus",
+        "photoUrl": "img/models/xiaomi/mi/note-11t-pro-plus.png"
+    },
+    "note-11t-pro": {
+        "title": "Redmi Note 11T Pro",
+        "photoUrl": "img/models/xiaomi/mi/note-11t-pro.png"
+    },
+    "note-11s": {
+        "title": "Redmi Note 11S",
+        "photoUrl": "img/models/xiaomi/mi/note-11s.png"
+    },
+    "note-11s-5g": {
+        "title": "Redmi Note 11S 5g",
+        "photoUrl": "img/models/xiaomi/mi/note-11s-5g.png"
+    },
+    "note-11-pro-plus-5g": {
+        "title": "Redmi Note 11 Pro Plus 5g",
+        "photoUrl": "img/models/xiaomi/mi/note-11-pro-plus.png"
+    },
+    "note-11-pro-5g": {
+        "title": "Redmi Note 11 Pro 5g",
+        "photoUrl": "img/models/xiaomi/mi/note-11-pro-5g.png"
+    },
+    "note-11e": {
+        "title": "Redmi Note 11E",
+        "photoUrl": "img/models/xiaomi/mi/note-11e.png"
+    },
+    "note-11": {
+        "title": "Redmi Note 11",
+        "photoUrl": "img/models/xiaomi/mi/note-11.png"
+    },
+    "note-10-pro-max": {
+        "title": "Redmi Note 10 Pro Max",
+        "photoUrl": "img/models/xiaomi/mi/note-10-pro-max.png"
+    },
+    "note-10-pro": {
+        "title": "Redmi Note 10 Pro",
+        "photoUrl": "img/models/xiaomi/mi/note-10-pro.png"
+    },
+    "note-10s": {
+        "title": "Redmi Note 10S",
+        "photoUrl": "img/models/xiaomi/mi/note-10s.png"
+    },
+    "note-10-5g": {
+        "title": "Redmi Note 10 5g",
+        "photoUrl": "img/models/xiaomi/mi/note-10-5g.png"
+    },
+    "iny-model": {
+        "title": "Iný model",
+        "photoUrl": "img/icons/android/iny-problem.png"
+    }
+}

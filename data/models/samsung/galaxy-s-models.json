@@ -1,7 +1,59 @@
 {
-    "galaxy-s-10-lite": {
-        "title": "Galaxy S10 lite",
-        "photoUrl": "img/models/samsung/galaxy-s/s10-lite.png"
+    "galaxy-s-23-ultra-5g": {
+        "title": "Galaxy S23 Ultra 5g",
+        "photoUrl": "img/models/samsung/galaxy-s/s23-ultra.png"
+    },
+    "galaxy-s-23-plus-5g": {
+        "title": "Galaxy S23+ 5g",
+        "photoUrl": "img/models/samsung/galaxy-s/s23-plus.png"
+    },
+    "galaxy-s-23-5g": {
+        "title": "Galaxy S23 5g",
+        "photoUrl": "img/models/samsung/galaxy-s/s23.png"
+    },
+    "galaxy-s-22-ultra": {
+        "title": "Galaxy S22 Ultra",
+        "photoUrl": "img/models/samsung/galaxy-s/s22-ultra.png"
+    },
+    "galaxy-s-22-plus": {
+        "title": "Galaxy S22+",
+        "photoUrl": "img/models/samsung/galaxy-s/s22-plus.png"
+    },
+    "galaxy-s-22": {
+        "title": "Galaxy S22",
+        "photoUrl": "img/models/samsung/galaxy-s/s22.png"
+    },
+    "galaxy-s-21-ultra-5g": {
+        "title": "Galaxy S21 Ultra 5g",
+        "photoUrl": "img/models/samsung/galaxy-s/s21-ultra.png"
+    },
+    "galaxy-s-21-plus-5g": {
+        "title": "Galaxy S21+",
+        "photoUrl": "img/models/samsung/galaxy-s/s21-plus.png"
+    },
+    "galaxy-s-21-FE-5g": {
+        "title": "Galaxy S21 FE 5g",
+        "photoUrl": "img/models/samsung/galaxy-s/s21-fe.png"
+    },
+    "galaxy-s-21-5g": {
+        "title": "Galaxy S21 5g",
+        "photoUrl": "img/models/samsung/galaxy-s/s21.png"
+    },
+    "galaxy-s-20-ultra": {
+        "title": "Galaxy S20 Ultra",
+        "photoUrl": "img/models/samsung/galaxy-s/s20-ultra.png"
+    },
+    "galaxy-s-20-plus": {
+        "title": "Galaxy S20+",
+        "photoUrl": "img/models/samsung/galaxy-s/s20-plus.png"
+    },
+    "galaxy-s-20-FE": {
+        "title": "Galaxy S20 FE",
+        "photoUrl": "img/models/samsung/galaxy-s/s20-fe.png"
+    },
+    "galaxy-s-20": {
+        "title": "Galaxy S20",
+        "photoUrl": "img/models/samsung/galaxy-s/s20.png"
     },
     "galaxy-s-10-plus": {
         "title": "Galaxy S10+",
@@ -15,60 +67,24 @@
         "title": "Galaxy S10e",
         "photoUrl": "img/models/samsung/galaxy-s/s10e.png"
     },
-    "galaxy-s-20-FE": {
-        "title": "Galaxy S20 FE",
-        "photoUrl": "img/models/samsung/galaxy-s/s20-fe.png"
+    "galaxy-s-10-lite": {
+        "title": "Galaxy S10 lite",
+        "photoUrl": "img/models/samsung/galaxy-s/s10-lite.png"
     },
-    "galaxy-s-20-plus": {
-        "title": "Galaxy S20+",
-        "photoUrl": "img/models/samsung/galaxy-s/s20-plus.png"
-    },
-    "galaxy-s-20-ultra": {
-        "title": "Galaxy S20 Ultra",
-        "photoUrl": "img/models/samsung/galaxy-s/s20-ultra.png"
-    },
-    "galaxy-s-20": {
-        "title": "Galaxy S20",
-        "photoUrl": "img/models/samsung/galaxy-s/s20.png"
-    },
-    "galaxy-s-21-5g": {
-        "title": "Galaxy S21 5g",
-        "photoUrl": "img/models/samsung/galaxy-s/s21.png"
-    },
-    "galaxy-s-21-FE-5g": {
-        "title": "Galaxy S21 FE 5g",
-        "photoUrl": "img/models/samsung/galaxy-s/s21-fe.png"
-    },
-    "galaxy-s-21-plus": {
-        "title": "Galaxy S21+",
-        "photoUrl": "img/models/samsung/galaxy-s/s21-plus.png"
-    },
-    "galaxy-s-21-ultra-5g": {
-        "title": "Galaxy S21 Ultra 5g",
-        "photoUrl": "img/models/samsung/galaxy-s/s21-ultra.png"
-    },
-    "galaxy-s-22-plus": {
-        "title": "Galaxy S22+",
-        "photoUrl": "img/models/samsung/galaxy-s/s22-plus.png"
-    },
-    "galaxy-s-22-ultra": {
-        "title": "Galaxy S22 Ultra",
-        "photoUrl": "img/models/samsung/galaxy-s/s22-ultra.png"
-    },
-    "galaxy-s-22": {
-        "title": "Galaxy S22",
-        "photoUrl": "img/models/samsung/galaxy-s/s22.png"
-    },
-    "galaxy-s-23-5g": {
-        "title": "Galaxy S23 5g",
-        "photoUrl": "img/models/samsung/galaxy-s/s23.png"
-    },
-    "galaxy-s-23-plus-5g": {
-        "title": "Galaxy S23+ 5g",
-        "photoUrl": "img/models/samsung/galaxy-s/s23-plus.png"
-    },
-    "galaxy-s-23-ultra-5g": {
-        "title": "Galaxy S23 Ultra 5g",
-        "photoUrl": "img/models/samsung/galaxy-s/s23-ultra.png"
+    "iny-model": {
+        "title": "Iný model",
+        "photoUrl": "img/icons/android/iny-problem.png"
     }
+
+
+
+
+
+
+
+
+
+ 
+
+
 }

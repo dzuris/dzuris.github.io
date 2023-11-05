@@ -73,7 +73,7 @@
     "tekutina": {
         "title": "Poškodenie tekutinou",
         "photoUrl": "img/icons/android/tekutina.png",
-        "price": 50,
+        "price": 40,
         "note": [
             "Aj keď je dnes už vačšina zariadení vodeodolných alebo vodotesných, stále môže dôjsť k situácií kedy sa do zariadenia dostane voda. Platí to aj pre zariadenia s vyšším stupňom ochrany.",
             "Oprava vhodná po priamom kontakte (zväčša pri celkovom ponorení) zariadenia s tekutinou",
@@ -116,8 +116,9 @@
     "inyproblem": {
         "title": "Iný problém",
         "photoUrl": "img/icons/android/iny-problem.png",
+        "price": 100,
         "note": [
-            "V prípade že máte so zariadením problém, ktorý nie ste schopný identifikovať alebo ste ho nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
+            "V časti služby sme vypísali iba poruchy, ktoré patria medzi najčastejšie. Ak však máte so zariadením problém, ktorý ste nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
         ]
     }
 }

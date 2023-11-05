@@ -1,0 +1,30 @@
+{
+    "galaxy-z-fold-4": {
+        "title": "Galaxy Z Fold 4",
+        "photoUrl": "img/models/samsung/galaxy-z/z-fold-4.png"
+    },
+    "galaxy-z-flip-4": {
+        "title": "Galaxy Z Flip 4",
+        "photoUrl": "img/models/samsung/galaxy-z/z-flip-4.png"
+    },
+    "galaxy-z-fold-3": {
+        "title": "Galaxy Z Fold 3",
+        "photoUrl": "img/models/samsung/galaxy-z/z-fold-3.png"
+    },
+    "galaxy-z-flip-3": {
+        "title": "Galaxy Z Flip 3",
+        "photoUrl": "img/models/samsung/galaxy-z/z-flip-3.png"
+    },
+    "galaxy-z-flip-5g": {
+        "title": "Galaxy Z Flip 5g",
+        "photoUrl": "img/models/samsung/galaxy-z/z-flip-5g.png"
+    },
+    "galaxy-z-fold": {
+        "title": "Galaxy Z Fold",
+        "photoUrl": "img/models/samsung/galaxy-z/z-fold.png"
+    },
+    "iny-model": {
+        "title": "Iný model",
+        "photoUrl": "img/icons/android/iny-problem.png"
+    }
+}

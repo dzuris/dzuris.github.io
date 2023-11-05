@@ -1,0 +1,34 @@
+{
+"galaxy-note-20-ultra": {
+    "title": "Galaxy Note 20 Ultra",
+    "photoUrl": "img/models/samsung/galaxy-note/note-20-ultra.png"
+},
+"galaxy-note-20": {
+    "title": "Galaxy Note 20",
+    "photoUrl": "img/models/samsung/galaxy-note/note-20.png"
+},
+"galaxy-note-10-plus": {
+    "title": "Galaxy Note 10+",
+    "photoUrl": "img/models/samsung/galaxy-note/note-10-plus.png"
+},
+"galaxy-note-10": {
+    "title": "Galaxy Note 10",
+    "photoUrl": "img/models/samsung/galaxy-note/note-10.png"
+},
+"galaxy-note-10-lite": {
+    "title": "Galaxy Note 10 Lite",
+    "photoUrl": "img/models/samsung/galaxy-note/note-10-lite.png"
+},
+"galaxy-note-9": {
+    "title": "Galaxy Note 9",
+    "photoUrl": "img/models/samsung/galaxy-note/note-9.png"
+},
+"galaxy-note-8": {
+    "title": "Galaxy Note 8",
+    "photoUrl": "img/models/samsung/galaxy-note/note-8.png"
+},
+"iny-model": {
+    "title": "Iný model",
+    "photoUrl": "img/icons/android/iny-problem.png"
+}
+}
