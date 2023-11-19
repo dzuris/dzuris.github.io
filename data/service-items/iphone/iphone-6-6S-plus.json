@@ -2,7 +2,7 @@
     "displej": {
         "title": "Výmena displeja",
         "photoUrl": "img/icons/5-8/displej.png",
-        "price": 99,
+        "price": 45,
         "for_waiting": true,
         "note": [
             "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
@@ -27,7 +27,7 @@
     "bateria": {
         "title": "Výmena batérie",
         "photoUrl": "img/icons/5-8/bateria.png",
-        "price": 100,
+        "price": 29,
         "for_waiting": true,
         "note": [
             "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť.",
@@ -53,7 +53,7 @@
     "nabijanie": {
         "title": "Nefunkčné nabíjanie",
         "photoUrl": "img/icons/5-8/charging.png",
-        "price": 100,
+        "price": 30,
         "for_waiting": true,
         "note": [
             "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné.",
@@ -63,7 +63,7 @@
     "housing": {
         "title": "Výmena zadného krytu",
         "photoUrl": "img/icons/X-12/housing.png",
-        "price": 100,
+        "price": 45,
         "note": [
             "Výmena vhodná ak máte poškriabaný, obúchaný alebo inak poškodený zadný kryt (housing) na vašom iPhone.",
             "Dĺžka opravy je približne <bold>5 hodín</bold>"
@@ -78,7 +78,7 @@
     "fotakpredny": {
         "title": "Výmena prednej kamery",
         "photoUrl": "img/icons/5-8/frontcam.png",
-        "price": 100,
+        "price": 25,
         "for_waiting": true,
         "note": [
             "Výmena je vhodná ak sa na zariadení nedá zapnúť predná kamera alebo je poškodená šošovka fotoaparátu, prípadne sa po spustení kamery zariadenie reštartuje alebo sa vráti na domovskú obrazovku.",
@@ -88,7 +88,7 @@
     "fotakzadny": {
         "title": "Výmena zadnej kamery",
         "photoUrl": "img/icons/5-8/fotakzadny.png",
-        "price": 100,
+        "price": 28,
         "for_waiting": true,
         "note": [
             "Výmena je vhodná ak zadná kamera nefunguje správne, zle zaostruje, na fotkách sa objavujú škvrny alebo kamera nefunguje vôbec, prípadne sa po spustení kamery zariadenie reštartuje alebo sa vráti na domovskú obrazovku.",
@@ -98,7 +98,7 @@
     "sklofotaku": {
         "title": "Výmena sklíčka zadnej kamery",
         "photoUrl": "img/icons/5-8/sklofotaku.png",
-        "price": 100,
+        "price": 20,
         "for_waiting": true,
         "note": [
             "Výmena je vhodná ak nastalo poškodenie sklíčka zadnej kamery. Kamera však funguje bezchybne alebo jej správemu fungovaniu bránia praskliny a črepiny z rozpitého sklíčka.",
@@ -110,7 +110,7 @@
     "sluchadlo": {
         "title": "Výmena slúchadla - nepočujem volajúceho",
         "photoUrl": "img/icons/5-8/sluchadlo.png",
-        "price": 100,
+        "price": 25,
         "for_waiting": true,
         "note": [
             "Výmena je vhodná ak pri hovore slabo počujete druhú stranu, slúchadlo šuští a rezonuje alebo nefunguje vôbec.",
@@ -126,7 +126,7 @@
     "mikrofon": {
         "title": "Výmena mikrofónu - nepočuť ma pri hovore",
         "photoUrl": "img/icons/5-8/mic.png",
-        "price": 100,
+        "price": 29,
         "for_waiting": true,
         "note": [
             "Výmena mikrofónu vhodná ak vás pri hovore druhá strana zle počuje, prípadne nepočuje vôbec, pri nahrávaní hlasových správ zvuk rezonuje, šuští alebo nie je nič počuť.",
@@ -146,7 +146,7 @@
     "reproduktor": {
         "title": "Výmena reproduktoru - nejde zvuk",
         "photoUrl": "img/icons/5-8/reprak.png",
-        "price": 100,
+        "price": 25,
         "for_waiting": true,
         "note": [
             "Výmena je vhodná ak reproduktor na zariadení vydáva nepríjemné zvuky, šuští, rezonuje prípadne vôbec nefunguje. V niektorých prípadoch pomôže aj vyčistenie otvoru reproduktora.",
@@ -156,7 +156,7 @@
     "hlasitost": {
         "title": "Výmena tlačidiel hlasitosti",
         "photoUrl": "img/icons/5-8/volume.png",
-        "price": 100,
+        "price": 25,
         "for_waiting": true,
         "note": [
             "Výmena vhodná ak máte problémy s klikaním tlačidiel hlasitosti alebo tlačidla stíšenia, tzv. silent button. Stláčaním tlačidiel sa hlasitosť nedá meniť, dá sa však meniť softvérovo napríklad v nataveniach telefónu",
@@ -166,7 +166,7 @@
     "zapinanie": {
         "title": "Výmena tlačidla zapínania",
         "photoUrl": "img/icons/5-8/powerbutt.png",
-        "price": 100,
+        "price": 25,
         "for_waiting": true,
         "note": [
             "Výmena vhodná ak máte problémy so zapnutím / vypnutím zariadenia alebo s klikaním tlačidla zapínania.",
@@ -176,7 +176,7 @@
     "vibrovanie": {
         "title": "Oprava vibrovania",
         "photoUrl": "img/icons/5-8/vibrating.png",
-        "price": 100,
+        "price": 25,
         "for_waiting": true,
         "note": [
             "Oprava vhodná ak vaše zariadenie prestalo vibrovať alebo vibruje iba občas.",
@@ -186,7 +186,7 @@
     "wifi": {
         "title": "Oprava wifi antény",
         "photoUrl": "img/icons/5-8/wifi.png",
-        "price": 100,
+        "price": 20,
         "for_waiting": true,
         "note": [
             "Oprava vhodná ak máte problémy s pripojením na wifi sieť, s rýchlosťou pripojenia alebo s vyhľadaním wifi siete",
@@ -196,7 +196,7 @@
     "proximity": {
         "title": "Výmena proximity senzora",
         "photoUrl": "img/icons/5-8/proximity.png",
-        "price": 100,
+        "price": 25,
         "for_waiting": true,
         "note": [
             "Výmena je vhodná ak vaše zariadenie počas hovoru a následného priloženia k uchu nazhasne (ostane svietiť) alebo ak na zariadení nefunguje funkcia automatického jasu.",
@@ -206,7 +206,7 @@
     "softver": {
         "title": "Prehratie softvéru",
         "photoUrl": "img/icons/5-8/prehratie-softveru.png",
-        "price": 100,
+        "price": 20,
         "for_waiting": true,
         "note": [
             "Oprava vhodná pri problémoch so softvérom na vašom zariadení spojených s častými výpadkami aplikácií, reštartovaním telefónu a podobne. Taktiež pomáha pri problémoch s aktualizáciami softvéru, prípadne vtedy ak sa zariadenie pri aktualizácií zasekne. Ak zariadenie nejde zapnúť, svieti iba logo alebo sa objavuje hláška 'iphone je deaktivovaný' / 'iphone is disabled'",
@@ -226,7 +226,7 @@
     "tekutina": {
         "title": "Poškodenie tekutinou",
         "photoUrl": "img/icons/5-8/tekutina.png",
-        "price": 100,
+        "price": 30,
         "note": [
             "Oprava vhodná po priamom kontakte (zväčša pri celkovom ponorení) zariadenia s tekutinou",
             "Po vytopení je nutné telefón čo najskôr vysušiť a vyčistiť od oxidácie. Sušenie v domácich podmienkach (vloženie telefónu do vrecka s ryžou a pod.) je neúčinné, telefón je potrebné čo najskôr odborne vyčistiť. ",
@@ -268,7 +268,6 @@
     "inyproblem": {
         "title": "Iný problém",
         "photoUrl": "img/icons/5-8/iny-problem.png",
-        "price": 100,
         "note": [
             "V prípade že máte so zariadením problém, ktorý nie ste schopný identifikovať alebo ste ho nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
         ]
