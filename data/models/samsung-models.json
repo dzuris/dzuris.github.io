@@ -8,5 +8,20 @@
         "title": "Galaxy S",
         "photoUrl": "img/categories/galaxy-s.png",
         "hasSubmodels": true
+    },
+    "galaxy-note": {
+        "title": "Galaxy Note",
+        "photoUrl": "img/categories/galaxy-note.png",
+        "hasSubmodels": true
+    },
+    "galaxy-m": {
+        "title": "Galaxy M",
+        "photoUrl": "img/categories/galaxy-m.png",
+        "hasSubmodels": true
+    },
+    "galaxy-z": {
+        "title": "Galaxy Z",
+        "photoUrl": "img/categories/galaxy-z.png",
+        "hasSubmodels": true
     }
 }

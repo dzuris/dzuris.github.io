@@ -1,23 +1,23 @@
 {
     "redmi-10": {
         "title": "Redmi 10",
-        "photoUrl": "img/models/xiaomi/mi/redmi-10.png"
+        "photoUrl": "img/models/xiaomi/redmi/redmi-10.png"
     },
     "redmi-10-2022": {
         "title": "Redmi 10 2022",
-        "photoUrl": "img/models/xiaomi/mi/redmi-10-2022.png"
+        "photoUrl": "img/models/xiaomi/redmi/redmi-10-2022.png"
     },
     "redmi-9": {
         "title": "Redmi 9",
-        "photoUrl": "img/models/xiaomi/mi/redmi-9.png"
+        "photoUrl": "img/models/xiaomi/redmi/redmi-9.png"
     },
     "redmi-9T": {
         "title": "Redmi 9T",
-        "photoUrl": "img/models/xiaomi/mi/redmi-9t.png"
+        "photoUrl": "img/models/xiaomi/redmi/redmi-9t.png"
     },
     "redmi-9AT": {
         "title": "Redmi 9AT",
-        "photoUrl": "img/models/xiaomi/mi/redmi-9at.png"
+        "photoUrl": "img/models/xiaomi/redmi/redmi-9at.png"
     },
     "iny-model": {
         "title": "Iný model",
