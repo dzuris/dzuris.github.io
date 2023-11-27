@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("header-menu").innerHTML= `<div id="menu-top-info">
+    document.getElementById("header-menu").innerHTML= `
+<div id="menu-top-info">
     <div class="contacts">
         <span class="phone"><a href="tel:+421911528064"><i class="fas fa-phone-square-alt"></i>0911 528 064</a></span>
         <span class="mail"><a href="mailto:mobilflex@mobilflex.sk">mobilflex@mobilflex.sk</a></span>

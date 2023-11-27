@@ -1,0 +1,79 @@
+#menu-top-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#menu-top-info .contacts {
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+}
+
+#menu-top-info .networks {
+    display: flex;
+    gap: 10px;
+}
+
+#menu-top-info .networks i {
+    color: var(--primary-color);
+}
+
+#menu-top-info .networks i:hover {
+    color: var(--button-hover);
+    transition-duration: var(--animation-delay);
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#menu .logo img {
+    width: 400px;
+}
+
+#menu ul {
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+#menu nav {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.search-form input {
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.search-form input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.search-form input[type="submit"]:hover {
+    background-color: var(--primary-color-dark);
+    cursor: pointer;
+    transition-duration: var(--animation-delay);
+}
+
+.search-form input[type="submit"]:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
