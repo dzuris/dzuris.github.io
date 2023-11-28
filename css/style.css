@@ -31,6 +31,7 @@
     background-color: var(--background-color);
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 html {
@@ -274,6 +275,7 @@ footer .contacts {
 
 hr {
     border-color: black;
+    margin-bottom: 10px;
 }
 
 #license {
