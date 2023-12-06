@@ -116,13 +116,12 @@ footer > * {
 
 #header-title h1 {
     font-size: 2.5rem;
-    width: 20%;
-    text-align: end;
+    /* width: 20%; */
+    text-align: center;
 }
 
 #header-title img {
-    max-width: 100%;
-    height: 60%;
+    width: 40%;
 }
 
 /* #endregion */
@@ -286,40 +285,20 @@ hr {
 
 /* #endregion */
 
-/* Tablets */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    #header-menu nav {
-        display: none;
+/* Laptops */
+/* @media only screen and (min-width: 550px) and (max-width: 1024px) {
+    #header-title img {
+        width: 60%;
     }
-
-    #header-menu .logo img {
-        width: 300px;
-    }
-
-    #header-title h1 {
-        font-size: x-large;
-    }
-}
+} */
 
 /* Smartphones */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
     /* #region Header section */
 
-    #header-menu .logo img {
-        width: 200px;
-    }
-
-    #header-menu nav {
-        display: none;
-    }
-
-    #search-bar {
-        display: none;
-    }
-
     #header-title img {
-        height: 40%;
+        width: 60%;
     }
 
     #header-title h1 {
@@ -328,15 +307,14 @@ hr {
         font-size: x-large;
     }
 
+    #header-title h1 {
+        font-size: x-large;
+    }
+
     #header {
         grid-template-areas: 
             "menu menu"
             "header_title header_title";
-    }
-
-    #side-menu {
-        display: none;
-        visibility: hidden;
     }
 
     /* #endregion */
@@ -377,22 +355,6 @@ hr {
 
 @media only screen and (max-width: 550px) {
 
-    #header-menu .networks {
-        display: none;
-    }
-
-    #menu-top-info .contacts {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #menu form {
-        display: none;
-        visibility: hidden;
-    }
-
     #header-title {
         display: flex;
         flex-direction: column;
@@ -401,6 +363,10 @@ hr {
 
     #header-title h1 {
         width: fit-content;
+    }
+
+    #header-title img {
+        width: 70%;
     }
 
     .category-item {

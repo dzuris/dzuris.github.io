@@ -77,3 +77,52 @@
     background-color: gray;
     cursor: not-allowed;
 }
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #header-menu nav {
+        display: none;
+    }
+
+    #header-menu .logo img {
+        width: 300px;
+    }
+}
+
+/* Smartphones */
+@media only screen and (max-width: 768px) {
+
+    #menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    #header-menu nav {
+        display: none;
+    }
+
+    #search-bar {
+        display: none;
+    }
+}
+
+/* Smaller phones */
+@media only screen and (max-width: 550px) {
+
+    #header-menu .networks {
+        display: none;
+    }
+
+    #menu-top-info .contacts {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #menu form {
+        display: none;
+        visibility: hidden;
+    }
+}
