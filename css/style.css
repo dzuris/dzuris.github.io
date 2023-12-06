@@ -30,8 +30,9 @@
 
     background-color: var(--background-color);
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Antonio', sans-serif;
 }
 
 html {
@@ -41,6 +42,10 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+main {
+    padding-top: 35px;
 }
 
 h2 {
@@ -59,11 +64,13 @@ a:hover {
 }
 
 input {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Antonio', sans-serif;
 }
 
 button {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Antonio', sans-serif;
 }
 
 .heading {
