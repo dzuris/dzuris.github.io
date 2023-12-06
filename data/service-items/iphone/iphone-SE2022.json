@@ -4,10 +4,8 @@
         "photoUrl": "img/icons/5-8/displej.png",
         "price": 99,
         "for_waiting": true,
-        "note": [
-            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
-        ],
+        "time": "60 minút",
+        "note": "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
         "detail_desc": [
             {
                 "cat": 1,
