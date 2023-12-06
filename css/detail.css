@@ -25,7 +25,7 @@ bold {
 .detail-body-bg {
     background-color: var(--secondary-color);
     padding: 50px 0;
-    margin: 50px 0;
+    margin: 30px 0;
     transform: skew(0deg, -2deg);
 }
 
