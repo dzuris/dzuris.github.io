@@ -78,13 +78,9 @@ function fetch_detail(category_id, model_id, submodel_id, service_id) {
                 }
                 priceElement.textContent = item.price;
 
-                // Price without tax
-                if (isNaN(item.price) || item.price === '') {
-                    var priceWithoutTaxElement = document.getElementById("detail-price-no-tax");
-                    priceWithoutTaxElement.classList.add("no-price");
-                } else {
-                    var price_without_tax = item.price * 5 / 6;
-                    setTextContentById("detail-price-no-tax-num", price_without_tax.toFixed(2));
+                // Time
+                if (item.time) {
+                    setTextContentById("detail-time", item.time);
                 }
 
                 // Info banner price
@@ -99,20 +95,7 @@ function fetch_detail(category_id, model_id, submodel_id, service_id) {
                 }
 
                 // Brief note
-                if (Array.isArray(item.note) && item.note.length > 0) {
-                    // note is a list
-                    var detail_note_element = document.getElementById("detail-note");
-                    var ul = document.createElement("ul");
-                    ul.classList.add("list-detail")
-                    item.note.forEach((note_item) => {
-                        var li = document.createElement("li");
-                        li.innerHTML = note_item;
-
-                        ul.appendChild(li);
-                    });
-                    detail_note_element.appendChild(ul);
-                } else if (typeof item.note === "string" && item.note.trim() !== "") {
-                    // note is a string
+                if (item.note) {
                     setTextContentById("detail-note", item.note);
                 }
 

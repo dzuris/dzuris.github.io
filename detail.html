@@ -27,23 +27,34 @@
         <div id="header-menu"></div>
     </header>
     <main>
-        <div class="header-title-with-model">
+        <div class="container header-title-with-model">
             <h2 id="service-name"></h2>
             <h2 id="model-name"></h2>
         </div>
-        <div class="detail-body">
-            <img id="detail-img" src="" alt="Service detail image">
-            <h2 id="detail-price"></h2>
-            <div id="detail-price-no-tax">
-                <span id="detail-price-no-tax-num"></span>
-                <span>bez DPH</span>
+
+        <div class="detail-body-bg">
+            <div class="container detail-body">
+                <img id="detail-img" src="" alt="Service detail image">
+                <div id="detail-info">
+                    <h3 id="detail-note"></h3>
+                    <p id="detail-waiting"></p>
+                    <div id="detail-price-time-container">
+                        <div class="pt">
+                            <img src="img/icons/price.png" alt="Price pictogram">
+                            <p id="detail-price">?</p>
+                        </div>
+                        <div class="pt">
+                            <img src="img/icons/time.png" alt="Time pictogram">
+                            <p id="detail-time">?</p>
+                        </div>
+                    </div>
+                    <p id="detail-servis-info">🛠️ Cena zahŕňa náhradný diel a prácu servisného technika.</p>
+                </div>
             </div>
-            <p id="detail-servis-info">🛠️ Cena zahŕňa náhradný diel a prácu servisného technika.</p>
-            <p id="detail-waiting"></p>
-            <p id="detail-note"></p>
         </div>
-        <div class="detailed-description">
-            <h3>Podrobný popis</h3>
+          
+        <div class="container detailed-description">
+            <h2>Podrobný popis</h2>
             <p id="detailed-description-text"></p>
         </div>
     </main>

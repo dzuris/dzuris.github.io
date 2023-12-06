@@ -4,7 +4,7 @@
 
 main {
     min-height: 85vh;
-    padding: 15px;
+    margin-top: 30px;
 }
 
 bold {
@@ -22,26 +22,70 @@ bold {
     margin-right: 15px;
 }
 
+.detail-body-bg {
+    background-color: var(--secondary-color);
+    padding: 50px 0;
+    margin: 50px 0;
+    transform: skew(0deg, -2deg);
+}
+
 .detail-body {
-    margin-top: 30px;
-    display: grid;
-    grid-template-rows: auto auto auto auto 1fr;
-    grid-template-columns: auto 1fr;
-    grid-template-areas: 
-        "img price"
-        "img price-without-tax"
-        "img servis-info"
-        "img waiting"
-        "img note";
+    display: flex;
+    flex-direction: row;
+    transform: skew(0deg, 2deg);
 }
 
-.detail-body img {
-    grid-area: img;
+#detail-img {
     height: 50vh;
+    margin-right: 50px;
 }
 
-#detail-price {
-    grid-area: price;
+#detail-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 3px solid black;
+    gap: 15px;
+    padding: 15px;
+}
+
+#detail-info > p, h3 {
+    text-align: center;
+}
+
+#detail-info h3 {
+    max-width: 70%;
+    margin: 0;
+}
+
+#detail-price-time-container {
+    width: fit-content;
+    padding: 0 70px;
+    background-color: var(--primary-color);
+    border-radius: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pt {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pt>img {
+    width: 64px;
+    height: 64px;
+    align-self: center;
+}
+
+.pt>p {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: center;
 }
 
 #detail-price.price-num::after {
@@ -49,38 +93,26 @@ bold {
     margin-left: 5px;
 }
 
-#detail-price-no-tax {
-    grid-area: price-without-tax;
-    font-size: medium;
-    color: var(--text-not-important);
-}
-
-#detail-price-no-tax-num::after {
-    content: '€';
-    margin-left: 2px;
-}
-
 .no-price {
     display: none;
 }
 
 #detail-servis-info {
-    grid-area: servis-info;
     color: var(--text-not-important);
 }
 
 #detail-waiting {
-    grid-area: waiting;
     color: var(--valid-color);
     font-size: larger;
 }
 
-#detail-note {
-    grid-area: note;
-}
-
 #detail-note p {
     margin: 0;
+}
+
+.detailed-description {
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 #detailed-description-text {
@@ -100,8 +132,9 @@ bold {
 
 #detailed-description-text figcaption {
     font-weight: bold;
-    font-size: larger;
+    font-size: large;
     color: var(--text-list-title-color);
+    margin-bottom: 15px;
 }
 
 ul.list-detail {
@@ -117,6 +150,7 @@ ul.list-detail {
 }
 
 .list-detail li::before {
+    margin-left: 15px;
     content: '>';
     color: var(--primary-color);
     font-weight: bold;
@@ -131,17 +165,6 @@ ul.list-detail {
 }
 
 @media only screen and (max-width: 768px) {
-    .detail-body {
-        grid-template-areas: 
-        "img price"
-        "img price-without-tax"
-        "img servis-info"
-        "img waiting"
-        "note note";
-    }
-}
-
-@media only screen and (max-width: 550px) {
 
     h2 {
         text-align: center;
@@ -161,5 +184,23 @@ ul.list-detail {
     #model-name {
         color: var(--text-not-important);
         font-size: large;
+    }
+
+    #detail-price-time-container {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    #detail-img {
+        display: none;
+    }
+
+    #detail-info {
+        border: none;
+    }
+
+    #detail-price-time-container {
+        flex-direction: row;
     }
 }

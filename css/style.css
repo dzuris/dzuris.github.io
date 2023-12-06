@@ -23,7 +23,7 @@
     --secondary-color-dark: rgb(151, 226, 255);
     --secondary-color-light: #daf4ff;
 
-    --max-page-width: 1280px;
+    --max-page-width: 1320px;
     --max-width-containers-with-items: 1200px;
 
     --animation-delay: 0.5s;
@@ -92,11 +92,6 @@ header {
     max-width: var(--max-page-width);
     margin: 0 auto;
     padding: 0 15px;
-}
-
-main {
-    max-width: var(--max-page-width);
-    margin: 0 auto;
 }
 
 footer > * {
@@ -420,5 +415,45 @@ hr {
 @media only screen and (max-width: 400px) {
     footer .logo img {
         width: 100%;
+    }
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* X-Large container */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large container */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Medium container */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Small container */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* Extra small container */
+@media only screen and (max-width: 575px) {
+    .container {
+        max-width: 100%;
     }
 }
