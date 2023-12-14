@@ -3,6 +3,94 @@
  * Authors: Adam Dzurilla
  */
 
+/* #region Font */
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-DemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-DemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-ExtraBold.otf') format('opentype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-ExtraBoldItalic.otf') format('opentype');
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-ExtraLight.otf') format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-ExtraLightItalic.otf') format('opentype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interface;
+    src: url('../fonts/ttinterfaces/TTInterfaces-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* #endregion */
+
 :root {
     --background-color: #EBFEFF;
     --primary-color: #3691FF;
@@ -27,12 +115,14 @@
     --max-width-containers-with-items: 1200px;
 
     --animation-delay: 0.5s;
+    --font-family: TT-interface, 'sans-serif';
 
     background-color: var(--background-color);
     height: 100%;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Antonio', sans-serif;
+    /* font-family: 'Antonio', sans-serif; */
+    font-family: var(--font-family);
 }
 
 html {
@@ -64,13 +154,11 @@ a:hover {
 }
 
 input {
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Antonio', sans-serif;
+    font-family: var(--font-family);
 }
 
 button {
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Antonio', sans-serif;
+    font-family: var(--font-family);
 }
 
 .heading {
@@ -101,7 +189,7 @@ header {
     padding: 0 15px;
 }
 
-footer > * {
+footer>* {
     max-width: var(--max-page-width);
     margin: 0 auto;
 }
@@ -198,7 +286,7 @@ footer > * {
 
 #contact iframe {
     border-radius: 15px;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.15);
 }
 
 #contact-info {
@@ -319,7 +407,7 @@ hr {
     }
 
     #header {
-        grid-template-areas: 
+        grid-template-areas:
             "menu menu"
             "header_title header_title";
     }
