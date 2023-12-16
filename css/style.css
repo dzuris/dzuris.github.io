@@ -115,13 +115,13 @@
     --max-width-containers-with-items: 1200px;
 
     --animation-delay: 0.5s;
-    --font-family: TT-interfaces, 'sans-serif';
-
+    
     background-color: var(--background-color);
     height: 100%;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
     /* font-family: 'Antonio', sans-serif; */
+    --font-family: TT-interfaces, 'sans-serif';
     font-family: var(--font-family);
 }
 
@@ -289,13 +289,6 @@ hr {
 }
 
 /* #endregion */
-
-/* Laptops */
-/* @media only screen and (min-width: 550px) and (max-width: 1024px) {
-    #header-title img {
-        width: 60%;
-    }
-} */
 
 /* Smartphones */
 @media only screen and (max-width: 768px) {
