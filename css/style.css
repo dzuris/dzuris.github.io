@@ -161,6 +161,10 @@ button {
     font-family: var(--font-family);
 }
 
+.hidden {
+    display: none;
+}
+
 .heading {
     display: flex;
     flex-direction: column;
@@ -382,6 +386,9 @@ hr {
     }
 }
 
+
+/* #region Container */
+
 .container {
     max-width: 1320px;
     margin: 0 auto;
@@ -421,3 +428,5 @@ hr {
         max-width: 100%;
     }
 }
+
+/* #endregion */
