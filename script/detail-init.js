@@ -139,6 +139,10 @@ function fetch_detail(category_id, model_id, submodel_id, service_id) {
                     // detail description is a string
                     setTextContentById("detailed-description-text", detailDesc);
                 }
+                else {
+                    var detail_desc_container = document.getElementById("detail-desc-container");
+                    detail_desc_container.classList.add("hidden");
+                }
             } else {
                 console.log("Item " + service_id + " not found.");
             }

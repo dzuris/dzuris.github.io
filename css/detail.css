@@ -26,6 +26,7 @@ bold {
     background-color: var(--secondary-color);
     padding: 50px 0;
     margin: 30px 0;
+    margin-bottom: 150px;
     transform: skew(0deg, -2deg);
 }
 
@@ -68,6 +69,7 @@ bold {
     flex-direction: row;
     justify-content: center;
     gap: 50px;
+    margin: 20px 0;
 }
 
 .pt {
@@ -99,12 +101,22 @@ bold {
 }
 
 #detail-servis-info {
+    font-size: small;
+    font-style: italic;
     color: var(--text-not-important);
+}
+
+.availability-texts {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: larger;
+    font-weight: 300;
 }
 
 #detail-waiting {
     color: var(--valid-color);
-    font-size: larger;
+    font-weight: 400;
 }
 
 #detail-note p {
