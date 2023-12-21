@@ -5,9 +5,8 @@
 /* #region Why Us */
 
 #whyUs {
-    padding: 150px 0;
-    margin: 100px 0;
-    background-color: var(--secondary-color);
+    padding: 150px 5px;
+    margin-bottom: 100px;
 }
 
 .whyUsContainer {
@@ -159,3 +158,11 @@
 }
 
 /* #endregion */
+
+@media only screen and (max-width: 768px) {
+
+    .whyUsContainer {
+        grid-template-columns: 1fr;
+    }
+
+}

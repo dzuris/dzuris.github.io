@@ -95,6 +95,7 @@
     --background-color: #EBFEFF;
     --primary-color: #3691FF;
     --secondary-color: #C3EDFF;
+    --third-color: #8BDBEC;
     --footer-background: var(--secondary-color);
     --list-item-background: white;
     --list-item-hover-background: rgb(242, 242, 242);
@@ -196,6 +197,14 @@ header {
 footer>* {
     max-width: var(--max-page-width);
     margin: 0 auto;
+}
+
+.bg {
+    background-color: var(--background-color);
+}
+
+.bg-third-color {
+    background-color: var(--third-color);
 }
 
 /* #region Header */
@@ -390,6 +399,7 @@ hr {
 /* #region Container */
 
 .container {
+    padding: 5px 0;
     max-width: 1320px;
     margin: 0 auto;
 }
