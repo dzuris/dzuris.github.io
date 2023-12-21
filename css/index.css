@@ -2,6 +2,66 @@
     min-height: 100vh;
 }
 
+/* #region Why Us */
+
+#whyUs {
+    padding: 150px 0;
+    margin: 100px 0;
+    background-color: var(--secondary-color);
+}
+
+.whyUsContainer {
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 40% 40%;
+    gap: 25px;
+    column-gap: 70px;
+}
+
+.whyUsItem {
+    display: grid;
+    column-gap: 15px;
+    grid-template-areas: 
+        "img title"
+        "img text";
+}
+
+.whyUsItem img {
+    grid-area: img;
+    width: 48px;
+    height: 48px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.whyUsItem h3 {
+    grid-area: title;
+    margin: 10px 0;
+}
+
+.whyUsItem p {
+    grid-area: text;
+}
+
+.bg-pink {
+    background-color: #E9D0D0;
+}
+
+.bg-green {
+    background-color: #C2EBA8;
+}
+
+.bg-yellow {
+    background-color: #E7E99D;
+}
+
+.bg-blue {
+    background-color: #83B9EB;
+}
+
+/* #endregion */
+
 /* #region Categories */
 
 #services {
