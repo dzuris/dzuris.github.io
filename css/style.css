@@ -184,10 +184,6 @@ button {
     text-align: center;
 }
 
-.contacts i {
-    margin-right: 5px;
-}
-
 header {
     max-width: var(--max-page-width);
     margin: 0 auto;
@@ -201,6 +197,10 @@ footer>* {
 
 .bg {
     background-color: var(--background-color);
+}
+
+.bg-secondary-color {
+    background-color: var(--secondary-color);
 }
 
 .bg-third-color {
@@ -399,7 +399,6 @@ hr {
 /* #region Container */
 
 .container {
-    padding: 5px 0;
     max-width: 1320px;
     margin: 0 auto;
 }
