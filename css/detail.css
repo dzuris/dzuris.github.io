@@ -115,7 +115,6 @@ bold {
 }
 
 #detail-waiting {
-    color: var(--valid-color);
     font-weight: 400;
 }
 

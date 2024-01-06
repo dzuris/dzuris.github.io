@@ -207,6 +207,14 @@ footer>* {
     background-color: var(--third-color);
 }
 
+.valid-color {
+    color: var(--valid-color);
+}
+
+.invalid-color {
+    color: var(--invalid-color);
+}
+
 /* #region Header */
 
 #header {
