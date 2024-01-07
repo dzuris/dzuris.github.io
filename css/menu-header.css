@@ -118,6 +118,10 @@
 /* Smaller phones */
 @media only screen and (max-width: 550px) {
 
+    #menu .logo img {
+        width: 300px;
+    }
+
     #header-menu .networks {
         display: none;
     }
