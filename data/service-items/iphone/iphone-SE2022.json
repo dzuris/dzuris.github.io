@@ -4,10 +4,8 @@
         "photoUrl": "img/icons/5-8/displej.png",
         "price": 50,
         "for_waiting": true,
-        "note": [
-            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
-        ],
+        "time": "60 minút",
+        "note": "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
         "detail_desc": [
             {
                 "cat": 1,
@@ -40,7 +38,7 @@
             },
             {
                 "cat": 2,
-                "title": "Kedy je potrebné betériu vymeniť?:",
+                "title": "Kedy je potrebné batériu vymeniť?:",
                 "points": [
                     "Výdrž batérie je menšia ako keď bol telefón nový",
                     "Telefón sa veľmi rýchlo vybíja, vydrží menej ako deň aktívneho používania",

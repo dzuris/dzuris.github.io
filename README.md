@@ -22,4 +22,4 @@ Webová stránka založená na HTML, CSS a JavaScript technológiach.
 2. Pravým tlačidlo štiknúť na súbor "index.html" a zvoliť "Open with Live Server"
 3. Stránka by sa mala otvoriť v prehliadači
 
-Ak stránka nebude otvorená cez lokálny server, stránka nebude schopná načítať dáta z json súborov
+Ak stránka nebude otvorená cez lokálny server, nebude schopná načítať dáta z json súborov

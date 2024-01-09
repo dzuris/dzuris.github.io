@@ -28,3 +28,32 @@ main {
     font-size: large;
     text-align: center;
 }
+
+.category-item {
+    width: 140px;
+    background-color: var(--list-item-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+    border: 1px black solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.category-item:hover {
+    background-color: var(--list-item-hover-background);
+    transition: transform var(--animation-delay) ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.category-item img {
+    max-width: min-content;
+    height: 140px;
+}
+
+.category-item span {
+    text-align: center;
+}

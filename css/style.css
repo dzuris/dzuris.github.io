@@ -3,10 +3,99 @@
  * Authors: Adam Dzurilla
  */
 
+/* #region Font */
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-BoldItalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-DemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-DemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-ExtraBold.otf') format('opentype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-ExtraBoldItalic.otf') format('opentype');
+    font-weight: bolder;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-ExtraLight.otf') format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-ExtraLightItalic.otf') format('opentype');
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TT-interfaces;
+    src: url('../fonts/ttinterfaces/TTInterfaces-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* #endregion */
+
 :root {
     --background-color: #EBFEFF;
     --primary-color: #3691FF;
     --secondary-color: #C3EDFF;
+    --third-color: #8BDBEC;
     --footer-background: var(--secondary-color);
     --list-item-background: white;
     --list-item-hover-background: rgb(242, 242, 242);
@@ -23,14 +112,18 @@
     --secondary-color-dark: rgb(151, 226, 255);
     --secondary-color-light: #daf4ff;
 
-    --max-page-width: 1280px;
+    --max-page-width: 1320px;
     --max-width-containers-with-items: 1200px;
 
     --animation-delay: 0.5s;
-
+    
     background-color: var(--background-color);
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Antonio', sans-serif; */
+    --font-family: TT-interfaces, 'sans-serif';
+    font-family: var(--font-family);
 }
 
 html {
@@ -40,6 +133,10 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+main {
+    padding-top: 35px;
 }
 
 h2 {
@@ -58,11 +155,15 @@ a:hover {
 }
 
 input {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
 }
 
 button {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-family);
+}
+
+.hidden {
+    display: none;
 }
 
 .heading {
@@ -83,24 +184,35 @@ button {
     text-align: center;
 }
 
-.contacts i {
-    margin-right: 5px;
-}
-
 header {
     max-width: var(--max-page-width);
     margin: 0 auto;
     padding: 0 15px;
 }
 
-main {
+footer>* {
     max-width: var(--max-page-width);
     margin: 0 auto;
 }
 
-footer > * {
-    max-width: var(--max-page-width);
-    margin: 0 auto;
+.bg {
+    background-color: var(--background-color);
+}
+
+.bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+
+.bg-third-color {
+    background-color: var(--third-color);
+}
+
+.valid-color {
+    color: var(--valid-color);
+}
+
+.invalid-color {
+    color: var(--invalid-color);
 }
 
 /* #region Header */
@@ -108,81 +220,6 @@ footer > * {
 #header {
     display: flex;
     flex-direction: column;
-}
-
-#menu-top-info {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-}
-
-#menu-top-info .contacts {
-    font-weight: bold;
-    display: flex;
-    gap: 15px;
-}
-
-#menu-top-info .networks {
-    display: flex;
-    gap: 10px;
-}
-
-#menu-top-info .networks i {
-    color: var(--primary-color);
-}
-
-#menu-top-info .networks i:hover {
-    color: var(--button-hover);
-    transition-duration: var(--animation-delay);
-}
-
-#menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--secondary-color);
-    border-radius: 15px;
-    padding: 15px;
-}
-
-#menu .logo img {
-    width: 400px;
-}
-
-#menu ul {
-    padding: 0;
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-
-.search-form {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.search-form input {
-    padding: 10px;
-    border: 0;
-    border-radius: 3px;
-}
-
-.search-form input[type="submit"] {
-    background-color: var(--primary-color);
-    color: white;
-}
-
-.search-form input[type="submit"]:hover {
-    background-color: var(--primary-color-dark);
-    cursor: pointer;
-    transition-duration: var(--animation-delay);
-}
-
-.search-form input[type="submit"]:disabled {
-    background-color: gray;
-    cursor: not-allowed;
 }
 
 #header-title {
@@ -195,102 +232,11 @@ footer > * {
 
 #header-title h1 {
     font-size: 2.5rem;
-    width: 20%;
-    text-align: end;
-}
-
-#header-title img {
-    max-width: 100%;
-    height: 60%;
-}
-
-/* #endregion */
-
-/* #region Categories */
-
-#services {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#services .heading {
-    margin-bottom: 50px;
-}
-
-#categories {
-    max-width: 700px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 25px;
-    justify-content: center;
-}
-
-.category-item {
-    width: 140px;
-    background-color: var(--list-item-background);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    padding: 25px;
-    border: 1px black solid;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-}
-
-.category-item:hover {
-    background-color: var(--list-item-hover-background);
-    transition: transform var(--animation-delay) ease-in-out;
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
-.category-item img {
-    max-width: min-content;
-    height: 140px;
-}
-
-.category-item span {
     text-align: center;
 }
 
-/* #endregion */
-
-/* #region Contact */
-
-#contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 150px 0;
-    gap: 50px;
-}
-
-#contact iframe {
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.15);
-}
-
-#contact-info {
-    background-color: var(--contact-info-background);
-    color: white;
-    padding: 25px;
-    border-radius: 10px;
-}
-
-#contact-info a {
-    color: white;
-}
-
-#contact-info a:hover {
-    color: var(--primary-color);
-}
-
-#contact-info td {
-    padding-right: 15px;
+#header-title img {
+    width: 40%;
 }
 
 /* #endregion */
@@ -349,6 +295,7 @@ footer .contacts {
 
 hr {
     border-color: black;
+    margin-bottom: 10px;
 }
 
 #license {
@@ -364,40 +311,13 @@ hr {
 
 /* #endregion */
 
-/* Tablets */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    #header-menu nav {
-        display: none;
-    }
-
-    #header-menu .logo img {
-        width: 300px;
-    }
-
-    #header-title h1 {
-        font-size: x-large;
-    }
-}
-
 /* Smartphones */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
     /* #region Header section */
 
-    #header-menu .logo img {
-        width: 200px;
-    }
-
-    #header-menu nav {
-        display: none;
-    }
-
-    #search-bar {
-        display: none;
-    }
-
     #header-title img {
-        height: 40%;
+        width: 60%;
     }
 
     #header-title h1 {
@@ -406,15 +326,14 @@ hr {
         font-size: x-large;
     }
 
-    #header {
-        grid-template-areas: 
-            "menu menu"
-            "header_title header_title";
+    #header-title h1 {
+        font-size: x-large;
     }
 
-    #side-menu {
-        display: none;
-        visibility: hidden;
+    #header {
+        grid-template-areas:
+            "menu menu"
+            "header_title header_title";
     }
 
     /* #endregion */
@@ -455,22 +374,6 @@ hr {
 
 @media only screen and (max-width: 550px) {
 
-    #header-menu .networks {
-        display: none;
-    }
-
-    #menu-top-info .contacts {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #menu form {
-        display: none;
-        visibility: hidden;
-    }
-
     #header-title {
         display: flex;
         flex-direction: column;
@@ -479,6 +382,10 @@ hr {
 
     #header-title h1 {
         width: fit-content;
+    }
+
+    #header-title img {
+        width: 70%;
     }
 
     .category-item {
@@ -495,3 +402,48 @@ hr {
         width: 100%;
     }
 }
+
+
+/* #region Container */
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* X-Large container */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large container */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Medium container */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Small container */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* Extra small container */
+@media only screen and (max-width: 575px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* #endregion */
