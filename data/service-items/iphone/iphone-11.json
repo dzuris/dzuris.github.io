@@ -289,7 +289,7 @@
     "diagnostika": {
         "title": "Diagnostika",
         "photoUrl": "img/icons/X-12/nic.png",
-        "price": 0,
+        "price": "Zadarmo",
         "note": [
             "Diagnostika zariadenia prebieha ak máte so zariadením problém, ktorý nie ste schopný jednoznačne identifikovať. Po obdržaní zariadenia problém diagnostikujeme a zašleme Vám cenovú ponuku na opravu.",
             "V prípade, že sa po diagnostike rozhodnete riešiť opravu Vášho zariadenia u nás, diagostika je <bold>ZADARMO</bold>",
