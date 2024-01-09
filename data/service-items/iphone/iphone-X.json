@@ -4,9 +4,9 @@
         "photoUrl": "img/icons/X-12/displej.png",
         "price": 79,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty."
         ],
         "detail_desc": [
             {
@@ -29,9 +29,9 @@
         "photoUrl": "img/icons/X-12/bateria.png",
         "price": 55,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť."
         ],
         "detail_desc": [
             {
@@ -55,9 +55,9 @@
         "photoUrl": "img/icons/X-12/charging.png",
         "price": 45,
         "for_waiting": true,
+        "time": "90 minút",
         "note": [
-            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné."
         ]
     },
     "housing": {
