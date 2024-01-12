@@ -2,12 +2,10 @@
     "displej": {
         "title": "Výmena displeja",
         "photoUrl": "img/icons/5-8/displej.png",
-        "price": 99,
+        "price": 50,
         "for_waiting": true,
-        "note": [
-            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
-        ],
+        "time": "60 minút",
+        "note": "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
         "detail_desc": [
             {
                 "cat": 1,
@@ -27,11 +25,11 @@
     "bateria": {
         "title": "Výmena batérie",
         "photoUrl": "img/icons/5-8/bateria.png",
-        "price": 100,
+        "price": 42,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť."
         ],
         "detail_desc": [
             {
@@ -40,7 +38,7 @@
             },
             {
                 "cat": 2,
-                "title": "Kedy je potrebné betériu vymeniť?:",
+                "title": "Kedy je potrebné batériu vymeniť?:",
                 "points": [
                     "Výdrž batérie je menšia ako keď bol telefón nový",
                     "Telefón sa veľmi rýchlo vybíja, vydrží menej ako deň aktívneho používania",
@@ -53,20 +51,20 @@
     "nabijanie": {
         "title": "Nefunkčné nabíjanie",
         "photoUrl": "img/icons/5-8/charging.png",
-        "price": 100,
+        "price": 40,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné."
         ]
     },
     "housing": {
         "title": "Výmena zadného krytu",
-        "photoUrl": "img/icons/X-12/housing.png",
-        "price": 100,
+        "photoUrl": "img/icons/5-8/housing.png",
+        "price": 70,
+        "time": "5 hodín",
         "note": [
-            "Výmena vhodná ak máte poškriabaný, obúchaný alebo inak poškodený zadný kryt (housing) na vašom iPhone.",
-            "Dĺžka opravy je približne <bold>5 hodín</bold>"
+            "Výmena vhodná ak máte poškriabaný, obúchaný alebo inak poškodený zadný kryt (housing) na vašom iPhone."
         ],
         "detail_desc": [
             {
@@ -78,10 +76,10 @@
     "backglass": {
         "title": "Výmena zadného skla",
         "photoUrl": "img/icons/5-8/backglass.png",
-        "price": 100,
+        "price": 60,
+        "time": "5 hodín",
         "note": [
-            "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom iPhone.",
-            "Dĺžka opravy je približne <bold>5 hodín</bold>"
+            "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom iPhone."
         ],
         "detail_desc": [
             {
@@ -93,43 +91,41 @@
     "fotakpredny": {
         "title": "Výmena prednej kamery",
         "photoUrl": "img/icons/5-8/frontcam.png",
-        "price": 100,
+        "price": 38,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena je vhodná ak sa na zariadení nedá zapnúť predná kamera alebo je poškodená šošovka fotoaparátu, prípadne sa po spustení kamery zariadenie reštartuje alebo sa vráti na domovskú obrazovku.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Výmena je vhodná ak sa na zariadení nedá zapnúť predná kamera alebo je poškodená šošovka fotoaparátu, prípadne sa po spustení kamery zariadenie reštartuje alebo sa vráti na domovskú obrazovku."
         ]
     },
     "fotakzadny": {
         "title": "Výmena zadnej kamery",
         "photoUrl": "img/icons/5-8/fotakzadny.png",
-        "price": 100,
+        "price": 65,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena je vhodná ak zadná kamera nefunguje správne, zle zaostruje, na fotkách sa objavujú škvrny alebo kamera nefunguje vôbec, prípadne sa po spustení kamery zariadenie reštartuje alebo sa vráti na domovskú obrazovku.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Výmena je vhodná ak zadná kamera nefunguje správne, zle zaostruje, na fotkách sa objavujú škvrny alebo kamera nefunguje vôbec, prípadne sa po spustení kamery zariadenie reštartuje alebo sa vráti na domovskú obrazovku."
         ]
     },
     "sklofotaku": {
         "title": "Výmena sklíčka zadnej kamery",
         "photoUrl": "img/icons/5-8/sklofotaku.png",
-        "price": 100,
+        "price": 35,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena je vhodná ak nastalo poškodenie sklíčka zadnej kamery. Kamera však funguje bezchybne alebo jej správemu fungovaniu bránia praskliny a črepiny z rozpitého sklíčka.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Výmena je vhodná ak nastalo poškodenie sklíčka zadnej kamery. Kamera však funguje bezchybne alebo jej správemu fungovaniu bránia praskliny a črepiny z rozpitého sklíčka."
         ]
     },
-   
-   
     "sluchadlo": {
         "title": "Výmena slúchadla - nepočujem volajúceho",
         "photoUrl": "img/icons/5-8/sluchadlo.png",
-        "price": 100,
+        "price": 35,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena je vhodná ak pri hovore slabo počujete druhú stranu, slúchadlo šuští a rezonuje alebo nefunguje vôbec.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Výmena je vhodná ak pri hovore slabo počujete druhú stranu, slúchadlo šuští a rezonuje alebo nefunguje vôbec."
         ],
         "detail_desc": [
             {
@@ -141,11 +137,11 @@
     "mikrofon": {
         "title": "Výmena mikrofónu - nepočuť ma pri hovore",
         "photoUrl": "img/icons/5-8/mic.png",
-        "price": 100,
+        "price": 40,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena mikrofónu vhodná ak vás pri hovore druhá strana zle počuje, prípadne nepočuje vôbec, pri nahrávaní hlasových správ zvuk rezonuje, šuští alebo nie je nič počuť.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Výmena mikrofónu vhodná ak vás pri hovore druhá strana zle počuje, prípadne nepočuje vôbec, pri nahrávaní hlasových správ zvuk rezonuje, šuští alebo nie je nič počuť."
         ],
         "detail_desc": [
             {
@@ -161,71 +157,71 @@
     "reproduktor": {
         "title": "Výmena reproduktoru - nejde zvuk",
         "photoUrl": "img/icons/5-8/reprak.png",
-        "price": 100,
+        "price": 35,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena je vhodná ak reproduktor na zariadení vydáva nepríjemné zvuky, šuští, rezonuje prípadne vôbec nefunguje. V niektorých prípadoch pomôže aj vyčistenie otvoru reproduktora.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Výmena je vhodná ak reproduktor na zariadení vydáva nepríjemné zvuky, šuští, rezonuje prípadne vôbec nefunguje. V niektorých prípadoch pomôže aj vyčistenie otvoru reproduktora."
         ]
     },
     "hlasitost": {
         "title": "Výmena tlačidiel hlasitosti",
         "photoUrl": "img/icons/5-8/volume.png",
-        "price": 100,
+        "price": 40,
         "for_waiting": true,
+        "time": "90 minút",
         "note": [
-            "Výmena vhodná ak máte problémy s klikaním tlačidiel hlasitosti alebo tlačidla stíšenia, tzv. silent button. Stláčaním tlačidiel sa hlasitosť nedá meniť, dá sa však meniť softvérovo napríklad v nataveniach telefónu",
-            "Dĺžka opravy je približne <bold>90 minút</bold>"
+            "Výmena vhodná ak máte problémy s klikaním tlačidiel hlasitosti alebo tlačidla stíšenia, tzv. silent button. Stláčaním tlačidiel sa hlasitosť nedá meniť, dá sa však meniť softvérovo napríklad v nataveniach telefónu"
         ]
     },
     "zapinanie": {
         "title": "Výmena tlačidla zapínania",
         "photoUrl": "img/icons/5-8/powerbutt.png",
-        "price": 100,
+        "price": 40,
         "for_waiting": true,
+        "time": "105 minút",
         "note": [
-            "Výmena vhodná ak máte problémy so zapnutím / vypnutím zariadenia alebo s klikaním tlačidla zapínania.",
-            "Dĺžka opravy je približne <bold>105 minút</bold>"
+            "Výmena vhodná ak máte problémy so zapnutím / vypnutím zariadenia alebo s klikaním tlačidla zapínania."
         ]
     },
     "vibrovanie": {
         "title": "Oprava vibrovania",
         "photoUrl": "img/icons/5-8/vibrating.png",
-        "price": 100,
+        "price": 35,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Oprava vhodná ak vaše zariadenie prestalo vibrovať alebo vibruje iba občas.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Oprava vhodná ak vaše zariadenie prestalo vibrovať alebo vibruje iba občas."
         ]
     },
     "wifi": {
         "title": "Oprava wifi antény",
         "photoUrl": "img/icons/5-8/wifi.png",
-        "price": 100,
+        "price": 35,
         "for_waiting": true,
+        "time": "90 minút",
         "note": [
-            "Oprava vhodná ak máte problémy s pripojením na wifi sieť, s rýchlosťou pripojenia alebo s vyhľadaním wifi siete",
-            "Dĺžka opravy je približne <bold>90 minút</bold>"
+            "Oprava vhodná ak máte problémy s pripojením na wifi sieť, s rýchlosťou pripojenia alebo s vyhľadaním wifi siete"
         ]
     },
     "proximity": {
         "title": "Výmena proximity senzora",
         "photoUrl": "img/icons/5-8/proximity.png",
-        "price": 100,
+        "price": 38,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena je vhodná ak vaše zariadenie počas hovoru a následného priloženia k uchu nazhasne (ostane svietiť) alebo ak na zariadení nefunguje funkcia automatického jasu.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Výmena je vhodná ak vaše zariadenie počas hovoru a následného priloženia k uchu nazhasne (ostane svietiť) alebo ak na zariadení nefunguje funkcia automatického jasu."
         ]
     },
     "softver": {
         "title": "Prehratie softvéru",
         "photoUrl": "img/icons/5-8/prehratie-softveru.png",
-        "price": 100,
+        "price": 20,
         "for_waiting": true,
+        "time": "90 minút",
         "note": [
-            "Oprava vhodná pri problémoch so softvérom na vašom zariadení spojených s častými výpadkami aplikácií, reštartovaním telefónu a podobne. Taktiež pomáha pri problémoch s aktualizáciami softvéru, prípadne vtedy ak sa zariadenie pri aktualizácií zasekne. Ak zariadenie nejde zapnúť, svieti iba logo alebo sa objavuje hláška 'iphone je deaktivovaný' / 'iphone is disabled'",
-            "Dĺžka opravy je približne <bold>90 minút</bold>"
+            "Oprava vhodná pri problémoch so softvérom na vašom zariadení spojených s častými výpadkami aplikácií, reštartovaním telefónu a podobne. Taktiež pomáha pri problémoch s aktualizáciami softvéru, prípadne vtedy ak sa zariadenie pri aktualizácií zasekne. Ak zariadenie nejde zapnúť, svieti iba logo alebo sa objavuje hláška 'iphone je deaktivovaný' / 'iphone is disabled'"
         ],
         "detail_desc": [
             {
@@ -241,7 +237,7 @@
     "tekutina": {
         "title": "Poškodenie tekutinou",
         "photoUrl": "img/icons/5-8/tekutina.png",
-        "price": 100,
+        "price": 40,
         "note": [
             "Oprava vhodná po priamom kontakte (zväčša pri celkovom ponorení) zariadenia s tekutinou",
             "Po vytopení je nutné telefón čo najskôr vysušiť a vyčistiť od oxidácie. Sušenie v domácich podmienkach (vloženie telefónu do vrecka s ryžou a pod.) je neúčinné, telefón je potrebné čo najskôr odborne vyčistiť. ",
@@ -274,6 +270,7 @@
         "title": "Diagnostika",
         "photoUrl": "img/icons/5-8/nic.png",
         "price": 0,
+        "for_waiting": true,
         "note": [
             "Diagnostika zariadenia prebieha ak máte so zariadením problém, ktorý nie ste schopný jednoznačne identifikovať. Po obdržaní zariadenia problém diagnostikujeme a zašleme Vám cenovú ponuku na opravu.",
             "V prípade, že sa po diagnostike rozhodnete riešiť opravu Vášho zariadenia u nás, diagostika je <bold>ZADARMO</bold>",
@@ -283,7 +280,6 @@
     "inyproblem": {
         "title": "Iný problém",
         "photoUrl": "img/icons/5-8/iny-problem.png",
-        "price": 100,
         "note": [
             "V prípade že máte so zariadením problém, ktorý nie ste schopný identifikovať alebo ste ho nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
         ]

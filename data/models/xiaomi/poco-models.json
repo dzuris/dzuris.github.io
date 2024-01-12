@@ -1,27 +1,27 @@
 {
     "poco-m4-5g": {
         "title": "Poco M4 5g",
-        "photoUrl": "img/models/xiaomi/mi/m4-5g.png"
+        "photoUrl": "img/models/xiaomi/poco/poco-m4-5g.png"
     },
     "poco-m5": {
         "title": "Poco M5",
-        "photoUrl": "img/models/xiaomi/mi/m5.png"
+        "photoUrl": "img/models/xiaomi/poco/poco-m5.png"
     },
     "poco-f4": {
         "title": "Poco F4",
-        "photoUrl": "img/models/xiaomi/mi/f4.png"
+        "photoUrl": "img/models/xiaomi/poco/poco-f4.png"
     },
     "poco-x4-pro": {
         "title": "Poco X4 Pro",
-        "photoUrl": "img/models/xiaomi/mi/x4-pro.png"
+        "photoUrl": "img/models/xiaomi/poco/poco-x4-pro.png"
     },
     "poco-f3": {
         "title": "Poco F3",
-        "photoUrl": "img/models/xiaomi/mi/f3.png"
+        "photoUrl": "img/models/xiaomi/poco/poco-f3.png"
     },
     "poco-x3": {
         "title": "Poco X3",
-        "photoUrl": "img/models/xiaomi/mi/x3.png"
+        "photoUrl": "img/models/xiaomi/poco/poco-x3.png"
     },
         "iny-model": {
             "title": "Iný model",
