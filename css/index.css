@@ -250,12 +250,16 @@ main {
         text-align: center;
     }
 
-    /* .header-subtitle {
-        text-align: center;
-    } */
-
     .whyUsContainer {
         grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    .category-item {
+        width: 100%;
     }
 
 }
