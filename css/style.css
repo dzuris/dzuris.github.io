@@ -107,6 +107,7 @@
     --header-subtext-color: #313131;
     --invalid-color: #DF1C1C;
     --valid-color: #469452;
+    --medium-valid-color: #ffa500;
     --contact-info-background: #212121;
     --primary-color-dark: #3170bd;
     --secondary-color-dark: rgb(151, 226, 255);
@@ -213,6 +214,10 @@ footer>* {
 
 .invalid-color {
     color: var(--invalid-color);
+}
+
+.medium-valid-color {
+    color: var(--medium-valid-color);
 }
 
 /* #region Header */
