@@ -238,7 +238,7 @@
         "title": "Poškodenie tekutinou",
         "photoUrl": "img/icons/5-8/tekutina.png",
         "price": 40,
-        "time": "závisí od rozsahu poškodenia",
+        "time": "podľa poškodenia",
         "note": [
             "Oprava vhodná po priamom kontakte (zväčša pri celkovom ponorení) zariadenia s tekutinou",
             "Po vytopení je nutné telefón čo najskôr vysušiť a vyčistiť od oxidácie. Sušenie v domácich podmienkach (vloženie telefónu do vrecka s ryžou a pod.) je neúčinné, telefón je potrebné čo najskôr odborne vyčistiť. ",
@@ -272,6 +272,7 @@
         "photoUrl": "img/icons/5-8/nic.png",
         "price": 0,
         "for_waiting": true,
+        "time": "30 minút",
         "note": [
             "Diagnostika zariadenia prebieha ak máte so zariadením problém, ktorý nie ste schopný jednoznačne identifikovať. Po obdržaní zariadenia problém diagnostikujeme a zašleme Vám cenovú ponuku na opravu.",
             "V prípade, že sa po diagnostike rozhodnete riešiť opravu Vášho zariadenia u nás, diagostika je <bold>ZADARMO</bold>",
@@ -281,6 +282,7 @@
     "inyproblem": {
         "title": "Iný problém",
         "photoUrl": "img/icons/5-8/iny-problem.png",
+        "time": "?",
         "note": [
             "V prípade že máte so zariadením problém, ktorý nie ste schopný identifikovať alebo ste ho nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
         ]

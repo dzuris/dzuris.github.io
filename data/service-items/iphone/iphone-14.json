@@ -4,9 +4,9 @@
         "photoUrl": "img/icons/X-12/displej.png",
         "price": 169,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty."
         ],
         "detail_desc": [
             {
@@ -29,9 +29,9 @@
         "photoUrl": "img/icons/X-12/bateria.png",
         "price": 81,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť."
         ],
         "detail_desc": [
             {
@@ -55,18 +55,18 @@
         "photoUrl": "img/icons/X-12/charging.png",
         "price": 100,
         "for_waiting": true,
+        "time": "90 minút",
         "note": [
-            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné."
         ]
     },
     "housing": {
         "title": "Výmena zadného krytu",
         "photoUrl": "img/icons/X-12/housing.png",
         "price": "Na otázku",
+        "time": "5 hodín",
         "note": [
-            "Výmena vhodná ak máte poškriabaný, obúchaný alebo inak poškodený zadný kryt (housing) na vašom iPhone.",
-            "Dĺžka opravy je približne <bold>5 hodín</bold>"
+            "Výmena vhodná ak máte poškriabaný, obúchaný alebo inak poškodený zadný kryt (housing) na vašom iPhone."
         ],
         "detail_desc": [
             {
@@ -79,9 +79,9 @@
         "title": "Výmena zadného skla",
         "photoUrl": "img/icons/X-12/backglass.png",
         "price": 80,
+        "time": "60 minút",
         "note": [
-            "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom iPhone.",
-            "Dĺžka opravy je približne <bold>5 hodín</bold>"
+            "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom iPhone."
         ],
         "detail_desc": [
             {
@@ -95,9 +95,9 @@
         "photoUrl": "img/icons/X-12/sklofotaku.png",
         "price": 55,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena je vhodná ak nastalo poškodenie sklíčka zadnej kamery. Kamera však funguje bezchybne alebo jej správemu fungovaniu bránia praskliny a črepiny z rozpitého sklíčka.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>"
+            "Výmena je vhodná ak nastalo poškodenie sklíčka zadnej kamery. Kamera však funguje bezchybne alebo jej správemu fungovaniu bránia praskliny a črepiny z rozpitého sklíčka."
         ]
     }, 
     "softver": {
@@ -105,9 +105,9 @@
         "photoUrl": "img/icons/X-12/prehratie-softveru.png",
         "price": 25,
         "for_waiting": true,
+        "time": "90 minút",
         "note": [
-            "Oprava vhodná pri problémoch so softvérom na vašom zariadení spojených s častými výpadkami aplikácií, reštartovaním telefónu a podobne. Taktiež pomáha pri problémoch s aktualizáciami softvéru, prípadne vtedy ak sa zariadenie pri aktualizácií zasekne. Ak zariadenie nejde zapnúť, svieti iba logo alebo sa objavuje hláška 'iphone je deaktivovaný' / 'iphone is disabled'",
-            "Dĺžka opravy je približne <bold>90 minút</bold>"
+            "Oprava vhodná pri problémoch so softvérom na vašom zariadení spojených s častými výpadkami aplikácií, reštartovaním telefónu a podobne. Taktiež pomáha pri problémoch s aktualizáciami softvéru, prípadne vtedy ak sa zariadenie pri aktualizácií zasekne. Ak zariadenie nejde zapnúť, svieti iba logo alebo sa objavuje hláška 'iphone je deaktivovaný' / 'iphone is disabled'"
         ],
         "detail_desc": [
             {
@@ -124,10 +124,10 @@
         "title": "Poškodenie tekutinou",
         "photoUrl": "img/icons/X-12/tekutina.png",
         "price": 50,
+        "time": "podľa poškodenia",
         "note": [
             "Oprava vhodná po priamom kontakte (zväčša pri celkovom ponorení) zariadenia s tekutinou",
-            "Po vytopení je nutné telefón čo najskôr vysušiť a vyčistiť od oxidácie. Sušenie v domácich podmienkach (vloženie telefónu do vrecka s ryžou a pod.) je neúčinné, telefón je potrebné čo najskôr odborne vyčistiť. ",
-            "Dĺžka opravy závisí od rozsahu poškodenia"
+            "Po vytopení je nutné telefón čo najskôr vysušiť a vyčistiť od oxidácie. Sušenie v domácich podmienkach (vloženie telefónu do vrecka s ryžou a pod.) je neúčinné, telefón je potrebné čo najskôr odborne vyčistiť. "
         ],
         "detail_desc": [
             {
@@ -156,6 +156,7 @@
         "title": "Diagnostika",
         "photoUrl": "img/icons/X-12/nic.png",
         "price": 0,
+        "time": "30 minút",
         "note": [
             "Diagnostika zariadenia prebieha ak máte so zariadením problém, ktorý nie ste schopný jednoznačne identifikovať. Po obdržaní zariadenia problém diagnostikujeme a zašleme Vám cenovú ponuku na opravu.",
             "V prípade, že sa po diagnostike rozhodnete riešiť opravu Vášho zariadenia u nás, diagostika je <bold>ZADARMO</bold>",
@@ -165,6 +166,7 @@
     "inyproblem": {
         "title": "Iný problém",
         "photoUrl": "img/icons/X-12/iny-problem.png",
+        "time": "?",
         "note": [
             "V prípade že máte so zariadením problém, ktorý nie ste schopný identifikovať alebo ste ho nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
         ]
