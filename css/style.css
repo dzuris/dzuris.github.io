@@ -188,12 +188,6 @@ button {
     text-align: center;
 }
 
-/* header {
-    max-width: var(--max-page-width);
-    margin: 0 auto;
-    padding: 0 15px;
-} */
-
 footer>* {
     max-width: var(--max-page-width);
     margin: 0 auto;
@@ -233,6 +227,14 @@ footer>* {
 
 .text-align-center {
     text-align: center;
+}
+
+.mg-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.mg-bottom-100 {
+    margin-bottom: 100px;
 }
 
 /* #region Footer */
