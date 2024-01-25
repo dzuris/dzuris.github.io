@@ -136,7 +136,6 @@ main {
 }
 
 #categories {
-    /* max-width: 700px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
