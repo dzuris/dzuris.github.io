@@ -92,7 +92,7 @@ function fetch_detail(category_id, model_id, submodel_id, service_id) {
                 // Waiting
                 if (item.for_waiting) {
                     var detailWaitingElement = document.getElementById("detail-waiting");
-                    detailWaitingElement.classList.replace("invalid-color", "valid-color");
+                    detailWaitingElement.classList.replace("medium-valid-color", "valid-color");
                     setTextContentById("detail-waiting", "Na počkanie")
                 }
 

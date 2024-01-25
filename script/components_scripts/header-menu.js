@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("header-menu").innerHTML= `
-<div id="menu-top-info">
+<div id="menu-top-info" class="container">
     <div class="contacts">
         <span class="phone"><a href="tel:+421911528064"><i class="fas fa-phone-square-alt"></i>0911 528 064</a></span>
         <span class="mail"><a href="mailto:mobilflex@mobilflex.sk">mobilflex@mobilflex.sk</a></span>
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <span class="instagram"><a href="https://www.instagram.com/mobilflex/" target="_blank"><i class="fab fa-instagram"></i></a></span>
     </div>
 </div>
-<div id="menu">
+<div id="menu" class="container">
     <div class="logo">
         <a href="/">
             <img src="img/logo.png" alt="mobilflex logo">

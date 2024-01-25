@@ -4,9 +4,9 @@ Webová stránka založená na HTML, CSS a JavaScript technológiach.
 
 ## JSON organizácia
 
-- data/categories.json - subor obsahujuci kategorie (iphone, samsung, xiaomi)
-    - data/models/CATEGORY_ID-models.json - subor obsahujuci jednotlive modely pre kategoriu (iphone 11, iphone X...)
-        - data/list-items/CATEGORY_ID/MODEL_ID.json - subor obsahujuci polozky pre konkretny model (vymena displeja, vymena baterky...)
+- data/categories.json - súbor obsahujuci kategórie (iphone, samsung, xiaomi)
+    - data/models/CATEGORY_ID-models.json - súbor obsahujúci jednotlivé modely pre kategóriu (iphone 11, iphone X...)
+        - data/list-items/CATEGORY_ID/MODEL_ID.json - súbor obsahujúci položky pre konkrétny model (výmena displeja, výmena baterky...)
 
 - detail_desc:
   - Category 1:
@@ -19,7 +19,11 @@ Webová stránka založená na HTML, CSS a JavaScript technológiach.
 ## Spustenie vo Visual Studio
 
 1. Je nutné mať nainštalovanú Extension "Live Server" od Ritwick Dey
-2. Pravým tlačidlo štiknúť na súbor "index.html" a zvoliť "Open with Live Server"
+2. Pravým tlačidlom štiknúť na súbor "index.html" a zvoliť "Open with Live Server"
 3. Stránka by sa mala otvoriť v prehliadači
 
-Ak stránka nebude otvorená cez lokálny server, nebude schopná načítať dáta z json súborov
+Ak stránka nebude otvorená cez lokálny server, nebude schopná načítať dáta z json súborov.
+
+### Autor
+Adam Dzurilla  
+adamdzurilla19@gmail.com
