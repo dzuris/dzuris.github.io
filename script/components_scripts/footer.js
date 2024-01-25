@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+
     document.getElementById("footer").innerHTML= `<div class="logo">
     <a href="/">
         <img src="img/logo.png" alt="mobilflex logo">
@@ -28,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <hr>
 <div id="license">
-    <span>© 2023 Adam Dzurilla. Všetky práva vyhradené.</span>
+    <span>© ${new Date().getFullYear()} Adam Dzurilla. Všetky práva vyhradené.</span>
     <div>
         <span>Spätná väzba & odporúčanie?</span>
         <span class="instagram"><a href="https://www.instagram.com/mobilflex/" target="_blank"><i class="fab fa-instagram"></i>@mobilflex</a></span>
