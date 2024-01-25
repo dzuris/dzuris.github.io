@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", async function () {
 /**
  * This function obtains title for service page according to given parameters
  * 
- * @param {str} category_id - category (eg. samsung, iphone)
- * @param {str} model_id - model (eg. Galaxy A, Galaxy M)
- * @param {str} submodel_id - submodel (eg. Galaxy A15. Galaxy A20)
+ * @param {str} category_id - category ID (eg. samsung, iphone)
+ * @param {str} model_id - model ID (eg. Galaxy A, Galaxy M)
+ * @param {str} submodel_id - submodel ID (eg. Galaxy A15. Galaxy A20)
  * @returns Title for service page
  */
 async function get_title(category_id, model_id, submodel_id) {
@@ -48,6 +48,14 @@ async function get_title(category_id, model_id, submodel_id) {
     }
 }
 
+/**
+ * This function fetches the whole detail page data from jsons into its own elements
+ * 
+ * @param {str} category_id Category ID (eg. samsung, iphone)
+ * @param {str} model_id Model ID (eg. Galaxy A, Galaxy M)
+ * @param {str} submodel_id Submodel ID (eg. Galaxy A15, Galaxy A20)
+ * @param {str} service_id Identification of specific service (eg. display change, microphone change)
+ */
 function fetch_detail(category_id, model_id, submodel_id, service_id) {
     var filePath = "data/service-items/" + category_id + "/" + model_id;
     if (submodel_id) {
@@ -98,7 +106,16 @@ function fetch_detail(category_id, model_id, submodel_id, service_id) {
 
                 // Brief note
                 if (item.note) {
-                    setTextContentById("detail-note", item.note);
+                    var noteElement = document.getElementById("detail-note");
+
+                    isFirst = true;
+                    item.note.forEach((n) => {
+                        if (!isFirst) {
+                            noteElement.innerHTML += "<br><br>";
+                        }
+                        isFirst = false;
+                        noteElement.innerHTML += n;
+                    });
                 }
 
                 // Detailed description
