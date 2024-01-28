@@ -25,121 +25,31 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.84096521"
-     inkscape:cx="429.8632"
-     inkscape:cy="34.484185"
+     inkscape:cx="313.925"
+     inkscape:cy="212.25611"
      inkscape:window-width="1920"
-     inkscape:window-height="1129"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="g20312" />
   <defs
-     id="defs7651" />
+     id="defs7651">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="5.4686611 : -203.40068 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="215.46866 : -203.40068 : 1"
+       inkscape:persp3d-origin="110.46866 : -238.40068 : 1"
+       id="perspective1138" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
     <g
        id="g20312"
-       transform="rotate(-0.1541724,149.07542,37.787248)">
-      <g
-         id="g8805"
-         transform="translate(-18.994949,-36.495762)"
-         style="mix-blend-mode:normal;fill:#005867;fill-opacity:0.8">
-        <rect
-           style="fill:#005867;fill-opacity:0.8;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8788"
-           width="35.355335"
-           height="35.355335"
-           x="17.677673"
-           y="-88.388344"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#005867;fill-opacity:0.8;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8792"
-           width="35"
-           height="35"
-           x="-17.499998"
-           y="-123.21068"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#005867;fill-opacity:0.8;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8794"
-           width="35"
-           height="35"
-           x="-52.5"
-           y="-158.21068"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#005867;fill-opacity:0.8;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8796"
-           width="35"
-           height="35"
-           x="-87.5"
-           y="-193.21068"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#005867;fill-opacity:0.8;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8798"
-           width="35"
-           height="35"
-           x="-122.5"
-           y="-228.21068"
-           transform="rotate(135)" />
-      </g>
-      <g
-         id="g8832"
-         style="fill:#00313f;fill-opacity:1"
-         transform="translate(11.786004,-91.785791)">
-        <rect
-           style="fill:#00313f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8807"
-           width="35.355335"
-           height="35.355335"
-           x="69.151321"
-           y="-131.68648"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#00313f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8809"
-           width="35"
-           height="35"
-           x="33.973652"
-           y="-166.5088"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#00313f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8811"
-           width="35"
-           height="35"
-           x="-1.0263487"
-           y="-201.5088"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#00313f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8813"
-           width="35"
-           height="35"
-           x="-36.026348"
-           y="-236.5088"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#00313f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8815"
-           width="35"
-           height="35"
-           x="-71.026352"
-           y="-271.50882"
-           transform="rotate(135)" />
-        <rect
-           style="fill:#00313f;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
-           id="rect8824"
-           width="35.355335"
-           height="35.355335"
-           x="104.50665"
-           y="-96.331146"
-           transform="rotate(135)" />
-      </g>
+       transform="rotate(-0.1541724,13891.561,4816.9156)">
       <g
          id="g8846"
          style="fill:#298191;fill-opacity:0.6"
@@ -196,7 +106,7 @@
     </g>
     <g
        id="g8858"
-       transform="translate(-18.810592,-49.370129)"
+       transform="translate(-31.620581,-12.374369)"
        style="fill:#5cadbd;fill-opacity:0.4">
       <rect
          style="fill:#5cadbd;fill-opacity:0.4;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
@@ -242,7 +152,7 @@
     <g
        id="g8872"
        style="fill:#8bdbec;fill-opacity:0.2"
-       transform="translate(11.786008,-231.24091)">
+       transform="translate(-1.0902657,-104.18734)">
       <rect
          style="fill:#8bdbec;fill-opacity:0.2;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-dasharray:none"
          id="rect8860"
@@ -292,5 +202,10 @@
          y="-96.331146"
          transform="rotate(135)" />
     </g>
+    <path
+       style="fill:#288091;fill-opacity:0.5;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:0.495677"
+       d="M 0,25 C 0,25 0.79770746,9.3534694 8.0764515,4.8973323 14.823483,0.76671599 27.840727,16.566368 33.750033,17.618644 48.584249,15.341406 61.098875,-1.8558208 75.991682,0 85.599381,1.161975 105.77648,14.381283 115.36142,13.044492 128.06689,11.272488 142.9231,0.62660857 155.73623,0 167.99887,-0.59968762 171.05398,11.457128 183.24627,12.899364 191.80178,13.911402 210,11.64089 210,11.64089 V 50 H 0 Z"
+       id="path6523"
+       sodipodi:nodetypes="csccssscccc" />
   </g>
 </svg>
