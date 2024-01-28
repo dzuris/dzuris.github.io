@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 <hr>
 <div id="license">
-    <span>© ${new Date().getFullYear()} Adam Dzurilla. Všetky práva vyhradené.</span>
+    <span>© ${new Date().getFullYear()} <a href="https://app-cv-2023-dzurillaadam-web.azurewebsites.net" target="_blank">Adam Dzurilla</a>. Všetky práva vyhradené.</span>
     <div>
         <span>Spätná väzba & odporúčanie?</span>
         <span class="instagram"><a href="https://www.instagram.com/mobilflex/" target="_blank"><i class="fab fa-instagram"></i>@mobilflex</a></span>
