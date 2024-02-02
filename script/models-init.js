@@ -6,24 +6,25 @@ document.addEventListener("DOMContentLoaded", async function () {
     const model_id = urlParams.get('model');
     const submodel_id = urlParams.get('submodel');
 
-    var span = document.getElementById("model-name");
-    var title = await get_title(model_id);
+    var modelNameSpan = document.getElementById("model-name");
+    var pageTitle = await get_title(model_id);
 
     var modelsFilePath = "";
     if (submodel_id) {
         var subTitle = await get_subtitle(model_id, submodel_id);        
-        span.textContent = title + " " + subTitle;
+        modelNameSpan.textContent = pageTitle + " " + subTitle;
         modelsFilePath = "data/models/" + model_id + "/" + submodel_id + "-models.json";
     } else {
-        span.textContent = title;
+        modelNameSpan.textContent = pageTitle;
         modelsFilePath = "data/models/" + model_id + "-models.json";
     }
 
+    // Fetch all the data to the models.html page
     fetch_models(modelsFilePath, model_id, submodel_id);
 });
 
 /**
- * This function is used to obtain item title from categories json according to id
+ * This function is used to obtain item title from categories json according to its id
  * 
  * @param {str} model_id - category id for obtaining specific item
  * @returns {str} Category item title
@@ -67,6 +68,9 @@ async function get_subtitle(category_id, model_id) {
     }
 }
 
+/**
+ * This function fetches data into models page
+ */
 function fetch_models(filePath, model_id, submodel_id) {
 
     // Fetch the JSON data to get list of models
@@ -77,53 +81,61 @@ function fetch_models(filePath, model_id, submodel_id) {
             var container = document.getElementById("container");
 
             for (const key in data) {
-                if (data.hasOwnProperty(key)) {
-                    const item = data[key];
+                const item = data[key];
 
-                    // Create a div element
-                    var div = document.createElement("div");
-                    div.classList.add("category-item");
+                // Create a div element
+                var div = document.createElement("div");
+                div.classList.add("category-item");
 
-                    // On click href to another location according to if item has Submodel
-                    if (item.hasSubmodels) {
-                        div.addEventListener("click", function () {
-                            window.location.href = "models.html?model=" + model_id + "&submodel=" + key;
-                        });
-                    } else {
-                        if (submodel_id) {
-                            div.addEventListener("click", function () {
-                                window.location.href = "services.html?category=" + model_id + "&model=" + submodel_id + "&submodel=" + key;
-                            });
-                        } else {
-                            div.addEventListener("click", function () {
-                                window.location.href = "services.html?category=" + model_id + "&model=" + key;
-                            });
-                        }
-                    }
+                // On click href to another location according to if item has Submodel
+                div.addEventListener("click", function () {
+                    window.location.href = getModelHrefLocation(model_id, item.hasSubmodels, submodel_id, key);
+                });
 
-                    // Create an image element
-                    var img = document.createElement("img");
-                    img.src = item.photoUrl;
-                    img.alt = item.title;
+                // Create and append an image element
+                var img = document.createElement("img");
+                img.src = item.photoUrl;
+                img.alt = item.title;
+                div.appendChild(img);
 
-                    // Create a span element
-                    var span = document.createElement("span");
-                    span.textContent = item.title;
+                // Create and append a span element
+                var span = document.createElement("span");
+                span.textContent = item.title;
+                div.appendChild(span);
 
-                    // Append the image and span to the div
-                    div.appendChild(img);
-                    div.appendChild(span);
-
-                    if (item.designation) {
-                        var designationSpan = document.createElement("span");
-                        designationSpan.classList.add("designation");
-                        designationSpan.textContent = "( " + item.designation + " )";
-                        div.appendChild(designationSpan);
-                    }
-
-                    // Append the div to the categories
-                    container.appendChild(div);
+                // Added designation for some models and append it to div
+                if (item.designation) {
+                    var designationSpan = document.createElement("span");
+                    designationSpan.classList.add("designation");
+                    designationSpan.textContent = "( " + item.designation + " )";
+                    div.appendChild(designationSpan);
                 }
+
+                // Append the div to the categories
+                container.appendChild(div);
             }
         });
+}
+
+/**
+ * Generates the href location for a model based on parameters.
+ * @param {string} model_id - The ID of the main model.
+ * @param {boolean} hasSubmodels - Indicates if the model has submodels.
+ * @param {string} submodel_id - The ID of the submodel.
+ * @param {string} key - The key associated with the model or submodel.
+ * @returns {string} - The generated href location.
+ */
+function getModelHrefLocation(model_id, hasSubmodels, submodel_id, key) {
+    // If the model has submodels, navigate to models.html with model_id and submodel key.
+    if (hasSubmodels) {
+        return "models.html?model=" + model_id + "&submodel=" + key;
+    } else {
+        // If submodel_id is provided, navigate to services.html with category, model, and submodel keys.
+        if (submodel_id) {
+            return "services.html?category=" + model_id + "&model=" + submodel_id + "&submodel=" + key;
+        } else {
+            // If no submodel_id, navigate to services.html with category and model keys.
+            return "services.html?category=" + model_id + "&model=" + key;
+        }
+    }
 }
