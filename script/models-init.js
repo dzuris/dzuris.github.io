@@ -114,6 +114,13 @@ function fetch_models(filePath, model_id, submodel_id) {
                     div.appendChild(img);
                     div.appendChild(span);
 
+                    if (item.designation) {
+                        var designationSpan = document.createElement("span");
+                        designationSpan.classList.add("designation");
+                        designationSpan.textContent = "( " + item.designation + " )";
+                        div.appendChild(designationSpan);
+                    }
+
                     // Append the div to the categories
                     container.appendChild(div);
                 }

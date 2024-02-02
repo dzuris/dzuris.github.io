@@ -57,3 +57,8 @@ main {
 .category-item span {
     text-align: center;
 }
+
+.designation {
+    color: var(--text-not-important);
+    font-size: small;
+}
