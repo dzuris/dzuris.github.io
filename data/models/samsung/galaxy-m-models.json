@@ -1,54 +1,67 @@
 {
     "galaxy-m-11": {
         "title": "Galaxy M11",
+        "designation": "SM-M115F",
         "photoUrl": "img/models/samsung/galaxy-m/m11.png"
     },
     "galaxy-m-12": {
         "title": "Galaxy M12",
+        "designation": "SM-M127F",
         "photoUrl": "img/models/samsung/galaxy-m/m12.png"
     },
     "galaxy-m-13": {
         "title": "Galaxy M13",
+        "designation": "SM-M135F",
         "photoUrl": "img/models/samsung/galaxy-m/m13.png"
     },
     "galaxy-m-21": {
         "title": "Galaxy M21",
+        "designation": "SM-M215F",
         "photoUrl": "img/models/samsung/galaxy-m/m21.png"
     },
     "galaxy-m-22": {
         "title": "Galaxy M22",
+        "designation": "SM-M225F",
         "photoUrl": "img/models/samsung/galaxy-m/m22.png"
     },
     "galaxy-m-23": {
         "title": "Galaxy M23",
+        "designation": "SM-M236B",
         "photoUrl": "img/models/samsung/galaxy-m/m23.png"
     },
     "galaxy-m-31": {
         "title": "Galaxy M31",
+        "designation": "SM-M315F",
         "photoUrl": "img/models/samsung/galaxy-m/m31.png"
     },
     "galaxy-m-31s": {
         "title": "Galaxy M31s",
+        "designation": "SM-M317F",
         "photoUrl": "img/models/samsung/galaxy-m/m31s.png"
     },
     "galaxy-m-32": {
         "title": "Galaxy M32",
+        "designation": "SM-M325F",
         "photoUrl": "img/models/samsung/galaxy-m/m32.png"
     },
     "galaxy-m-51": {
         "title": "Galaxy M51",
+        "designation": "SM-M515F",
         "photoUrl": "img/models/samsung/galaxy-m/m51.png"
     },
     "galaxy-m-52-5g": {
         "title": "Galaxy M52 5g",
+        "designation": "SM-M526B",
         "photoUrl": "img/models/samsung/galaxy-m/m52.png"
     },
     "galaxy-m-53-5g": {
         "title": "Galaxy M53 5g",
+        "designation": "SM-M536B",
         "photoUrl": "img/models/samsung/galaxy-m/m53.png"
     },
     "galaxy-m-54": {
         "title": "Galaxy M54",
+        "designation": "SM-M546B",
         "photoUrl": "img/models/samsung/galaxy-m/m54.png"
     },
     "iny-model": {

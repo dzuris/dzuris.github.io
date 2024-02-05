@@ -1,126 +1,157 @@
 {
     "galaxy-a-02": {
         "title": "Galaxy A02",
+        "designation": "SM-A022F",
         "photoUrl": "img/models/samsung/galaxy-a/a02.png"
     },
     "galaxy-a-02s": {
         "title": "Galaxy A02s",
+        "designation": "SM-A025G",
         "photoUrl": "img/models/samsung/galaxy-a/a02s.png"
     },
     "galaxy-a-03s": {
         "title": "Galaxy A03s",
+        "designation": "SM-A035F",
         "photoUrl": "img/models/samsung/galaxy-a/a03s.png"
     },
     "galaxy-a-04": {
         "title": "Galaxy A04",
+        "designation": "SM-A045F",
         "photoUrl": "img/models/samsung/galaxy-a/a04.png"
     },
     "galaxy-a-04s": {
         "title": "Galaxy A04s",
+        "designation": "SM-A047F",
         "photoUrl": "img/models/samsung/galaxy-a/a04s.png"
     },
     "galaxy-a-10s": {
         "title": "Galaxy A10s",
+        "designation": "SM-A107F",
         "photoUrl": "img/models/samsung/galaxy-a/a10s.png"
     },
     "galaxy-a-12": {
         "title": "Galaxy A12",
+        "designation": "SM-A125F",
         "photoUrl": "img/models/samsung/galaxy-a/a12.png"
     },
     "galaxy-a-13": {
         "title": "Galaxy A13",
+        "designation": "SM-A135F",
         "photoUrl": "img/models/samsung/galaxy-a/a13.png"
     },
     "galaxy-a-14-5g": {
         "title": "Galaxy A14 5g",
+        "designation": "SM-A145F",
         "photoUrl": "img/models/samsung/galaxy-a/a14-5g.png"
     },
     "galaxy-a-21s": {
         "title": "Galaxy A21s",
+        "designation": "SM-A217F",
         "photoUrl": "img/models/samsung/galaxy-a/a21s.png"
     },
     "galaxy-a-22-5g": {
         "title": "Galaxy A22 5g",
+        "designation": "SM-A225F",
         "photoUrl": "img/models/samsung/galaxy-a/a22.png"
     },
     "galaxy-a-23-5g": {
         "title": "Galaxy A23 5g",
+        "designation": "SM-A236B",
         "photoUrl": "img/models/samsung/galaxy-a/a23-5g.png"
     },
     "galaxy-a-23": {
         "title": "Galaxy A23",
+        "designation": "SM-A235F",
         "photoUrl": "img/models/samsung/galaxy-a/a23.png"
     },
     "galaxy-a-24-4g": {
         "title": "Galaxy A24 4g",
+        "designation": "SM-A245F",
         "photoUrl": "img/models/samsung/galaxy-a/a24.png"
     },
     "galaxy-a-30s": {
         "title": "Galaxy A30s",
+        "designation": "SM-307F",
         "photoUrl": "img/models/samsung/galaxy-a/a30s.png"
     },
     "galaxy-a-31": {
         "title": "Galaxy A31",
+        "designation": "SM-A315F",
         "photoUrl": "img/models/samsung/galaxy-a/a31.png"
     },
     "galaxy-a-32-4g": {
         "title": "Galaxy A32 4g",
+        "designation": "SM-A325F",
         "photoUrl": "img/models/samsung/galaxy-a/a32.png"
     },
     "galaxy-a-32-5g": {
         "title": "Galaxy A32 5g",
+        "designation": "SM-A326B",
         "photoUrl": "img/models/samsung/galaxy-a/a32-5g.png"
     },
     "galaxy-a-33-5g": {
         "title": "Galaxy A33 5g",
+        "designation": "SM-A336B",
         "photoUrl": "img/models/samsung/galaxy-a/a33-5g.png"
     },
     "galaxy-a-41": {
         "title": "Galaxy A41",
+        "designation": "SM-A415FN",
         "photoUrl": "img/models/samsung/galaxy-a/a41.png"
     },
     "galaxy-a-42": {
         "title": "Galaxy A42",
+        "designation": "SM-A426B",
         "photoUrl": "img/models/samsung/galaxy-a/a42.png"
     },
     "galaxy-a-51-5g": {
         "title": "Galaxy A51 5g",
+        "designation": "SM-A426B",
         "photoUrl": "img/models/samsung/galaxy-a/a51-5g.png"
     },
     "galaxy-a-51": {
         "title": "Galaxy A51",
+        "designation": "SM-A515F",
         "photoUrl": "img/models/samsung/galaxy-a/a51.png"
     },
     "galaxy-a-52": {
         "title": "Galaxy A52",
+        "designation": "SM-A525F",
         "photoUrl": "img/models/samsung/galaxy-a/a52.png"
     },
     "galaxy-a-52s": {
         "title": "Galaxy A52s",
+        "designation": "SM-A528B",
         "photoUrl": "img/models/samsung/galaxy-a/a52s.png"
     },
     "galaxy-a-53-5g": {
         "title": "Galaxy A53 5g",
+        "designation": "SM-A536B",
         "photoUrl": "img/models/samsung/galaxy-a/a53.png"
     },
     "galaxy-a-54": {
         "title": "Galaxy A54",
+        "designation": "SM-A546B",
         "photoUrl": "img/models/samsung/galaxy-a/a54.png"
     },
     "galaxy-a-71": {
         "title": "Galaxy A71",
+        "designation": "SM-A715F",
         "photoUrl": "img/models/samsung/galaxy-a/a71.png"
     },
     "galaxy-a-72": {
         "title": "Galaxy A72",
+        "designation": "SM-A725F",
         "photoUrl": "img/models/samsung/galaxy-a/a72.png"
     },
     "galaxy-a-73-5g": {
         "title": "Galaxy A73 5g",
+        "designation": "SM-A736B",
         "photoUrl": "img/models/samsung/galaxy-a/a73.png"
     },
     "galaxy-a-90": {
         "title": "Galaxy A90",
+        "designation": "SM-A098F",
         "photoUrl": "img/models/samsung/galaxy-a/a90.png"
     },
     "iny-model": {

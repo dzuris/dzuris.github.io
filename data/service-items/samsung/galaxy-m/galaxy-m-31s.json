@@ -4,9 +4,9 @@
         "photoUrl": "img/icons/android/displej.png",
         "price": 99,
         "for_waiting": true,
+        "time": "2 hodiny",
         "note": [
-            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty.",
-            "Dĺžka opravy je približne <bold>2 hodiny</bold>."
+            "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty."
         ],
         "detail_desc": [
             {
@@ -15,7 +15,7 @@
             },
             {
                 "cat": 1,
-                "note": "Cena sa môže líšiť v závislosti od farebného vyhotovenia zariadenia. Pre viac informácií nás kotaktujte."
+                "note": "Cena sa môže líšiť v závislosti od farebného vyhotovenia zariadenia"
             }
         ]
     },
@@ -24,9 +24,9 @@
         "photoUrl": "img/icons/android/bateria.png",
         "price": 100,
         "for_waiting": true,
+        "time": "60 minút",
         "note": [
-            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť.",
-            "Dĺžka opravy je približne <bold>60 minút</bold>."
+            "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť."
         ],
         "detail_desc": [
             {
@@ -50,18 +50,18 @@
         "photoUrl": "img/icons/android/nabijanie.png",
         "price": 100,
         "for_waiting": true,
+        "time": "90 minút",
         "note": [
-            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné.",
-            "Dĺžka opravy je približne <bold>90 minút</bold>."
+            "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné."
         ]
     },
     "backglass": {
         "title": "Výmena zadného krytu",
         "photoUrl": "img/icons/android/backglass.png",
         "price": 100,
+        "time": "90 minút",
         "note": [
-            "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom zariadení.",
-            "Dĺžka opravy je približne <bold>90 minút</bold>"
+            "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom zariadení."
         ],
         "detail_desc": [
             {
@@ -73,12 +73,11 @@
     "tekutina": {
         "title": "Poškodenie tekutinou",
         "photoUrl": "img/icons/android/tekutina.png",
-        "price": 40,
+        "price": 30,
+        "time": "Podľa poškodenia",
         "note": [
-            "Aj keď je dnes už vačšina zariadení vodeodolných alebo vodotesných, stále môže dôjsť k situácií kedy sa do zariadenia dostane voda. Platí to aj pre zariadenia s vyšším stupňom ochrany.",
             "Oprava vhodná po priamom kontakte (zväčša pri celkovom ponorení) zariadenia s tekutinou",
-            "Po vytopení je nutné telefón čo najskôr vysušiť a vyčistiť od oxidácie. Sušenie v domácich podmienkach (vloženie telefónu do vrecka s ryžou a pod.) je neúčinné, telefón je potrebné čo najskôr odborne vyčistiť. ",
-            "Dĺžka opravy závisí od rozsahu poškodenia"
+            "Po vytopení je nutné telefón čo najskôr vysušiť a vyčistiť od oxidácie. Sušenie v domácich podmienkach (vloženie telefónu do vrecka s ryžou a pod.) je neúčinné, telefón je potrebné čo najskôr odborne vyčistiť. "
         ],
         "detail_desc": [
             {
@@ -106,7 +105,8 @@
     "diagnostika": {
         "title": "Diagnostika",
         "photoUrl": "img/icons/android/nic.png",
-        "price": "zadarmo",
+        "price": "Zadarmo",
+        "time": "30 minút",
         "note": [
             "Diagnostika zariadenia prebieha ak máte so zariadením problém, ktorý sa nedá jednoznačne identifikovať. Po obdržaní zariadenia problém diagnostikujeme a zašleme Vám cenovú ponuku na opravu.",
             "V prípade, že sa po diagnostike rozhodnete riešiť opravu Vášho zariadenia u nás, diagostika je <bold>ZADARMO</bold>",
@@ -116,6 +116,7 @@
     "inyproblem": {
         "title": "Iný problém",
         "photoUrl": "img/icons/android/iny-problem.png",
+        "time": "?",
         "note": [
             "V prípade že máte so zariadením problém, ktorý nie ste schopný identifikovať alebo ste ho nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
         ]

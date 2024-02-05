@@ -1,74 +1,92 @@
 {
     "galaxy-s-23-ultra-5g": {
         "title": "Galaxy S23 Ultra 5g",
+        "designation": "S918B",
         "photoUrl": "img/models/samsung/galaxy-s/s23-ultra.png"
     },
     "galaxy-s-23-plus-5g": {
         "title": "Galaxy S23+ 5g",
+        "designation": "S916B",
         "photoUrl": "img/models/samsung/galaxy-s/s23-plus.png"
     },
     "galaxy-s-23-5g": {
         "title": "Galaxy S23 5g",
+        "designation": "S911B",
         "photoUrl": "img/models/samsung/galaxy-s/s23.png"
     },
     "galaxy-s-22-ultra": {
         "title": "Galaxy S22 Ultra",
+        "designation": "S908B",
         "photoUrl": "img/models/samsung/galaxy-s/s22-ultra.png"
     },
     "galaxy-s-22-plus": {
         "title": "Galaxy S22+",
+        "designation": "S906B",
         "photoUrl": "img/models/samsung/galaxy-s/s22-plus.png"
     },
     "galaxy-s-22": {
         "title": "Galaxy S22",
+        "designation": "S901B",
         "photoUrl": "img/models/samsung/galaxy-s/s22.png"
     },
     "galaxy-s-21-ultra-5g": {
         "title": "Galaxy S21 Ultra 5g",
+        "designation": "G998B",
         "photoUrl": "img/models/samsung/galaxy-s/s21-ultra.png"
     },
     "galaxy-s-21-plus-5g": {
         "title": "Galaxy S21+",
+        "designation": "G996B",
         "photoUrl": "img/models/samsung/galaxy-s/s21-plus.png"
     },
     "galaxy-s-21-FE-5g": {
         "title": "Galaxy S21 FE 5g",
+        "designation": "G990B",
         "photoUrl": "img/models/samsung/galaxy-s/s21-fe.png"
     },
     "galaxy-s-21-5g": {
         "title": "Galaxy S21 5g",
+        "designation": "G991B",
         "photoUrl": "img/models/samsung/galaxy-s/s21.png"
     },
     "galaxy-s-20-ultra": {
         "title": "Galaxy S20 Ultra",
+        "designation": "G987F",
         "photoUrl": "img/models/samsung/galaxy-s/s20-ultra.png"
     },
     "galaxy-s-20-plus": {
         "title": "Galaxy S20+",
+        "designation": "G9856F",
         "photoUrl": "img/models/samsung/galaxy-s/s20-plus.png"
     },
     "galaxy-s-20-FE": {
         "title": "Galaxy S20 FE",
+        "designation": "G780F",
         "photoUrl": "img/models/samsung/galaxy-s/s20-fe.png"
     },
     "galaxy-s-20": {
         "title": "Galaxy S20",
+        "designation": "G985F",
         "photoUrl": "img/models/samsung/galaxy-s/s20.png"
     },
     "galaxy-s-10-plus": {
         "title": "Galaxy S10+",
+        "designation": "G975F",
         "photoUrl": "img/models/samsung/galaxy-s/s10-plus.png"
     },
     "galaxy-s-10": {
         "title": "Galaxy S10",
+        "designation": "G973F",
         "photoUrl": "img/models/samsung/galaxy-s/s10.png"
     },
     "galaxy-s-10e": {
         "title": "Galaxy S10e",
+        "designation": "G970F",
         "photoUrl": "img/models/samsung/galaxy-s/s10e.png"
     },
     "galaxy-s-10-lite": {
         "title": "Galaxy S10 lite",
+        "designation": "G770F",
         "photoUrl": "img/models/samsung/galaxy-s/s10-lite.png"
     },
     "iny-model": {

@@ -73,7 +73,7 @@
     "tekutina": {
         "title": "Poškodenie tekutinou",
         "photoUrl": "img/icons/android/tekutina.png",
-        "price": 100,
+        "price": 30,
         "time": "Podľa poškodenia",
         "note": [
             "Oprava vhodná po priamom kontakte (zväčša pri celkovom ponorení) zariadenia s tekutinou",
@@ -105,7 +105,7 @@
     "diagnostika": {
         "title": "Diagnostika",
         "photoUrl": "img/icons/android/nic.png",
-        "price": 0,
+        "price": "Zadarmo",
         "time": "30 minút",
         "note": [
             "Diagnostika zariadenia prebieha ak máte so zariadením problém, ktorý sa nedá jednoznačne identifikovať. Po obdržaní zariadenia problém diagnostikujeme a zašleme Vám cenovú ponuku na opravu.",
@@ -116,7 +116,6 @@
     "inyproblem": {
         "title": "Iný problém",
         "photoUrl": "img/icons/android/iny-problem.png",
-        "price": 100,
         "time": "?",
         "note": [
             "V prípade že máte so zariadením problém, ktorý nie ste schopný identifikovať alebo ste ho nenašli v našej ponuke, kontaktujte nás a my na základe vašich požiadaviek vypracujeme cenovú ponuku na mieru."
