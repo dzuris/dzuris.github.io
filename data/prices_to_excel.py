@@ -25,8 +25,6 @@ def create_excel_file(brand, subcategory, jsonData):
     # Save the Excel file
     writer._save()
 
-    # print(f"Excel file '{excel_filename}' created successfully!")
-
 def has_json_extension(file_path):
     path = Path(file_path)
     return path.suffix.lower() == '.json'
@@ -43,16 +41,10 @@ def process_json_file(brand, subcategory, model, json_path):
     for item_key, item_value in jsonData.items():
         if "price" in item_value:
             price = item_value["price"]
-            # data[brand][subcategory][model][item_key] = price
-            # data[brand] = {}
             if subcategory is None:
-                # print(f'Brand: {brand}, Model: {model}, Item key: {item_key}, Price = {price}')
-                # print(data[brand].keys())
                 data[brand][model][item_key] = price
-                # data[brand][model] = json.dumps({item_key: price})
             else:
                 data[brand][subcategory][model][item_key] = price
-            # print(f"Brand = {brand}, Subcategory = {subcategory}, Model = {model}, Item {item_key}: Price = {price}")
 
 
 def process_dir(brand, subcategory, dir_path):
@@ -74,13 +66,8 @@ def process_all_brands(data):
         if brand == 'iphone':
             create_excel_file(brand, None, data[brand])
         else:
-            for subcategory, subcategory_data in brand_data.items():
+            for subcategory in brand_data.items():
                 create_excel_file(brand, subcategory, data[brand])
-        #     for model, model_data in subcategory_data.items():
-        #         for item_key, item_value in model_data.items():
-        #             if "price" in item_value:
-        #                 price = item_value["price"]
-        #                 print(f"\t\tModel: {model}, Item {item_key}: Price = {price}")
 
 
 # Get the path to the directory containing the current script
