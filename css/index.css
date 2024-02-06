@@ -8,11 +8,11 @@ section {
     position: absolute;
     z-index: -2;
     bottom: 0;
-    width: 100%;
+    width: 60%;
     height: 180px;
     background-image: url(/img/backgrounds/heading-bottom-bg.svg);
     opacity: 0.7;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -237,6 +237,10 @@ main {
     .header-first-part {
         margin-top: 25px;
         max-width: 100%;
+    }
+
+    .header-bg-bottom {
+        width: 100%;
     }
 
     .header-second-part, .header-bg-second-part {
