@@ -17,12 +17,15 @@ def create_excel_file(brand, subcategory, jsonData):
     writer = pd.ExcelWriter(excel_filename, engine='openpyxl')
 
     # Write the DataFrame to the Excel file
-    df.to_excel(writer, sheet_name=subcategory, index=True)
+    if subcategory is None:
+        df.to_excel(writer, index=True)
+    else:
+        df.to_excel(writer, sheet_name=subcategory, index=True)
 
     # Save the Excel file
-    writer.save()
+    writer._save()
 
-    print(f"Excel file '{excel_filename}' created successfully!")
+    # print(f"Excel file '{excel_filename}' created successfully!")
 
 def has_json_extension(file_path):
     path = Path(file_path)
@@ -67,7 +70,7 @@ def process_dir(brand, subcategory, dir_path):
 
 def process_all_brands(data):
     for brand, brand_data in data.items():
-        print(f"Brand: {brand}")
+        # print(f"Brand: {brand}")
         if brand == 'iphone':
             create_excel_file(brand, None, data[brand])
         else:
@@ -93,4 +96,4 @@ for brand in os.listdir(service_items_directory):
 
 process_all_brands(data)
 
-print(data)
+# print(data)
