@@ -2,8 +2,8 @@
     "displej": {
         "title": "Výmena displeja",
         "photoUrl": "img/icons/android/displej.png",
-        "price": 99,
-        "for_waiting": true,
+        "price": "Na otázku",
+        "for_waiting": false,
         "time": "2 hodiny",
         "note": [
             "Výmena vhodná ak je displej rozbitý, dotyková plocha nereaguje správne alebo má displej iné defekty."
@@ -22,8 +22,8 @@
     "bateria": {
         "title": "Výmena batérie",
         "photoUrl": "img/icons/android/bateria.png",
-        "price": 100,
-        "for_waiting": true,
+        "price": "Na otázku",
+        "for_waiting": false,
         "time": "60 minút",
         "note": [
             "Výmena vhodná ak máte problémy s výdržou batérie. Percentá ukazujú nesprávne a batéria má slabú výdrž. Zariadenie sa nedá zapnúť prípadne nabiť."
@@ -35,7 +35,7 @@
             },
             {
                 "cat": 2,
-                "title": "Kedy je potrebné betériu vymeniť?:",
+                "title": "Kedy je potrebné batériu vymeniť?:",
                 "points": [
                     "Výdrž batérie je menšia ako keď bol telefón nový",
                     "Telefón sa veľmi rýchlo vybíja, vydrží menej ako deň aktívneho používania",
@@ -48,8 +48,8 @@
     "nabijanie": {
         "title": "Nefunkčné nabíjanie",
         "photoUrl": "img/icons/android/nabijanie.png",
-        "price": 100,
-        "for_waiting": true,
+        "price": "Na otázku",
+        "for_waiting": false,
         "time": "90 minút",
         "note": [
             "Oprava vhodná ak máte problémy s nabíjaním, poškodený nabíjací konektor, nabíjanie je prerušované alebo pripojenie k počítaču nie je stabilné."
@@ -58,7 +58,7 @@
     "backglass": {
         "title": "Výmena zadného krytu",
         "photoUrl": "img/icons/android/backglass.png",
-        "price": 100,
+        "price": "Na otázku",
         "time": "90 minút",
         "note": [
             "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom zariadení."
@@ -102,7 +102,8 @@
             }
         ]
     },
-    "diagnostika": {
+        "diagnostika": {
+        "for_waiting": true,
         "title": "Diagnostika",
         "photoUrl": "img/icons/android/nic.png",
         "price": "Zadarmo",

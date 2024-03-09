@@ -1,0 +1,23 @@
+{
+    "mate-50-pro": {
+        "title": "Mate 5O Pro",
+        "photoUrl": "img/models/huawei/mate/mate-50-pro.png"
+    },
+    "mate-40-pro": {
+            "title": "Mate 40 Pro",
+            "photoUrl": "img/models/huawei/mate/mate-40-pro.png"
+    },
+    "mate-40": {
+            "title": "Mate 40",
+            "photoUrl": "img/models/huawei/mate/mate-40.png"
+    },
+    "mate-30-pro": {
+        "title": "Mate 30 Pro",
+        "photoUrl": "img/models/huawei/mate/mate-30-pro.png"
+    },
+    "mate-30": {
+            "title": "Mate 30",
+            "photoUrl": "img/models/huawei/mate/mate-30.png"
+    }
+}
+    

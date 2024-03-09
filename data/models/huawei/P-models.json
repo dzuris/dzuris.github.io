@@ -1,0 +1,46 @@
+{
+    "P-smart-2021": {
+        "title": "P Smart 2021",
+        "photoUrl": "img/models/huawei/p/p-smart-2021.png"
+    },
+    "P-smart-2020": {
+        "title": "P Smart 2020",
+        "photoUrl": "img/models/huawei/p/p-smart-2020.png"
+    },
+    "P-smart-pro": {
+        "title": "P Smart Pro",
+        "photoUrl": "img/models/huawei/p/p-smart-pro.png"
+    },
+    "P-60-pro": {
+        "title": "P60 Pro",
+        "photoUrl": "img/models/huawei/p/p60-pro.png"
+    },
+    "P-50-pro": {
+        "title": "P50 Pro",
+        "photoUrl": "img/models/huawei/p/p50-pro.png"
+    },
+    "P-40-pro": {
+        "title": "P40 Pro",
+        "photoUrl": "img/models/huawei/p/p40-pro.png"
+    },
+    "P-40": {
+        "title": "P40",
+        "photoUrl": "img/models/huawei/p/p40.png"
+    },
+    "P-40-lite": {
+        "title": "P40 Lite",
+        "photoUrl": "img/models/huawei/p/p40-lite.png"
+    },
+    "P-30-pro": {
+        "title": "P30 Pro",
+        "photoUrl": "img/models/huawei/p/p30-pro.png"
+    },
+    "P-30": {
+        "title": "P30",
+        "photoUrl": "img/models/huawei/p/p30.png"
+    },
+    "P-20-lite-2019": {
+        "title": "P20 Lite 2019",
+        "photoUrl": "img/models/huawei/p/p20-lite-2019.png"
+    }
+}

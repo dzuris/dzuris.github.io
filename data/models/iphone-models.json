@@ -106,5 +106,9 @@
     "iphone-6-6S": {
         "title": "iPhone 6/6S",
         "photoUrl": "img/models/iphone-6.png"
-    }
+    },
+    "iny-model": {
+        "title": "Iný model",
+        "photoUrl": "img/icons/X-12/iny-problem.png"
+}
 }

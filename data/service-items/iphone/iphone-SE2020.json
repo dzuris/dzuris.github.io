@@ -215,8 +215,8 @@
         ]
     },
     "softver": {
-        "title": "Prehratie softvéru",
-        "photoUrl": "img/icons/5-8/prehratie-softveru.png",
+        "title": "Obnova softvéru",
+        "photoUrl": "img/icons/5-8/Obnova-softveru.png",
         "price": 20,
         "for_waiting": true,
         "time": "90 minút",
@@ -226,11 +226,11 @@
         "detail_desc": [
             {
                 "cat": 1,
-                "note": "Preinštalovanie softvéru môže pomôcť pri problémoch so stabilitou systému, častými pádmi aplikácií alebo závažnými chybami ako napríklad pretrvávajúce reštartovanie zariadenia alebo takzvaný bootloop. Prehratie tiež môže odstrániť problémy s výkonom zariadenia alebo nadmerným prehrievaním."
+                "note": "Obnova softvéru môže pomôcť pri problémoch so stabilitou systému, častými pádmi aplikácií alebo závažnými chybami ako napríklad pretrvávajúce reštartovanie zariadenia alebo takzvaný bootloop. Obnova tiež môže odstrániť problémy s výkonom zariadenia alebo nadmerným prehrievaním."
             },
             {
                 "cat": 1,
-                "note": "V niektorých prípadoch môže byť iPhone zablokovaný alebo v režime obnovy (recovery mode). Preinštalovanie softvéru môže pomôcť obnoviť zariadenie a priviesť ho späť do funkčného stavu. "
+                "note": "V niektorých prípadoch môže byť iPhone zablokovaný alebo v režime obnovy (recovery mode). Obnova softvéru môže pomôcť obnoviť zariadenie a priviesť ho späť do funkčného stavu. "
             }
         ]
     },
@@ -266,7 +266,8 @@
             }
         ]
     },
-    "diagnostika": {
+        "diagnostika": {
+        "for_waiting": true,
         "title": "Diagnostika",
         "photoUrl": "img/icons/5-8/nic.png",
         "price": 0,

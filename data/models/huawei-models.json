@@ -1,0 +1,27 @@
+{
+    "P": {
+        "title": "P",
+        "photoUrl": "img/categories/huawei-p.png",
+        "hasSubmodels": true
+    },
+    "Nova": {
+        "title": "Nova",
+        "photoUrl": "img/categories/huawei-nova.png",
+        "hasSubmodels": true
+    },
+    "Mate": {
+        "title": "Mate",
+        "photoUrl": "img/categories/huawei-mate.png",
+        "hasSubmodels": true
+    },
+    "Y": {
+        "title": "Y",
+        "photoUrl": "img/categories/huawei-y.png",
+        "hasSubmodels": true
+    },
+    "ostatne": {
+        "title": "Ostatné",
+        "photoUrl": "img/categories/xiaomi-ostatne.png",
+        "hasSubmodels": true
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "honor-90": {
+        "title": "Honor 90",
+        "photoUrl": "img/models/honor/honor-90.png"
+    },
+    "honor-90-lite": {
+            "title": "Honor 90 Lite",
+            "photoUrl": "img/models/honor/honor-90-lite.png"
+    },
+    "honor-70": {
+        "title": "Honor 70",
+        "photoUrl": "img/models/honor/honor-70.png"
+    },
+    "honor-70-lite": {
+        "title": "Honor 70 Lite",
+        "photoUrl": "img/models/honor/honor-70-lite.png"
+    },
+    "honor-X8": {
+        "title": "Honor X8",
+        "photoUrl": "img/models/honor/honor-x8.png"
+    },
+    "honor-X7": {
+        "title": "Honor X7",
+        "photoUrl": "img/models/honor/honor-x7.png"
+    },
+    "honor-magic4-pro": {
+        "title": "Honor Magic4 Pro",
+        "photoUrl": "img/models/honor/honor-magic4-pro.png"
+    },
+    "honor-magic4-lite": {
+        "title": "Honor Magic4 Lite",
+        "photoUrl": "img/models/honor/honor-magic4-lite.png"
+    },
+    "honor-magic5-pro": {
+        "title": "Honor Magic5 Pro",
+        "photoUrl": "img/models/honor/honor-magic5-pro.png"
+    },
+    "iny-model": {
+        "title": "Iný model",
+        "photoUrl": "img/icons/android/iny-problem.png"
+    }
+}

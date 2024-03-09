@@ -2,7 +2,7 @@
     "displej": {
         "title": "Výmena displeja",
         "photoUrl": "img/icons/android/displej.png",
-        "price": 99,
+        "price": 225,
         "for_waiting": true,
         "time": "2 hodiny",
         "note": [
@@ -22,7 +22,7 @@
     "bateria": {
         "title": "Výmena batérie",
         "photoUrl": "img/icons/android/bateria.png",
-        "price": 100,
+        "price": 61,
         "for_waiting": true,
         "time": "60 minút",
         "note": [
@@ -35,7 +35,7 @@
             },
             {
                 "cat": 2,
-                "title": "Kedy je potrebné betériu vymeniť?:",
+                "title": "Kedy je potrebné batériu vymeniť?:",
                 "points": [
                     "Výdrž batérie je menšia ako keď bol telefón nový",
                     "Telefón sa veľmi rýchlo vybíja, vydrží menej ako deň aktívneho používania",
@@ -48,7 +48,7 @@
     "nabijanie": {
         "title": "Nefunkčné nabíjanie",
         "photoUrl": "img/icons/android/nabijanie.png",
-        "price": 100,
+        "price": 77,
         "for_waiting": true,
         "time": "90 minút",
         "note": [
@@ -58,7 +58,7 @@
     "backglass": {
         "title": "Výmena zadného krytu",
         "photoUrl": "img/icons/android/backglass.png",
-        "price": 100,
+        "price": 60,
         "time": "90 minút",
         "note": [
             "Výmena vhodná ak máte rozbitý, poškriabaný, obúchaný alebo inak poškodený zadný kryt (zadné sklo) na vašom zariadení."
@@ -102,7 +102,8 @@
             }
         ]
     },
-    "diagnostika": {
+        "diagnostika": {
+        "for_waiting": true,
         "title": "Diagnostika",
         "photoUrl": "img/icons/android/nic.png",
         "price": "Zadarmo",

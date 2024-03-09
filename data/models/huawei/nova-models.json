@@ -1,0 +1,15 @@
+{
+    "nova-10": {
+        "title": "Nova 10",
+        "photoUrl": "img/models/huawei/nova/nova-10.png"
+    },
+    "nova-9": {
+        "title": "Nova 9",
+        "photoUrl": "img/models/huawei/nova/nova-9.png"
+    },
+    "nova-5T": {
+        "title": "Nova 5T",
+        "photoUrl": "img/models/huawei/nova/nova-5t.png"
+    }
+}
+    
