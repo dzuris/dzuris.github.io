@@ -10,7 +10,7 @@ section {
     bottom: 0;
     width: 60%;
     height: 180px;
-    background-image: url(/img/backgrounds/heading-bottom-bg.svg);
+    /* background-image: url(/img/backgrounds/heading-bottom-bg.svg); */
     opacity: 0.7;
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,8 +72,14 @@ main {
 /* #region Why Us */
 
 #whyUs {
-    margin-bottom: 100px;
+    /* transform: skew(0deg, 1deg); */
+    padding: 50px;
 }
+
+/* #whyUs .heading,
+.whyUsContainer {
+    transform: skew(0deg, -1deg);
+} */
 
 .whyUsContainer {
     margin-top: 50px;

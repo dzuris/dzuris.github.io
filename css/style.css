@@ -205,6 +205,10 @@ footer>* {
     background-color: var(--third-color);
 }
 
+.primary-color {
+    color: var(--primary-color);
+}
+
 .valid-color {
     color: var(--valid-color);
 }
