@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     // Set page text
     var textElement = document.getElementById('device-text');
-    textElement.textContent = item.text;
+    textElement.innerHTML = item.text;
 
     // Set page image
     var imageElement = document.getElementById("device-img");
