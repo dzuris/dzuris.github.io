@@ -70,8 +70,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         listItem.appendChild(anchor);
         dropdownItemsElement.appendChild(listItem);
     }
-
-    console.log('List of devices:', listOfDevices);
 });
 
 async function loadDevices() {
