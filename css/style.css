@@ -121,7 +121,8 @@
 
     --animation-delay: 0.5s;
     
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
+    background-image: url('../img/backgrounds/bg-light-pattern-opacity-low.png');
     height: 100%;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: 'Roboto', sans-serif; */
