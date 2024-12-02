@@ -21,7 +21,8 @@
 
         async function search() {
             var q = document.getElementById("query").value;
-            var url = `https://cors-anywhere.herokuapp.com/https://www.google.com/search?q=${q}`
+            // var url = `https://cors-anywhere.herokuapp.com/https://www.google.com/search?q=${q}`
+            var url = `https://www.google.com/search?q=${q}`
             
             try {
                 const response = await fetch(url);
