@@ -31,6 +31,7 @@
                     throw new Error("403 error code when requesting URL.");
                 }
                 
+                const text = await response.text();
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(text, 'text/html');
 
