@@ -12,3 +12,6 @@ ZIP_FILENAME := inizio_project.zip
 
 pack: $(FILES)
 	zip $(ZIP_FILENAME) $^
+
+clean:
+	rm $(ZIP_FILENAME)
