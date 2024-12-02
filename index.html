@@ -24,36 +24,18 @@
         async function search() {
             
             var q = document.getElementById("query").value;
-            // var url = `https://cors-anywhere.herokuapp.com/https://www.google.com/search?q=${q}`
-            // var url = `https://api.codetabs.com/v1/proxy?quest=https://www.google.com/search?q=${encodeURIComponent(q)}`
             var url = `https://www.google.com/search?q=${encodeURIComponent(q)}`
-            // var url = `https://www.google.com/search?q=${q}`
 
             try {
-                // const response = await fetch(url);
                 const response = await fetchWithCorsAnywhere(url);
-                // const response = await fetch(`http://localhost:5000/proxy?url=${encodeURIComponent(url)}`);
                 if (response.status == 403) {
                     throw new Error("403 error code when requesting URL.");
                 }
-                console.log('break1');
-
-                console.log('response', response);
-
-                // const jsonResponse = await response.json();
-                // console.log('json response', jsonResponse);
-
-                // const text = await response.text();
-                // const text = await jsonResponse.contents;
-                // console.log('text', text);
 
                 const parser = new DOMParser();
-                // const doc = parser.parseFromString(text, 'text/html');
                 const doc = parser.parseFromString(response, 'text/html');
 
                 const elements = doc.getElementsByClassName('yuRUbf');
-                // const elements = doc.querySelectorAll('a.BVG0Nb.pijXPc');
-                console.log('elements:', elements);
 
                 results.length = 0;
                 for (let i = 0; i < elements.length; i++) {
@@ -68,18 +50,6 @@
                         });
                     }
                 }
-                // elements.forEach(element => { 
-                //     const href = element.getAttribute('href'); 
-                //     const title = element.querySelector('span.rQMQod.Xb5VRe') 
-                //         ? element.querySelector('span.rQMQod.Xb5VRe').innerText 
-                //         : 'No title'; 
-                        
-                //     results.push({ 
-                //         href: `https://www.google.com${href}`, 
-                //         title: title !== '' ? title : 'No title'
-                //     }); 
-                // });
-                console.log('results', results);
 
                 document.getElementById('results').innerHTML = processResultsIntoHtml(elements);
 
@@ -89,44 +59,6 @@
                 console.error('Error:', error);
                 document.getElementById('results').textContent = 'Error fetching search results';
             }
-
-            // fetch(url)
-            //     .then(response => response.text())
-            //     .then(data => {
-            //         const parser = new DOMParser();
-            //         const doc = parser.parseFromString(data, 'text/html');
-
-            //         const elements = doc.getElementsByClassName('yuRUbf');
-            //         results = [];
-            //         for (let i = 0; i < elements.length; i++) {
-            //             const elem = elements[i];
-            //             const aTag = elem.querySelector('a');
-            //             const h3Tag = elem.querySelector('h3');
-
-            //             if (aTag && h3Tag) {
-            //                 results.push({
-            //                     href: aTag.href,
-            //                     title: h3Tag.innerText
-            //                 });
-            //             }
-            //         }
-
-            //         resultHtml = '';
-            //         for (let i = 0; i < elements.length; i++) {
-            //             let item = results[i];
-
-            //             resultHtml += `<a href="${item.href}"><div class="clickableItem">${item.title}<p class="itemHref">${item.href}</p></div></a>`;
-            //         }
-
-            //         document.getElementById('results').innerHTML = resultHtml;
-
-            //         document.getElementById('cleanBtn').classList.remove('hidden');
-            //         document.getElementById('saveJsonBtn').classList.remove('hidden');
-            //     })
-            //     .catch(error => {
-            //         console.error('Error:', error);
-            //         document.getElementById('results').textContent = 'Error fetching search results';
-            //     })
         }
 
         async function fetchWithCorsAnywhere(url) {
