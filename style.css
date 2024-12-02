@@ -1,0 +1,85 @@
+:root {
+    background-color: rgb(235, 235, 235);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#query {
+    border: 1px solid rgb(156, 156, 156);
+    padding: 8px;
+    border-radius: 7px;
+}
+
+.btn {
+    padding: 8px 24px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#submitBtn {
+    background-color: black;
+    color: white;
+}
+
+#submitBtn:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#cleanBtn {
+    background-color: rgb(208, 25, 25);
+    color: white;
+}
+
+#cleanBtn:hover {
+    background-color: rgb(123, 4, 4);
+    color: rgb(255, 255, 255);
+}
+
+#saveJsonBtn {
+    color: black;
+    background-color: rgb(165, 165, 165);
+}
+
+#saveJsonBtn:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(140, 140, 140);
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.clickableItem {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.clickableItem:hover {
+    background-color: rgb(215, 215, 215);
+}
+
+.itemHref {
+    font-size: smaller;
+    margin: 0;
+    color: rgb(108, 108, 108);
+}
