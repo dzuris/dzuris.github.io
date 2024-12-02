@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My input webpage</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -16,6 +15,7 @@
         <button id="cleanBtn" class="btn hidden" onclick="clean()">Clean</button>
         <button id="saveJsonBtn" class="btn hidden" onclick="saveJson()">Save as JSON</button>
     </div>
+    <div id="loadingInfo" class="hidden">Loading...</div>
     <div id="results"></div>
     <script>
 
@@ -23,6 +23,7 @@
 
         async function search() {
             
+            document.getElementById('loadingInfo').classList.remove('hidden');
             var q = document.getElementById("query").value;
             var url = `https://www.google.com/search?q=${encodeURIComponent(q)}`
 
@@ -58,6 +59,8 @@
             } catch (error) {
                 console.error('Error:', error);
                 document.getElementById('results').textContent = 'Error fetching search results';
+            } finally {
+                document.getElementById('loadingInfo').classList.add('hidden');
             }
         }
 

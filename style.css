@@ -83,3 +83,10 @@ a {
     margin: 0;
     color: rgb(108, 108, 108);
 }
+
+#loadingInfo {
+    margin-left: 5px;
+    margin-top: 15px;
+    font-style: italic;
+    color: rgb(79, 79, 79);
+}
