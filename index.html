@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+
 <body>
     <div id="filterPanel">
-        <input type="text" id="query" placeholder="Enter search query"> 
+        <input type="text" id="query" placeholder="Enter search query">
         <button id="submitBtn" class="btn" onclick="search()">Search</button>
         <button id="cleanBtn" class="btn hidden" onclick="clean()">Clean</button>
         <button id="saveJsonBtn" class="btn hidden" onclick="saveJson()">Save as JSON</button>
@@ -23,40 +25,64 @@
             var q = document.getElementById("query").value;
             // var url = `https://cors-anywhere.herokuapp.com/https://www.google.com/search?q=${q}`
             var url = `https://www.google.com/search?q=${q}`
-            
+
             try {
                 // const response = await fetch(url);
                 const response = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`);
                 if (response.status == 403) {
                     throw new Error("403 error code when requesting URL.");
                 }
-                
-                const text = await response.text();
+                console.log('break1');
+
+                console.log('response', response);
+
+                const jsonResponse = await response.json();
+                console.log('json response', jsonResponse);
+
+                const text = await jsonResponse.contents;
+                console.log('text', text);
+
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(text, 'text/html');
 
-                const elements = doc.getElementsByClassName('yuRUbf');
-                results.length = 0;
-                for (let i = 0; i < elements.length; i++) {
-                    const elem = elements[i];
-                    const aTag = elem.querySelector('a');
-                    const h3Tag = elem.querySelector('h3');
+                // const elements = doc.getElementsByClassName('yuRUbf');
+                const elements = doc.querySelectorAll('a.BVG0Nb.pijXPc');
+                console.log('elements:', elements);
 
-                    if (aTag && h3Tag) {
-                        results.push({
-                            href: aTag.href,
-                            title: h3Tag.innerText
-                        });
-                    }
-                }
+                results.length = 0;
+                // for (let i = 0; i < elements.length; i++) {
+                //     const elem = elements[i];
+                //     const aTag = elem.querySelector('a');
+                //     const h3Tag = elem.querySelector('h3');
+
+                //     if (aTag && h3Tag) {
+                //         results.push({
+                //             href: aTag.href,
+                //             title: h3Tag.innerText
+                //         });
+                //     }
+                // }
+                elements.forEach(element => { 
+                    const href = element.getAttribute('href'); 
+                    const title = element.querySelector('span.rQMQod.Xb5VRe') 
+                        ? element.querySelector('span.rQMQod.Xb5VRe').innerText 
+                        : 'No title'; 
+                        
+                    results.push({ 
+                        href: `https://www.google.com${href}`, 
+                        title: title 
+                    }); 
+                });
+                console.log('results', results);
+                
 
                 resultHtml = '';
                 for (let i = 0; i < elements.length; i++) {
                     let item = results[i];
-                    
+
                     resultHtml += `<a href="${item.href}"><div class="clickableItem">${item.title}<p class="itemHref">${item.href}</p></div></a>`;
                 }
-                    
+
                 document.getElementById('results').innerHTML = resultHtml;
 
                 document.getElementById('cleanBtn').classList.remove('hidden');
@@ -86,14 +112,14 @@
             //                 });
             //             }
             //         }
-                    
+
             //         resultHtml = '';
             //         for (let i = 0; i < elements.length; i++) {
             //             let item = results[i];
-                        
+
             //             resultHtml += `<a href="${item.href}"><div class="clickableItem">${item.title}<p class="itemHref">${item.href}</p></div></a>`;
             //         }
-                    
+
             //         document.getElementById('results').innerHTML = resultHtml;
 
             //         document.getElementById('cleanBtn').classList.remove('hidden');
@@ -126,4 +152,5 @@
         }
     </script>
 </body>
+
 </html>
