@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My input webpage</title>
+    <title>Google Search mock</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,24 +21,35 @@
 
         let results = [];
 
+        /** 
+         * Provides google search and set results
+         */
         async function search() {
-            
+            // Display the loading indicator
             document.getElementById('loadingInfo').classList.remove('hidden');
-            var q = document.getElementById("query").value;
-            var url = `https://www.google.com/search?q=${encodeURIComponent(q)}`
+
+            // Get the search query and construct the URL
+            var query = document.getElementById("query").value;
+            var url = `https://www.google.com/search?q=${encodeURIComponent(query)}`
 
             try {
+                // Fetch the search results using the CORS Anywhere proxy
                 const response = await fetchWithCorsAnywhere(url);
                 if (response.status == 403) {
                     throw new Error("403 error code when requesting URL.");
                 }
 
+                // Parse the response text into a DOM document
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(response, 'text/html');
 
+                // Get all elements with the class 'yuRUbf'
                 const elements = doc.getElementsByClassName('yuRUbf');
 
+                // Clear previous results
                 results.length = 0;
+
+                // Extract href and title from each element
                 for (let i = 0; i < elements.length; i++) {
                     const elem = elements[i];
                     const aTag = elem.querySelector('a');
@@ -52,18 +63,27 @@
                     }
                 }
 
+                // Display the results
                 document.getElementById('results').innerHTML = processResultsIntoHtml(elements);
 
+                // Show buttons for cleaning results and save JSON
                 document.getElementById('cleanBtn').classList.remove('hidden');
                 document.getElementById('saveJsonBtn').classList.remove('hidden');
             } catch (error) {
                 console.error('Error:', error);
                 document.getElementById('results').textContent = 'Error fetching search results';
             } finally {
+                // Hide the loading indicator
                 document.getElementById('loadingInfo').classList.add('hidden');
             }
         }
 
+        /** 
+         * Fetches the search results from a given URL using CORS Anywhere proxy. 
+         * @param {string} url - The URL to fetch. 
+         * @returns {Promise<string>} The response text. 
+         * @throws {Error} If the fetch request fails or returns a 403 status. 
+         */
         async function fetchWithCorsAnywhere(url) {
             const corsAnywhereUrl = `https://cors-anywhere.herokuapp.com/${url}`;
             const response = await fetch(corsAnywhereUrl, {
@@ -81,6 +101,11 @@
             return data;
         }
 
+        /** 
+         * Processes the elements into HTML. 
+         * @param {HTMLCollection} elements - The elements to process. 
+         * @returns {string} The processed HTML string. 
+         */
         function processResultsIntoHtml(elements) {
             resultHtml = '';
             for (let i = 0; i < elements.length; i++) {
@@ -92,13 +117,19 @@
             return resultHtml;
         }
 
+        /** 
+         * Cleans the results and hide clean and save buttons
+         */
         function clean() {
-            results = []
+            results.length = 0;
             document.getElementById('results').innerHTML = "";
             document.getElementById('cleanBtn').classList.add('hidden');
             document.getElementById('saveJsonBtn').classList.add('hidden');
         }
 
+        /** 
+         * Saves results json into user's device
+         */
         function saveJson() {
             const jsonData = JSON.stringify(results, null, 2);
             const blob = new Blob([jsonData], { type: "application/json" })
